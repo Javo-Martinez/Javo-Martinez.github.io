@@ -23,7 +23,7 @@
 </head>
 <body>
 
-    <h1>🚀 Lanzar Nuevo Número</h1>
+    <h1>🚀 Nuevo Número ENEUR</h1>
     
     <div class="card">
         <h2>1. Conexión con GitHub</h2>
@@ -163,7 +163,7 @@
                     </div>
                     <div style="flex:1;">
                         <label>Imagen Principal:</label>
-                        <input type="text" class="nota-img" placeholder="ej: /imagenes/edicion1/nota\${contadorNotas}.jpg" required>
+                        <input type="text" class="nota-img" placeholder="ej: /imagenes/edicion1/nota` + contadorNotas + `.jpg" required>
                     </div>
                 </div>
                 <label>Copete / Resumen breve:</label>
@@ -186,9 +186,12 @@
             const user = document.getElementById('gh-user').value.trim();
             const repo = document.getElementById('gh-repo').value.trim();
             const token = document.getElementById('gh-token').value.trim();
-            const fileUrl = `https://github.com\${user}/\${repo}/contents/revista.json`;
+            var inicioUrl = 'https://' + 'api.' + 'github.com/repos/';
+            //const fileUrl = inicioUrl + 'Javo-Martinez/eneur-test/contents/revista.json';
+            const fileUrl = inicioUrl + user + '/' + repo + '/contents/revista.json';
+            //const fileUrl = 'https://github.com/' + user + '/' + repo + '/revista.json';
 
-            if(!user || !repo || !token) {statusBox.className = 'status error';statusBox.innerText = '❌ Completa las credenciales del bloque 1.';return;}const idNumero = parseInt(document.getElementById('id-numero').value);const articulos = [];const bloquesNotas = document.querySelectorAll('.nota-block');bloquesNotas.forEach((bloque, index) => {articulos.push({"id_article": (idNumero * 100) + (index + 1),"titulo": bloque.querySelector('.nota-titulo').value,"autor": bloque.querySelector('.nota-autor').value.trim(),"seccion": bloque.querySelector('.nota-seccion').value,"imagen_principal": bloque.querySelector('.nota-img').value,"copete": bloque.querySelector('.nota-copete').value,"frase_corta": bloque.querySelector('.nota-frase').value,"contenido_html": bloque.querySelector('.nota-cuerpo').value});});const nuevoIssue = {"id_numero": idNumero,"titulo_numero": document.getElementById('titulo-numero').value,"fecha_publicacion": document.getElementById('fecha-pub').value,"portada": {"imagen_tapa": document.getElementById('img-tapa').value,"texto_poema": document.getElementById('poema-portada').value,"copy_portada": document.getElementById('copy-portada').value},"editorial": document.getElementById('editorial-texto').value,"staff_colaboradores": [],"contratapa": {"titulo": document.getElementById('contra-titulo').value,"imagen_alusiva": document.getElementById('contra-img').value},"articulos": articulos};try {let currentJson = [];let sha = null;const getResponse = await fetch(fileUrl, {headers: { 'Authorization': token \${token} }});if (getResponse.ok) {const fileData = await getResponse.json();sha = fileData.sha;currentJson = JSON.parse(decodeURIComponent(escape(atob(fileData.content))));}currentJson.unshift(nuevoIssue);const updatedContentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(currentJson, null, 2))));const putResponse = await fetch(fileUrl, {method: 'PUT',headers: {'Authorization': token \${token},'Content-Type': 'application/json'},body: JSON.stringify({message: Carga: Edicion Nro \${idNumero},content: updatedContentBase64,sha: sha})});if (putResponse.ok) {statusBox.className = 'status success';statusBox.innerText = 🎉 ¡Éxito! Guardado en GitHub.;} else {const errData = await putResponse.json();throw new Error(errData.message);}} catch (error) {statusBox.className = 'status error';statusBox.innerText = ❌ Error: \${error.message}.;}});
+if(!user || !repo || !token) {statusBox.className = 'status error';statusBox.innerText = '❌ Completa las credenciales del bloque 1.';return;}const idNumero = parseInt(document.getElementById('id-numero').value);const articulos = [];const bloquesNotas = document.querySelectorAll('.nota-block');bloquesNotas.forEach((bloque, index) => {articulos.push({"id_article": (idNumero * 100) + (index + 1),"titulo": bloque.querySelector('.nota-titulo').value,"autor": bloque.querySelector('.nota-autor').value.trim(),"seccion": bloque.querySelector('.nota-seccion').value,"imagen_principal": bloque.querySelector('.nota-img').value,"copete": bloque.querySelector('.nota-copete').value,"frase_corta": bloque.querySelector('.nota-frase').value,"contenido_html": bloque.querySelector('.nota-cuerpo').value});});const nuevoIssue = {"id_numero": idNumero,"titulo_numero": document.getElementById('titulo-numero').value,"fecha_publicacion": document.getElementById('fecha-pub').value,"portada": {"imagen_tapa": document.getElementById('img-tapa').value,"texto_poema": document.getElementById('poema-portada').value,"copy_portada": document.getElementById('copy-portada').value},"editorial": document.getElementById('editorial-texto').value,"staff_colaboradores": [],"contratapa": {"titulo": document.getElementById('contra-titulo').value,"imagen_alusiva": document.getElementById('contra-img').value},"articulos": articulos};try {let currentJson = [];let sha = null;const getResponse = await fetch(fileUrl, {headers: { 'Authorization': 'token ' + token }});if (getResponse.ok) {const fileData = await getResponse.json();sha = fileData.sha;currentJson = JSON.parse(decodeURIComponent(escape(atob(fileData.content))));}currentJson.unshift(nuevoIssue);const updatedContentBase64 = btoa(unescape(encodeURIComponent(JSON.stringify(currentJson, null, 2))));const putResponse = await fetch(fileUrl, {method: 'PUT',headers: {'Authorization': 'token ' + token,'Content-Type': 'application/json'},body: JSON.stringify({message: 'Carga automatica: Edicion Nro ' + idNumero,content: updatedContentBase64,sha: sha})});if (putResponse.ok) {statusBox.className = 'status success';statusBox.innerText = '🎉 ¡Éxito! Guardado en GitHub correctamente.';} else {const errData = await putResponse.json();throw new Error(errData.message);}} catch (error) {statusBox.className = 'status error';statusBox.innerText = '❌ Error: ' + error.message;}});
 </script>
 </body>
 </html>
