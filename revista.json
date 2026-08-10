@@ -1,1 +1,30 @@
-[]
+[
+  {
+    "id_numero": 1,
+    "titulo_numero": "Edicion 1",
+    "fecha_publicacion": "2026-08-10",
+    "portada": {
+      "imagen_tapa": "/imagenes/edicion1/tapa.jpg",
+      "texto_poema": "Poertada 1",
+      "copy_portada": "Copy cat"
+    },
+    "editorial": "Editorial 1",
+    "staff_colaboradores": [],
+    "contratapa": {
+      "titulo": "Próximamente...",
+      "imagen_alusiva": "/imagenes/edicion1/tapa.jpg"
+    },
+    "articulos": [
+      {
+        "id_article": 101,
+        "titulo": "Nota1",
+        "autor": "Autor1",
+        "seccion": "Política",
+        "imagen_principal": "/imagenes/edicion1/tapa.jpg",
+        "copete": "Copete pete",
+        "frase_corta": "Frase corta",
+        "contenido_html": "Nooooooooooooota"
+      }
+    ]
+  }
+]
