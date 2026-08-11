@@ -32,12 +32,31 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 .seccion-blablabla .frase-corta { color: #c05621; font-family: 'Georgia', serif; font-style: italic; }
 #articulo-pagina.seccion-blablabla h1 { font-family: 'Georgia', serif; color: #c05621; text-align: center; }
 
-/* SECCIÓN 4: ESCRITOS (Gris Literario Serif) */
-.seccion-escritos .etiqueta-seccion { color: orange; letter-spacing: 2px; }
-.seccion-escritos .titulo-nota { font-family: 'Georgia', serif; font-weight: normal; color: #1a202c; }
-.seccion-escritos .copete-nota { font-family: 'Georgia', serif; font-style: italic; color: orange; }
-.seccion-escritos .frase-corta { color: #718096; text-transform: uppercase; font-size: 11px; text-align: right; }
-#articulo-pagina.seccion-escritos h1 { font-family: 'Georgia', serif; font-weight: normal; border-bottom: 1px dotted #cbd5e0; }
+/* --- 4. ESCRITOS (Gama Naranja / Terracota Cálido) --- */
+.seccion-escritos .etiqueta-seccion { 
+    color: #dd6b20;          /* Naranja oscuro para lectura legible */
+    background: #fffaf0;     /* Fondo crema/naranja muy suave */
+    padding: 2px 6px; 
+    border-radius: 4px; 
+}
+.seccion-escritos .titulo-nota { 
+    font-family: 'Georgia', serif; 
+    color: #c05621;          /* Tono óxido para el título */
+}
+.seccion-escritos .copete-nota { 
+    font-family: 'Georgia', serif; 
+    color: #4a5568; 
+}
+.seccion-escritos .frase-corta { 
+    color: #dd6b20; 
+    border-top: 1px solid #feebc8; 
+    padding-top: 5px; 
+}
+#articulo-pagina.seccion-escritos h1 { 
+    font-family: 'Georgia', serif; 
+    color: #c05621; 
+    border-bottom: 2px solid #feebc8; 
+}
 
 /* SECCIÓN 5: SABORES (Verde Oliva) */
 .seccion-sabores .etiqueta-seccion { color: #2f855a; background: #f0fff4; padding: 2px 6px; }
@@ -50,3 +69,76 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 .contenedor-video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 30px 0; }
 .contenedor-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
 iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; max-width: 100%; }
+
+
+/* ==========================================================================
+   DISEÑO DE COLORES DINÁMICOS Y PERMANENTES PARA EL MENÚ DE NAVEGACIÓN (NAV)
+   ========================================================================== */
+
+/* Ajustes generales para que todos los botones tengan cuerpo y espacio */
+.menu-secciones a {
+    padding: 6px 12px;
+    border-radius: 4px;
+    transition: all 0.2s ease;
+    border-bottom: 2px solid transparent;
+}
+
+/* 1. Botón TODO -> Gris Grafito Neutral */
+.menu-secciones a[href="indice.html?num=1"],
+.menu-secciones a[href="indice.html"] {
+    color: #4a5568 !important;
+}
+.menu-secciones a[href="indice.html?num=1"]:hover,
+.menu-secciones a[href="indice.html"]:hover {
+    background: #edf2f7;
+    border-bottom-color: #4a5568;
+}
+
+/* 2. Botón MIRADAS -> Azul Profundo Nocturno */
+.menu-secciones a[href*="seccion=Miradas"] {
+    color: #1a365d !important;
+}
+.menu-secciones a[href*="seccion=Miradas"]:hover {
+    background: #ebf8ff;
+    border-bottom-color: #1a365d;
+}
+
+/* 3. Botón SONORIDADES -> Violeta Melómano */
+.menu-secciones a[href*="seccion=Sonoridades"] {
+    color: #6b46c1 !important;
+}
+.menu-secciones a[href*="seccion=Sonoridades"]:hover {
+    background: #faf5ff;
+    border-bottom-color: #6b46c1;
+}
+
+/* 4. Botón BLABLABLÁ -> Ocre Terracota */
+.menu-secciones a[href*="seccion=Blablablá"],
+.menu-secciones a[href*="seccion=Blablabla"] {
+    color: #c05621 !important;
+    font-family: 'Georgia', serif;
+}
+.menu-secciones a[href*="seccion=Blablablá"]:hover,
+.menu-secciones a[href*="seccion=Blablabla"]:hover {
+    background: #fffaf0;
+    border-bottom-color: #c05621;
+}
+
+/* 5. Botón ESCRITOS -> Naranja / Terracota Cálido */
+.menu-secciones a[href*="seccion=Escritos"] {
+    color: #dd6b20 !important;
+    font-family: 'Georgia', serif;
+}
+.menu-secciones a[href*="seccion=Escritos"]:hover {
+    background: #fffaf0;
+    border-bottom-color: #dd6b20;
+}
+
+/* 6. Botón SABORES -> Verde Oliva */
+.menu-secciones a[href*="seccion=Sabores"] {
+    color: #2f855a !important;
+}
+.menu-secciones a[href*="seccion=Sabores"]:hover {
+    background: #f0fff4;
+    border-bottom-color: #2f855a;
+}
