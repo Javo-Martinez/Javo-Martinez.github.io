@@ -1,0 +1,40 @@
+.contenedor-principal {
+    max-width: 1200px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+.card {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+    margin-bottom: 40px;
+}
+.menu-secciones {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+.menu-secciones a {
+    text-decoration: none;
+    color: #4a5568;
+    font-weight: 600;
+}
+.menu-secciones a:hover {
+    color: #3182ce;
+}
+.pie-navegacion {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+}
+.btn-footer {
+    text-decoration: none;
+    color: #3182ce;
+    font-weight: bold;
+}
