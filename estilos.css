@@ -12,19 +12,24 @@
 }
 .menu-secciones {
     display: flex;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+    gap: 20px;               /* Espacio horizontal entre cada sección */
+    flex-wrap: wrap;         /* Si no entran en la pantalla del celular, bajan ordenadamente */
+    margin-bottom: 30px;
+    border-bottom: 1px solid #e2e8f0;
+    padding-bottom: 15px;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
 }
+
 .menu-secciones a {
     text-decoration: none;
-    color: #4a5568;
-    font-weight: 600;
+    color: #718096;
+    transition: color 0.2s ease;
 }
+
 .menu-secciones a:hover {
-    color: #3182ce;
+    color: #1a202c;
 }
 .pie-navegacion {
     display: flex;
