@@ -43,3 +43,40 @@
     color: #3182ce;
     font-weight: bold;
 }
+
+/* ==========================================================================
+   DICCIONARIO DE COLORES E IDENTIDAD POR SECCIÓN (Tus Secciones Reales)
+   ========================================================================== */
+
+/* --- 1. MIRADAS (Fotografía/Cine/Arte) -> Color Azul Profundo Nocturno --- */
+.seccion-miradas .etiqueta-seccion { color: #1a365d; background: #ebf8ff; padding: 2px 6px; border-radius: 4px; }
+.seccion-miradas .titulo-nota { color: #2b6cb0; font-family: 'Helvetica Neue', Arial, sans-serif; }
+.seccion-miradas .frase-corta { color: #1a365d; font-weight: bold; border-top: 1px solid #1a365d; padding-top: 5px; }
+#articulo-pagina.seccion-miradas h1 { color: #1a365d; border-bottom: 2px solid #1a365d; }
+
+/* --- 2. SONORIDADES (Música/Audio) -> Color Violeta Eléctrico/Melómano --- */
+.seccion-sonoridades .etiqueta-seccion { color: #6b46c1; }
+.seccion-sonoridades .titulo-nota { color: #1a202c; }
+.seccion-sonoridades .link-completo { border-left: 4px solid #6b46c1; } /* Decorador lateral izquierdo */
+.seccion-sonoridades .frase-corta { color: #553c9a; font-family: monospace; font-size: 14px; }
+#articulo-pagina.seccion-sonoridades h1 { border-left: 6px solid #6b46c1; padding-left: 15px; }
+
+/* --- 3. BLABLABLÁ (Entrevistas/Debates/Opinión) -> Color Ocre/Terracota Intelectual --- */
+.seccion-blablabla .etiqueta-seccion { color: #c05621; }
+.seccion-blablabla .titulo-nota { font-family: 'Georgia', serif; font-weight: 900; color: #2d3748; }
+.seccion-blablabla .frase-corta { color: #c05621; font-family: 'Georgia', serif; font-style: italic; }
+#articulo-pagina.seccion-blablabla h1 { font-family: 'Georgia', serif; color: #c05621; text-align: center; }
+
+/* --- 4. ESCRITOS (Poesía/Literatura/Reseñas) -> Estética Minimalista de Libro Viejo --- */
+.seccion-escritos .etiqueta-seccion { color: #4a5568; letter-spacing: 2px; }
+.seccion-escritos .titulo-nota { font-family: 'Georgia', serif; font-weight: normal; color: #1a202c; }
+.seccion-escritos .copete-nota { font-family: 'Georgia', serif; font-style: italic; color: #4a5568; }
+.seccion-escritos .frase-corta { color: #718096; text-transform: uppercase; font-size: 11px; text-align: right; }
+#articulo-pagina.seccion-escritos h1 { font-family: 'Georgia', serif; font-weight: normal; border-bottom: 1px dotted #cbd5e0; }
+
+/* --- 5. SABORES (Gastronomía/Cultura culinaria) -> Color Verde Oliva Cálido --- */
+.seccion-sabores .etiqueta-seccion { color: #2f855a; background: #f0fff4; padding: 2px 6px; }
+.seccion-sabores .titulo-nota { color: #276749; }
+.seccion-sabores .frase-corta { color: #2f855a; border-left: 3px solid #2f855a; padding-left: 8px; }
+#articulo-pagina.seccion-sabores h1 { color: #276749; }
+
