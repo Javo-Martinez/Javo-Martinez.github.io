@@ -36,12 +36,27 @@ document.addEventListener("DOMContentLoaded", async () => {
 });
 
 function cargarPortada(ediciones) {
-    const edicionUno = ediciones.find(e => e.id_numero === 1); 
-    if (!edicionUno) return;
-    if(document.getElementById('img-tapa')) document.getElementById('img-tapa').src = edicionUno.portada.imagen_tapa;
-    if(document.getElementById('texto-poema')) document.getElementById('texto-poema').innerHTML = edicionUno.portada.texto_poema.replace(/\n/g, '<br>');
-    if(document.getElementById('copy-portada')) document.getElementById('copy-portada').innerText = edicionUno.portada.copy_portada;
-    if(document.getElementById('btn-ingresar')) document.getElementById('btn-ingresar').href = 'indice.html?num=1';
+    // Tomamos la edición más reciente de la lista automáticamente
+    const edicionVigente = ediciones[0]; 
+    if (!edicionVigente) return;
+
+    // 1. Inyectamos los textos y poemas dinámicos de esa edición
+    if(document.getElementById('img-tapa')) document.getElementById('img-tapa').src = edicionVigente.portada.imagen_tapa;
+    if(document.getElementById('texto-poema')) document.getElementById('texto-poema').innerHTML = edicionVigente.portada.texto_poema.replace(/\n/g, '<br>');
+    if(document.getElementById('copy-portada')) document.getElementById('copy-portada').innerText = edicionVigente.portada.copy_portada;
+    
+    // 2. Cambiamos el comportamiento del botón "INGRESAR" según el número:
+    const btnIngresar = document.getElementById('btn-ingresar');
+    if (btnIngresar) {
+        if (edicionVigente.id_numero <= 30) {
+            // Si la vigente es una vieja, el botón apunta a su carpeta física XHTML
+            var numFormateado = String(edicionVigente.id_numero).padStart(2, '0');
+            btnIngresar.href = 'revista' + numFormateado + '/index.html';
+        } else {
+            // Si es de las nuevas (31+), apunta al índice dinámico moderno
+            btnIngresar.href = 'indice.html?num=' + edicionVigente.id_numero;
+        }
+    }
 }
 
 function cargarIndice(ediciones) {
