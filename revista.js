@@ -51,7 +51,7 @@ function cargarPortada(ediciones) {
         if (edicionVigente.id_numero <= 30) {
             // Si la vigente es una vieja, el botón apunta a su carpeta física XHTML
             var numFormateado = String(edicionVigente.id_numero).padStart(2, '0');
-            btnIngresar.href = 'revista' + numFormateado + '/index.html';
+            btnIngresar.href = 'revista' + numFormateado + '/indice.html';
         } else {
             // Si es de las nuevas (31+), apunta al índice dinámico moderno
             btnIngresar.href = 'indice.html?num=' + edicionVigente.id_numero;
