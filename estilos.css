@@ -1,82 +1,52 @@
-.contenedor-principal {
-    max-width: 1200px;
-    margin: 30px auto;
-    padding: 0 20px;
-}
-.card {
-    background: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0,0,0,0.05);
-    margin-bottom: 40px;
-}
-.menu-secciones {
-    display: flex;
-    gap: 20px;               /* Espacio horizontal entre cada sección */
-    flex-wrap: wrap;         /* Si no entran en la pantalla del celular, bajan ordenadamente */
-    margin-bottom: 30px;
-    border-bottom: 1px solid #e2e8f0;
-    padding-bottom: 15px;
-    font-weight: bold;
-    font-size: 14px;
-    text-transform: uppercase;
-}
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; color: #2d3748; background: #fcfcfc; margin: 0; padding: 0; }
+#notas-grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; padding: 20px; max-width: 1200px; margin: 0 auto; }
+.elemento-compuesto { background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
+.link-completo { text-decoration: none; color: inherit; display: block; padding: 20px; }
+.etiqueta-seccion { font-size: 12px; text-transform: uppercase; font-weight: 700; display: inline-block; margin-bottom: 8px; }
+.titulo-nota { margin: 0 0 10px 0; font-size: 22px; font-weight: 800; }
+.autor-nota { font-size: 14px; color: #718096; margin: 0 0 12px 0; font-style: italic; }
+.img-nota { width: 100%; height: 200px; object-fit: cover; border-radius: 4px; margin-bottom: 12px; }
+.copete-nota { font-size: 15px; color: #4a5568; margin: 0 0 15px 0; }
+.frase-corta { font-size: 13px; font-weight: 500; display: block; padding-top: 10px; }
 
-.menu-secciones a {
-    text-decoration: none;
-    color: #718096;
-    transition: color 0.2s ease;
-}
+.menu-secciones { display: flex; gap: 20px; flex-wrap: wrap; margin-bottom: 30px; border-bottom: 1px solid #e2e8f0; padding-bottom: 15px; font-weight: bold; font-size: 14px; text-transform: uppercase; }
+.menu-secciones a { text-decoration: none; color: #718096; transition: color 0.2s ease; }
+.menu-secciones a:hover { color: #1a202c; }
 
-.menu-secciones a:hover {
-    color: #1a202c;
-}
-.pie-navegacion {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1200px;
-    margin: 40px auto;
-    padding: 20px;
-}
-.btn-footer {
-    text-decoration: none;
-    color: #3182ce;
-    font-weight: bold;
-}
-
-/* ==========================================================================
-   DICCIONARIO DE COLORES E IDENTIDAD POR SECCIÓN (Tus Secciones Reales)
-   ========================================================================== */
-
-/* --- 1. MIRADAS (Fotografía/Cine/Arte) -> Color Azul Profundo Nocturno --- */
+/* SECCIÓN 1: MIRADAS (Azul) */
 .seccion-miradas .etiqueta-seccion { color: #1a365d; background: #ebf8ff; padding: 2px 6px; border-radius: 4px; }
-.seccion-miradas .titulo-nota { color: #2b6cb0; font-family: 'Helvetica Neue', Arial, sans-serif; }
+.seccion-miradas .titulo-nota { color: #2b6cb0; }
 .seccion-miradas .frase-corta { color: #1a365d; font-weight: bold; border-top: 1px solid #1a365d; padding-top: 5px; }
 #articulo-pagina.seccion-miradas h1 { color: #1a365d; border-bottom: 2px solid #1a365d; }
 
-/* --- 2. SONORIDADES (Música/Audio) -> Color Violeta Eléctrico/Melómano --- */
+/* SECCIÓN 2: SONORIDADES (Violeta con borde) */
 .seccion-sonoridades .etiqueta-seccion { color: #6b46c1; }
 .seccion-sonoridades .titulo-nota { color: #1a202c; }
-.seccion-sonoridades .link-completo { border-left: 4px solid #6b46c1; } /* Decorador lateral izquierdo */
+.seccion-sonoridades .link-completo { border-left: 4px solid #6b46c1; }
 .seccion-sonoridades .frase-corta { color: #553c9a; font-family: monospace; font-size: 14px; }
 #articulo-pagina.seccion-sonoridades h1 { border-left: 6px solid #6b46c1; padding-left: 15px; }
 
-/* --- 3. BLABLABLÁ (Entrevistas/Debates/Opinión) -> Color Ocre/Terracota Intelectual --- */
+/* SECCIÓN 3: BLABLABLÁ (Ocre rústico y tipografía Georgia) */
 .seccion-blablabla .etiqueta-seccion { color: #c05621; }
 .seccion-blablabla .titulo-nota { font-family: 'Georgia', serif; font-weight: 900; color: #2d3748; }
 .seccion-blablabla .frase-corta { color: #c05621; font-family: 'Georgia', serif; font-style: italic; }
 #articulo-pagina.seccion-blablabla h1 { font-family: 'Georgia', serif; color: #c05621; text-align: center; }
 
-/* --- 4. ESCRITOS (Poesía/Literatura/Reseñas) -> Estética Minimalista de Libro Viejo --- */
+/* SECCIÓN 4: ESCRITOS (Gris Literario Serif) */
 .seccion-escritos .etiqueta-seccion { color: #4a5568; letter-spacing: 2px; }
 .seccion-escritos .titulo-nota { font-family: 'Georgia', serif; font-weight: normal; color: #1a202c; }
 .seccion-escritos .copete-nota { font-family: 'Georgia', serif; font-style: italic; color: #4a5568; }
 .seccion-escritos .frase-corta { color: #718096; text-transform: uppercase; font-size: 11px; text-align: right; }
 #articulo-pagina.seccion-escritos h1 { font-family: 'Georgia', serif; font-weight: normal; border-bottom: 1px dotted #cbd5e0; }
 
-/* --- 5. SABORES (Gastronomía/Cultura culinaria) -> Color Verde Oliva Cálido --- */
+/* SECCIÓN 5: SABORES (Verde Oliva) */
 .seccion-sabores .etiqueta-seccion { color: #2f855a; background: #f0fff4; padding: 2px 6px; }
 .seccion-sabores .titulo-nota { color: #276749; }
 .seccion-sabores .frase-corta { color: #2f855a; border-left: 3px solid #2f855a; padding-left: 8px; }
 #articulo-pagina.seccion-sabores h1 { color: #276749; }
 
+/* REQUERIMIENTO MULTIMEDIA RESPONSIVO (Punto 5 y 10) */
+.foto-nota-anclada { max-width: 100%; height: auto; display: block; margin: 30px auto; border-radius: 6px; }
+.contenedor-video { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; margin: 30px 0; }
+.contenedor-video iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; max-width: 100%; }
