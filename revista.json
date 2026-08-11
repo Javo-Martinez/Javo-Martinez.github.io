@@ -1,33 +1,5 @@
 [
   {
-    "id_numero": 2,
-    "titulo_numero": "2",
-    "fecha_publicacion": "2026-08-11",
-    "portada": {
-      "imagen_tapa": "2",
-      "texto_poema": "2",
-      "copy_portada": "2"
-    },
-    "editorial": "2",
-    "staff_colaboradores": [],
-    "contratapa": {
-      "titulo": "2",
-      "imagen_alusiva": "2"
-    },
-    "articulos": [
-      {
-        "id_article": 201,
-        "titulo": "2",
-        "autor": "2",
-        "seccion": "Escritos",
-        "imagen_principal": "2",
-        "copete": "2",
-        "frase_corta": "2",
-        "contenido_html": "2"
-      }
-    ]
-  },
-  {
     "id_numero": 1,
     "titulo_numero": "Edición Especial Nro 1",
     "fecha_publicacion": "2010-05-01",
