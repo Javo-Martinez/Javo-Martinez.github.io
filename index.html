@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revista Digital - Portada</title>
+    <!-- Vinculamos tu diccionario de estilos global -->
+    <link rel="stylesheet" href="estilos.css">
+    <style>
+        /* Estilos específicos para la estética de la gran Portada de Tapa */
+        .contenedor-portada {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            text-align: center;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+        }
+        .imagen-tapa-principal {
+            max-width: 100%;
+            height: auto;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+            margin-bottom: 25px;
+        }
+        .poema-portada {
+            font-family: 'Georgia', serif;
+            font-style: italic;
+            font-size: 18px;
+            line-height: 1.8;
+            color: #4a5568;
+            margin: 30px auto;
+            max-width: 600px;
+            white-space: pre-line; /* Respeta los saltos de línea del poema */
+        }
+        .copy-portada {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #718096;
+            margin-bottom: 30px;
+            font-weight: bold;
+        }
+        .btn-ingresar {
+            display: inline-block;
+            background: #1a202c;
+            color: #ffffff;
+            padding: 15px 40px;
+            text-decoration: none;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border-radius: 6px;
+            transition: background 0.2s ease, transform 0.2s ease;
+        }
+        .btn-ingresar:hover {
+            background: #2d3748;
+            transform: translateY(-2px);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor-portada">
+        <!-- Los IDs coinciden exactamente con los que busca tu archivo revista.js -->
+        <img id="img-tapa" class="imagen-tapa-principal" src="" alt="Portada de la edición">
+        
+        <div id="texto-poema" class="poema-portada">Cargando líneas de portada...</div>
+        
+        <div id="copy-portada" class="copy-portada"></div>
+        
+        <!-- El botón recibirá el enlace dinámico del tipo 'indice.html?num=X' -->
+        <a id="btn-ingresar" class="btn-ingresar" href="indice.html?num=1">Ingresar</a>
+    </div>
+
+    <!-- EL ÚNICO SCRIPT QUE CONTROLA TODO EL SITIO -->
+    <script src="revista.js"></script>
+</body>
+</html>
