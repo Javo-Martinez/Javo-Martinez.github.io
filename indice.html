@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Índice de Notas - Revista Digital</title>
+    <!-- Tu catálogo unificado de estilos y diccionario de colores -->
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+
+    <header>
+        <!-- Navegación por Secciones (Filtros dinámicos mediante URL) -->
+        <nav class="menu-secciones">
+            <a href="indice.html">Todas</a>
+            <a href="indice.html?seccion=Política">Política</a>
+            <a href="indice.html?seccion=Cultura">Cultura</a>
+            <a href="indice.html?seccion=Economía">Economía</a>
+            <a href="indice.html?seccion=Sociedad">Sociedad</a>
+            <a href="indice.html?seccion=Música">Música</a>
+        </nav>
+    </header>
+
+    <main class="contenedor-principal">
+        <!-- Bloque Editorial del Número -->
+        <section class="bloque-editorial card">
+            <h2>Editorial</h2>
+            <div id="editorial-texto">
+                <!-- Se rellena automáticamente desde revista.js -->
+            </div>
+        </section>
+
+        <!-- Grilla de Notas / Elementos Compuestos -->
+        <section id="notas-grilla">
+            <!-- Se rellena automáticamente desde revista.js -->
+            <!-- Cada nota adoptará su color inmutable según su sección gracias al CSS -->
+        </section>
+
+        <!-- Bloque Staff / Quiénes Somos (Específico de esta edición) -->
+        <section class="bloque-staff card">
+            <h2>Quiénes Somos</h2>
+            <ul id="staff-lista">
+                <!-- Se rellena automáticamente desde revista.js -->
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <div class="pie-navegacion">
+            <a href="anteriores.html" class="btn-footer">← Números Anteriores</a>
+            <!-- El JS configurará este enlace dinámicamente para la contratapa de este número -->
+            <a id="link-contratapa" href="#" class="btn-footer">Ir a la Contratapa →</a>
+        </div>
+    </footer>
+
+    <!-- LLAMADO ÚNICO AL SCRIPT CENTRAL DE LA REVISTA -->
+    <script src="revista.js"></script>
+</body>
+</html>
