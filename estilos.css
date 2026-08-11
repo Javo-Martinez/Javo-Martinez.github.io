@@ -33,9 +33,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
 #articulo-pagina.seccion-blablabla h1 { font-family: 'Georgia', serif; color: #c05621; text-align: center; }
 
 /* SECCIÓN 4: ESCRITOS (Gris Literario Serif) */
-.seccion-escritos .etiqueta-seccion { color: #4a5568; letter-spacing: 2px; }
+.seccion-escritos .etiqueta-seccion { color: orange; letter-spacing: 2px; }
 .seccion-escritos .titulo-nota { font-family: 'Georgia', serif; font-weight: normal; color: #1a202c; }
-.seccion-escritos .copete-nota { font-family: 'Georgia', serif; font-style: italic; color: #4a5568; }
+.seccion-escritos .copete-nota { font-family: 'Georgia', serif; font-style: italic; color: orange; }
 .seccion-escritos .frase-corta { color: #718096; text-transform: uppercase; font-size: 11px; text-align: right; }
 #articulo-pagina.seccion-escritos h1 { font-family: 'Georgia', serif; font-weight: normal; border-bottom: 1px dotted #cbd5e0; }
 
