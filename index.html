@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Esto No Es Una Revista</title>
     <style>
-        /* Pantalla de carga limpia mientras se procesa la redirección */
+        /* Pantalla de espera limpia en negro mientras salta de servidor */
         body { 
             background-color: #000000; 
             margin: 0; 
@@ -12,18 +12,37 @@
         }
     </style>
     <script>
-        // REGLA DE REDIRECCIÓN INTELIGENTE
         document.addEventListener("DOMContentLoaded", () => {
-            // Configura aquí el número de edición al que querés enviar al lector:
-            const EDICION_VIGENTE = 1; 
+            // ==========================================================================
+            // CONFIGURÁ ACÁ EL NÚMERO DE EDICIÓN VIGENTE QUE QUERÉS MOSTRAR EN PORTADA
+            // ==========================================================================
+            const EDICION_VIGENTE = 3; 
 
-            // Formateamos el número para que siempre tenga dos dígitos (ej: 1 -> 01, 12 -> 12)
-            const numeroFormateado = String(EDICION_VIGENTE).padStart(2, '0');
+            // Formateamos el número a dos dígitos (ej: 3 -> "03", 15 -> "15")
+            const numFormateado = String(EDICION_VIGENTE).padStart(2, '0');
+            
+            let urlDestino = "";
 
-            // Armamos la ruta física hacia la carpeta de esa edición
-            const urlDestino = `revista${numeroFormateado}/index.html`;
+            // REGLAS MATEMÁTICAS DE ENRUTAMIENTO SEGÚN EL NÚMERO
+            
+            // Bloque 1: Del Número 1 al 10
+            if (EDICION_VIGENTE >= 1 && EDICION_VIGENTE <= 10) {
+                urlDestino = `/eneur-01-10/revista${numFormateado}/index.html`;
+            } 
+            // Bloque 2: Del Número 11 al 20
+            else if (EDICION_VIGENTE >= 11 && EDICION_VIGENTE <= 20) {
+                urlDestino = `/eneur-11-20/revista${numFormateado}/index.html`;
+            } 
+            // Bloque 3: Del Número 21 al 26 (Tu último tramo estático)
+            else if (EDICION_VIGENTE >= 21 && EDICION_VIGENTE <= 26) {
+                urlDestino = `/eneur-21-26/revista${numFormateado}/index.html`;
+            } 
+            // Futuro Dinámico: Número 27 en adelante (Manejados por tu nuevo sistema responsivo)
+            else {
+                urlDestino = `/indice.html?num=${EDICION_VIGENTE}`;
+            }
 
-            // Ejecutamos la redirección inmediata saltando el historial del navegador
+            // Ejecutamos la redirección saltando el historial para evitar bucles molestos
             window.location.replace(urlDestino);
         });
     </script>
