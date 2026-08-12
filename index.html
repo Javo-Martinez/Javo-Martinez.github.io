@@ -2,81 +2,32 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Revista Digital - Portada</title>
-    <!-- Vinculamos tu diccionario de estilos global -->
-    <link rel="stylesheet" href="estilos.css">
+    <title>Esto No Es Una Revista</title>
     <style>
-        /* Estilos específicos para la estética de la gran Portada de Tapa */
-        .contenedor-portada {
-            max-width: 800px;
-            margin: 40px auto;
-            padding: 20px;
-            text-align: center;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 20px rgba(0,0,0,0.05);
-        }
-        .imagen-tapa-principal {
-            max-width: 100%;
-            height: auto;
-            max-height: 500px;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 8px 16px rgba(0,0,0,0.1);
-            margin-bottom: 25px;
-        }
-        .poema-portada {
-            font-family: 'Georgia', serif;
-            font-style: italic;
-            font-size: 18px;
-            line-height: 1.8;
-            color: #4a5568;
-            margin: 30px auto;
-            max-width: 600px;
-            white-space: pre-line; /* Respeta los saltos de línea del poema */
-        }
-        .copy-portada {
-            font-size: 14px;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            color: #718096;
-            margin-bottom: 30px;
-            font-weight: bold;
-        }
-        .btn-ingresar {
-            display: inline-block;
-            background: #1a202c;
-            color: #ffffff;
-            padding: 15px 40px;
-            text-decoration: none;
-            font-weight: bold;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            border-radius: 6px;
-            transition: background 0.2s ease, transform 0.2s ease;
-        }
-        .btn-ingresar:hover {
-            background: #2d3748;
-            transform: translateY(-2px);
+        /* Pantalla de carga limpia mientras se procesa la redirección */
+        body { 
+            background-color: #000000; 
+            margin: 0; 
+            padding: 0; 
         }
     </style>
+    <script>
+        // REGLA DE REDIRECCIÓN INTELIGENTE
+        document.addEventListener("DOMContentLoaded", () => {
+            // Configura aquí el número de edición al que querés enviar al lector:
+            const EDICION_VIGENTE = 1; 
+
+            // Formateamos el número para que siempre tenga dos dígitos (ej: 1 -> 01, 12 -> 12)
+            const numeroFormateado = String(EDICION_VIGENTE).padStart(2, '0');
+
+            // Armamos la ruta física hacia la carpeta de esa edición
+            const urlDestino = `revista${numeroFormateado}/index.html`;
+
+            // Ejecutamos la redirección inmediata saltando el historial del navegador
+            window.location.replace(urlDestino);
+        });
+    </script>
 </head>
 <body>
-
-    <div class="contenedor-portada">
-        <!-- Los IDs coinciden exactamente con los que busca tu archivo revista.js -->
-        <img id="img-tapa" class="imagen-tapa-principal" src="" alt="Portada de la edición">
-        
-        <div id="texto-poema" class="poema-portada">Cargando portada...</div>
-        
-        <div id="copy-portada" class="copy-portada"></div>
-        
-        <!-- El botón recibirá el enlace dinámico del tipo 'revista01/indice.html' -->
-        <a id="btn-ingresar" class="btn-ingresar" href="revista01/indice.html">Ingresa...r</a>
-    </div>
-
-    <!-- EL ÚNICO SCRIPT QUE CONTROLA TODO EL SITIO -->
-    <script src="revista.js"></script>
 </body>
 </html>
