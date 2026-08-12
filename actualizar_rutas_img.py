@@ -2,65 +2,74 @@ import os
 import re
 
 # ==========================================================================
-# CONFIGURACIÓN DE LAS NUEVAS RUTAS DE TU SERVIDOR SATÉLITE
+# LA URL REAL Y LIMPIA DE TU SERVIDOR SATÉLITE
 # ==========================================================================
-URL_SATELITE_FOTOS = "https://github.io"
+URL_CORRECTA = "https://github.io"
 
-def actualizar_archivo_html(ruta_archivo):
-    """Busca rutas locales de imágenes y las cambia por la URL del servidor satélite"""
+def reparar_archivo_html(ruta_archivo):
+    """Busca cualquier formato roto o pegoteado de github e inyecta la URL limpia"""
     with open(ruta_archivo, "r", encoding="iso-8859-1") as f:
         contenido = f.read()
 
-    # Patrón para buscar etiquetas del tipo src="images/foto.jpg" o src='images/foto.jpg'
-    # Evita duplicar si la URL ya se había actualizado antes
+    # 1. Reparamos si quedó pegoteado como "github.ioimage_algo.jpg"
+    contenido_nuevo = re.sub(
+        r'src=["\']https://github\.ioimage_([^"\']+)["\']',
+        f'src="{URL_CORRECTA}\\1"',
+        contenido
+    )
+    
+    # 2. Por las dudas, reparamos también si quedó como "images/image_something" suelto
     contenido_nuevo = re.sub(
         r'src=["\'](images/|./images/)([^"\']+)["\']',
-        f'src="{URL_SATELITE_FOTOS}\\2"',
-        contenido
+        f'src="{URL_CORRECTA}\\2"',
+        contenido_nuevo
     )
 
     if contenido != contenido_nuevo:
         with open(ruta_archivo, "w", encoding="iso-8859-1") as f:
             f.write(contenido_nuevo)
-        print(f"✅ Rutas de imágenes actualizadas en: {os.path.basename(ruta_archivo)}")
+        print(f"✅ Enlaces de fotos reparados con éxito en: {os.path.basename(ruta_archivo)}")
 
-def actualizar_base_datos_json(ruta_json):
-    """Actualiza las rutas de las imágenes dentro de tu archivo central revista.json"""
+def reparar_base_datos_json(ruta_json):
+    """Corrige las rutas de las fotos pegoteadas adentro del archivo central revista.json"""
     if not os.path.exists(ruta_json):
         return
     
     with open(ruta_json, "r", encoding="utf-8") as f:
         contenido = f.read()
 
-    # Reemplaza las rutas locales en el JSON por la URL del servidor satélite
+    # Corregimos el pegoteo en el JSON
+    contenido_nuevo = re.sub(
+        r'"https://github\.ioimage_([^"]+)"',
+        f'"{URL_CORRECTA}\\1"',
+        contenido
+    )
+    
+    # Corregimos rutas locales si quedaba alguna en el JSON
     contenido_nuevo = re.sub(
         r'"images/([^"]+)"',
-        f'"{URL_SATELITE_FOTOS}\\1"',
-        contenido
+        f'"{URL_CORRECTA}\\1"',
+        contenido_nuevo
     )
 
     if contenido != contenido_nuevo:
         with open(ruta_json, "w", encoding="utf-8") as f:
             f.write(contenido_nuevo)
-        print("✅ Base de datos 'revista.json' actualizada con las nuevas rutas web.")
+        print("✅ Base de datos 'revista.json' reparada e integrada al servidor satélite.")
 
-def procesar_edicion_uno():
-    print("🚀 Iniciando la migración masiva de rutas hacia el repositorio satélite...")
-    
-    # Carpeta física donde están tus HTML históricos del número 1
+def iniciar_reparacion():
+    print("🛠️ Iniciando el plan de reparación de rutas pegoteadas...")
     carpeta_revista = "revista01"
     
     if os.path.exists(carpeta_revista):
         for archivo in os.listdir(carpeta_revista):
             if archivo.endswith(".html"):
-                ruta_completa = os.path.join(carpeta_revista, archivo)
-                actualizar_archivo_html(ruta_completa)
+                reparar_archivo_html(os.path.join(carpeta_revista, archivo))
     else:
         print(f"❌ No se encontró la carpeta '{carpeta_revista}' en este directorio.")
 
-    # También actualizamos el JSON central para que el nuevo índice sepa de dónde bajar las fotos
-    actualizar_base_datos_json("revista.json")
-    print("\n🎉 Proceso finalizado. Todas las imágenes ahora apuntan a eneur-img-01.")
+    reparar_base_datos_json("revista.json")
+    print("\n🎉 ¡Reparación completada! Todos los enlaces apuntan de forma perfecta a eneur-img-01.")
 
 if __name__ == "__main__":
-    procesar_edicion_uno()
+    iniciar_reparacion()
