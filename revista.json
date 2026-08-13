@@ -3,26 +3,26 @@
     {
       "numero": 27,
       "ruta_repositorio": "",
-      "editorial": "Edi Torial escribío un cuentito",
-      "contratapa": "Contra toda tapa!",
+      "editorial": "Esta es la segunda editorial. Será que sobrescribe?",
+      "contratapa": "Mismo caso, che",
       "secciones_config": [
         {
           "nombre": "Miradas",
           "color_seccion": "#9c27b0",
-          "frase_encabezado": "",
-          "autor_frase": ""
+          "frase_encabezado": "Tuve culo",
+          "autor_frase": "Jennifer López"
         }
       ],
       "notas": [
         {
-          "id": "1",
-          "tag": "Tag1",
-          "titulo": "Articulo culo",
-          "entradilla": "AQUÍ ESTÁN ESTOS SON",
-          "autor": "Red Actor",
-          "seccion": "Escritos",
-          "contenido_html": "Había una vez un pez que nadaba al revés. Con la cola hacia adelante y la cabeza hacia atrás. ¡Cuántas veces ese pez nadó al revés!",
-          "imagen_destacada": "https://www.estonoesunarevista.com.ar/eneur-21-26/revista26/images/miradas/0201.jpg"
+          "id": "2",
+          "tag": "Tag sabor a naranja",
+          "titulo": "La salud de nuestra pija",
+          "entradilla": "Copete pete era evidente",
+          "autor": "Elca Beçón",
+          "seccion": "Miradas",
+          "contenido_html": "De entre la espesura del cine contemporáneo, algunas películas, sin ser brillantes, se destacan por narrar una historia que no está alineada con las premisas del cine industrial de Occidente. El nombre es una película que está inscripta en una narración clásica, minimalista e íntima, en la que no se necesitan efectos especiales, ni megaestrellas, ni montañas de dinero para generar una obra que se sostiene en un guión fino y lúcido y en actuaciones que hacen que el texto crezca. Alexandre de La Patellière es el director debutante quién, acompañado por Matthieu Delaporte, conduce con mucho criterio el movimiento plástico que la narrativa cinematográfica le agrega como aderezo al combo.",
+          "imagen_destacada": "https://www.estonoesunarevista.com.ar/eneur-21-26/revista26/images/miradas/0301.jpg"
         }
       ]
     }
