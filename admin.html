@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Panel Administrador - Esto No Es Una Revista</title>
+    <style>
+        :root {
+            --bg-color: #121212;
+            --card-bg: #1e1e1e;
+            --text-color: #e0e0e0;
+            --accent-color: #4caf50;
+            --border-color: #333;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        h1, h2, h3 { color: #fff; }
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        input, textarea, select {
+            width: 100%;
+            padding: 10px;
+            background-color: #2a2a2a;
+            border: 1px solid var(--border-color);
+            color: #fff;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        textarea { height: 100px; resize: vertical; }
+        .row {
+            display: flex;
+            gap: 15px;
+        }
+        .row .col { flex: 1; }
+        button {
+            background-color: var(--accent-color);
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 1rem;
+            font-weight: bold;
+        }
+        button:hover { background-color: #45a049; }
+        .btn-secondary {
+            background-color: #555;
+            margin-top: 10px;
+        }
+        .btn-secondary:hover { background-color: #666; }
+        .btn-danger {
+            background-color: #d32f2f;
+        }
+        .btn-danger:hover { background-color: #f44336; }
+        .item-lista {
+            background: #252525;
+            padding: 15px;
+            border-left: 4px solid var(--accent-color);
+            margin-bottom: 10px;
+            border-radius: 4px;
+            position: relative;
+        }
+        .eliminar-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>📝 Publicador de Ediciones Dinámicas (27+)</h1>
+
+        <!-- Configuración de GitHub Obligatoria -->
+        <div class="card">
+            <h2>🔑 Credenciales de Acceso</h2>
+            <div class="row">
+                <div class="col">
+                    <label>Token de GitHub Pat:</label>
+                    <input type="password" id="gh-token" placeholder="ghp_xxxxxxxxxxxx">
+                </div>
+            </div>
+        </div>
+
+        <form id="form-revista">
+            <!-- 1. DATOS GENERALES DEL NÚMERO -->
+            <div class="card">
+                <h2>📦 Datos Generales del Número</h2>
+                <div class="row">
+                    <div class="col">
+                        <label>Número de Edición:</label>
+                        <input type="number" id="num-edicion" min="27" required placeholder="Ej: 27">
+                    </div>
+                    <div class="col">
+                        <label>Ruta Repositorio (Opcional si usas CDN externo):</label>
+                        <input type="text" id="ruta-repo" placeholder="Ej: eneur-img-03">
+                    </div>
+                </div>
+
+                <label>Editorial (Soporta HTML):</label>
+                <textarea id="editorial-html" placeholder="<p>Texto de la editorial...</p>" required></textarea>
+
+                <label>Contratapa (Soporta HTML / Créditos):</label>
+                <textarea id="contratapa-html" placeholder="<p>Texto de la contratapa...</p>" required></textarea>
+            </div>
+
+            <!-- 2. CONFIGURACIÓN DE SECCIONES (Colores e Identidad) -->
+            <div class="card">
+                <h2>🎨 Configuración Estética de Secciones</h2>
+                <p style="font-size:0.85rem; color:#aaa;">Define el comportamiento visual de cada sección de esta entrega.</p>
+                <div id="contenedor-secciones"></div>
+                <button type="button" class="btn-secondary" onclick="agregarSeccionConfig()">+ Añadir Configuración de Sección</button>
+            </div>
+
+            <!-- 3. CARGA DE NOTAS / ARTÍCULOS -->
+            <div class="card">
+                <h2>📰 Artículos de la Edición</h2>
+                <div id="contenedor-notas"></div>
+                <button type="button" class="btn-secondary" onclick="agregarNota()">+ Añadir Nota / Artículo</button>
+            </div>
+
+            <div style="text-align: right; margin-top: 20px;">
+                <button type="submit" style="font-size: 1.2rem; padding: 15px 40px;">🚀 Publicar Edición Completa</button>
+            </div>
+        </form>
+    </div>
+
+    <script>
+        // Variables de configuración de la API de GitHub
+        const REPO_PROPIETARIO = "Javo-Martinez";
+        const REPO_NOMBRE = "Javo-Martinez.github.io"; // Cambiar por eneur-test si estás probando ahí
+        const ARCHIVO_RUTA = "revista.json";
+    
+        // Contadores para IDs internos del formulario
+        let contadorSecciones = 0;
+        let contadorNotas = 0;
+    
+        // Generador Dinámico de Campos de Sección
+        function agregarSeccionConfig(datos = {}) {
+            contadorSecciones++;
+            const div = document.createElement('div');
+            div.className = 'item-lista';
+            div.id = `seccion-item-${contadorSecciones}`;
+            div.innerHTML = `
+                <button type="button" class="btn-danger eliminar-btn" onclick="eliminarItem('${div.id}')">❌</button>
+                <div class="row">
+                    <div class="col">
+                        <label>Nombre de la Sección:</label>
+                        <input type="text" class="sec-nombre" value="${datos.nombre || ''}" placeholder="Ej: Miradas" required>
+                    </div>
+                    <div class="col">
+                        <label>Color Hexadecimal de Sección:</label>
+                        <input type="color" class="sec-color" value="${datos.color_seccion || '#4caf50'}" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label>Frase del Encabezado:</label>
+                        <input type="text" class="sec-frase" value="${datos.frase_encabezado || ''}" placeholder="Una frase inspiradora...">
+                    </div>
+                    <div class="col">
+                        <label>Autor de la Frase:</label>
+                        <input type="text" class="sec-autor" value="${datos.autor_frase || ''}" placeholder="Ej: Julio Cortázar">
+                    </div>
+                </div>
+            `;
+            document.getElementById('contenedor-secciones').appendChild(div);
+        }
+    
+        // Generador Dinámico de Campos de Notas
+        function agregarNota(datos = {}) {
+            contadorNotas++;
+            const div = document.createElement('div');
+            div.className = 'item-lista';
+            div.id = `nota-item-${contadorNotas}`;
+            div.innerHTML = `
+                <button type="button" class="btn-danger eliminar-btn" onclick="eliminarItem('${div.id}')">❌</button>
+                <div class="row">
+                    <div class="col">
+                        <label>ID único de la Nota:</label>
+                        <input type="text" class="nota-id" value="${datos.id || ''}" placeholder="Ej: 2701" required>
+                    </div>
+                    <div class="col">
+                        <label>Tag / Etiqueta Corta:</label>
+                        <input type="text" class="nota-tag" value="${datos.tag || ''}" placeholder="Ej: Entrevista" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label>Título del Artículo:</label>
+                        <input type="text" class="nota-titulo" value="${datos.titulo || ''}" placeholder="Título principal" required>
+                    </div>
+                    <div class="col">
+                        <label>Autor:</label>
+                        <input type="text" class="nota-autor" value="${datos.autor || ''}" placeholder="Nombre del redactor" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <label>Sección Perteneciente:</label>
+                        <input type="text" class="nota-seccion" value="${datos.seccion || ''}" placeholder="Debe coincidir con tus secciones de arriba" required>
+                    </div>
+                    <div class="col">
+                        <label>URL Imagen Destacada (Nube o CDN):</label>
+                        <input type="url" class="nota-img" value="${datos.imagen_destacada || ''}" placeholder="https://..." required>
+                    </div>
+                </div>
+                <label>Entradilla / Copete:</label>
+                <textarea class="nota-entradilla" placeholder="Breve resumen introductorio..." required>${datos.entradilla || ''}</textarea>
+                
+                <label>Contenido del Artículo (Acepta HTML puro):</label>
+                <textarea class="nota-html" style="height:200px;" placeholder="<p>Cuerpo del artículo escrito en párrafos HTML...</p>" required>${datos.contenido_html || ''}</textarea>
+            `;
+            //document.getElementById('contenedor-notes').id = ''; // Fix estructural interno
+            document.getElementById('contenedor-notas').appendChild(div);
+        }
+    
+        function eliminarItem(id) {
+            document.getElementById(id).remove();
+        }
+    
+        // Inicializamos con campos vacíos por defecto al cargar la página
+        document.addEventListener("DOMContentLoaded", () => {
+            agregarSeccionConfig({nombre: "Miradas", color_seccion: "#9c27b0"});
+            agregarNota();
+        });
+    
+        // PROCESAMIENTO DEL ENVÍO E INYECCIÓN EN GITHUB API
+        document.getElementById('form-revista').addEventListener('submit', async (e) => {
+    e.preventDefault();
+
+    const token = document.getElementById('gh-token').value.trim();
+
+    if (!token) {
+        alert("❌ Por favor, ingresa tu Token PAT de GitHub para poder guardar.");
+        return;
+    }
+
+    // 1. Recolectamos las Configuraciones de Secciones
+    const secciones_config = [];
+
+    document.querySelectorAll('#contenedor-secciones .item-lista').forEach(item => {
+        secciones_config.push({
+            nombre: item.querySelector('.sec-nombre').value,
+            color_seccion: item.querySelector('.sec-color').value,
+            frase_encabezado: item.querySelector('.sec-frase').value,
+            autor_frase: item.querySelector('.sec-autor').value
+        });
+    });
+
+    // 2. Recolectamos las Notas
+    const notes_lista = [];
+
+    document.querySelectorAll('#contenedor-notas .item-lista').forEach(item => {
+        notes_lista.push({
+            id: item.querySelector('.nota-id').value,
+            tag: item.querySelector('.nota-tag').value,
+            titulo: item.querySelector('.nota-titulo').value,
+            entradilla: item.querySelector('.nota-entradilla').value,
+            autor: item.querySelector('.nota-autor').value,
+            seccion: item.querySelector('.nota-seccion').value,
+            contenido_html: item.querySelector('.nota-html').value,
+            imagen_destacada: item.querySelector('.nota-img').value
+        });
+    });
+
+    // 3. Armamos la nueva edición
+    const nuevaEdicion = {
+        numero: parseInt(document.getElementById('num-edicion').value),
+        ruta_repositorio: document.getElementById('ruta-repo').value,
+        editorial: document.getElementById('editorial-html').value,
+        contratapa: document.getElementById('contratapa-html').value,
+        secciones_config: secciones_config,
+        notas: notes_lista
+    };
+
+    const urlApi =
+        `https://api.github.com/repos/${REPO_PROPIETARIO}/${REPO_NOMBRE}/contents/${ARCHIVO_RUTA}`;
+
+    try {
+
+        // Obtener archivo existente
+        let sha = null;
+        let edicionesExistentes = [];
+
+        const resGet = await fetch(urlApi, {
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "Accept": "application/vnd.github+json"
+            }
+        });
+
+        if (resGet.ok) {
+
+            const dataGet = await resGet.json();
+
+            sha = dataGet.sha;
+
+            const contenidoTexto =
+                decodeURIComponent(escape(atob(dataGet.content)));
+
+            const jsonParseado = JSON.parse(contenidoTexto);
+
+            edicionesExistentes = jsonParseado.ediciones || [];
+
+        } else if (resGet.status !== 404) {
+
+            throw new Error(
+                "No se pudo conectar con la base de datos de GitHub."
+            );
+        }
+
+        // Validamos duplicado
+        if (edicionesExistentes.some(ed => ed.numero === nuevaEdicion.numero)) {
+
+            if (
+                !confirm(
+                    `⚠️ La edición Nro ${nuevaEdicion.numero} ya existe. ¿Deseas sobreescribirla?`
+                )
+            ) {
+                return;
+            }
+
+            edicionesExistentes =
+                edicionesExistentes.filter(
+                    ed => ed.numero !== nuevaEdicion.numero
+                );
+        }
+
+        // Nueva edición al principio
+        edicionesExistentes.unshift(nuevaEdicion);
+
+        // Generamos JSON
+        const jsonFinalCompleto = {
+            ediciones: edicionesExistentes
+        };
+
+        const jsonString =
+            JSON.stringify(jsonFinalCompleto, null, 2);
+
+        // Base64
+        const nuevoContenidoBase64 =
+            btoa(unescape(encodeURIComponent(jsonString)));
+
+        // Commit
+        const resPut = await fetch(urlApi, {
+            method: "PUT",
+            headers: {
+                "Authorization": `Bearer ${token}`,
+                "Accept": "application/vnd.github+json",
+                "Content-Type": "application/json"
+            },
+            body: JSON.stringify({
+                message:
+                    `Publicación automatizada de la Edición Nro ${nuevaEdicion.numero}`,
+                content: nuevoContenidoBase64,
+                sha: sha
+            })
+        });
+
+        if (resPut.ok) {
+
+            alert(
+                `🎉 ¡Éxito Absoluto! La Edición Nro ${nuevaEdicion.numero} ya está en vivo en internet.`
+            );
+
+            document.getElementById('form-revista').reset();
+
+        } else {
+
+            const errData = await resPut.json();
+
+            throw new Error(
+                errData.message || "Error al guardar el archivo."
+            );
+        }
+
+    } catch (error) {
+
+        alert(`❌ Error Crítico: ${error.message}`);
+    }
+});
+    </script>
+</body>
+
+</html>
