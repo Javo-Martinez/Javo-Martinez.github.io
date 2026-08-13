@@ -15,14 +15,34 @@
       ],
       "notas": [
         {
-          "id": "3",
+          "id": "1",
           "tag": "Blabletas",
-          "titulo": "Supongo que nos vimos antes",
+          "titulo": "Supongo que nos vimos antes 1",
+          "entradilla": "Acá va una vez más",
+          "autor": "Conejo Editor",
+          "seccion": "Blablablá",
+          "contenido_html": "Estoy probando el comportamientop del yeison",
+          "imagen_destacada": "https://www.estonoesunarevista.com.ar/eneur-01-10/revista01/images/MlynaIndice.jpg"
+        },
+        {
+          "id": "2",
+          "tag": "Blabletas",
+          "titulo": "Supongo que nos vimos antes 2",
           "entradilla": "Acá va una vez más",
           "autor": "Conejo Editor",
           "seccion": "Blablablá",
           "contenido_html": "Estoy probando el comportamientop del yeison",
           "imagen_destacada": "https://www.estonoesunarevista.com.ar/eneur-01-10/revista01/images/Angelitos.jpg"
+        },
+        {
+          "id": "3",
+          "tag": "Blabletas",
+          "titulo": "Supongo que nos vimos antes 3",
+          "entradilla": "Acá va una vez más",
+          "autor": "Conejo Editor",
+          "seccion": "Blablablá",
+          "contenido_html": "Estoy probando el comportamientop del yeison",
+          "imagen_destacada": "https://www.estonoesunarevista.com.ar/eneur-01-10/revista01/images/SinestesiaBanda.jpg"
         }
       ]
     },
