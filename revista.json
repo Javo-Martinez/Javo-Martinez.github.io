@@ -11,6 +11,12 @@
           "color_seccion": "#de0239",
           "frase_encabezado": "Ya no sé lo que sabía",
           "autor_frase": "Al Ceimer"
+        },
+        {
+          "nombre": "Miradas",
+          "color_seccion": "violet",
+          "frase_encabezado": "Tuve un culo tremendo",
+          "autor_frase": "Jennifer López"
         }
       ],
       "notas": [
@@ -30,7 +36,7 @@
           "titulo": "Supongo que nos vimos antes 2",
           "entradilla": "Acá va una vez más",
           "autor": "Conejo Editor",
-          "seccion": "Blablablá",
+          "seccion": "Miradas",
           "contenido_html": "Estoy probando el comportamientop del yeison",
           "imagen_destacada": "https://www.estonoesunarevista.com.ar/eneur-01-10/revista01/images/Angelitos.jpg"
         },
