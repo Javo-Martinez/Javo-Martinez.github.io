@@ -83,9 +83,7 @@ function mostrarNavegacion(
 ) {
 
     const navegacion =
-        document.getElementById(
-            'nota-navegacion'
-        );
+        document.getElementById('nota-navegacion');
 
     if (!navegacion) return;
 
@@ -116,6 +114,10 @@ function mostrarNavegacion(
             : null;
 
 
+    const esUltimaNota =
+        indiceActual === notas.length - 1;
+
+
     navegacion.innerHTML = `
 
         <div class="nota-anterior">
@@ -144,6 +146,19 @@ function mostrarNavegacion(
                             href="nota.html?edicion=${numeroEdicion}&id=${encodeURIComponent(notaSiguiente.id)}"
                         >
                             Siguiente →
+                        </a>
+                      `
+                    : ''
+            }
+
+            ${
+                esUltimaNota
+                    ? `
+                        <a
+                            href="contratapa.html?edicion=${numeroEdicion}"
+                            class="link-contratapa"
+                        >
+                            Contratapa →
                         </a>
                       `
                     : ''
