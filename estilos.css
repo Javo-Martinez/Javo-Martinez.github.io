@@ -201,3 +201,23 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     font-size: 13px;
     font-style: italic;
 }
+
+.nota-link {
+     display: block;
+     color: inherit;
+     text-decoration: none;
+}
+ .nota-link:hover {
+     text-decoration: none;
+}
+ .nota-imagen {
+     width: 200px;
+     max-width: 100%;
+     overflow: hidden;
+}
+ .nota-imagen img {
+     display: block;
+     width: 100%;
+     height: auto;
+     object-fit: contain;
+}
