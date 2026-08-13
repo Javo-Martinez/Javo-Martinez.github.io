@@ -75,3 +75,81 @@ function mostrarNota(
         numeroEdicion
     );
 }
+
+function mostrarNavegacion(
+    nota,
+    notas,
+    numeroEdicion
+) {
+
+    const navegacion =
+        document.getElementById(
+            'nota-navegacion'
+        );
+
+    if (!navegacion) return;
+
+
+    const indiceActual =
+        notas.findIndex(
+            n =>
+                String(n.id) ===
+                String(nota.id)
+        );
+
+
+    if (indiceActual === -1) {
+        navegacion.innerHTML = '';
+        return;
+    }
+
+
+    const notaAnterior =
+        indiceActual > 0
+            ? notas[indiceActual - 1]
+            : null;
+
+
+    const notaSiguiente =
+        indiceActual < notas.length - 1
+            ? notas[indiceActual + 1]
+            : null;
+
+
+    navegacion.innerHTML = `
+
+        <div class="nota-anterior">
+
+            ${
+                notaAnterior
+                    ? `
+                        <a
+                            href="nota.html?edicion=${numeroEdicion}&id=${encodeURIComponent(notaAnterior.id)}"
+                        >
+                            ← Anterior
+                        </a>
+                      `
+                    : ''
+            }
+
+        </div>
+
+
+        <div class="nota-siguiente">
+
+            ${
+                notaSiguiente
+                    ? `
+                        <a
+                            href="nota.html?edicion=${numeroEdicion}&id=${encodeURIComponent(notaSiguiente.id)}"
+                        >
+                            Siguiente →
+                        </a>
+                      `
+                    : ''
+            }
+
+        </div>
+
+    `;
+}
