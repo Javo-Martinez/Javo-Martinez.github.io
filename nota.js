@@ -22,13 +22,22 @@ async function cargarNota()  {
       throw new Error( `No se encontró la nota ${idNota}.` );
     }
     const seccion = edicion.secciones_config.find( s => s.nombre === nota.seccion );
-    mostrarNota( nota, seccion );
+    mostrarNota(
+    nota,
+    seccion,
+    edicion.notas,
+    numeroEdicion
+    );
   } catch (error)  {
     console.error( 'Error al cargar la nota:', error );
     document.getElementById( 'nota' ).innerHTML = ` <h1> No se pudo cargar la nota </h1> <p> ${error.message} </p> <p> <a href="indice.html"> ← Volver al índice </a> </p> `;
   }
 }
-function mostrarNota( nota, seccion )  {
+function mostrarNota( 
+    nota,
+    seccion,
+    notas,
+    numeroEdicion)  {
   const colorSeccion = seccion?.color_seccion || '#999999';
   document.title = `${nota.titulo || 'Nota'} - Revista`;
   const elementoSeccion = document.getElementById( 'nota-seccion' );
@@ -59,5 +68,10 @@ function mostrarNota( nota, seccion )  {
   } else  {
     elementoImagen.style.display = 'none';
   }
-  document.getElementById( 'nota-contenido' ).innerHTML = nota.contenido_html || '';
+  document.getElementById( 'nota-contenido' ).innerHTML = nota.contenido_html || '';    
+  mostrarNavegacion(
+        nota,
+        notas,
+        numeroEdicion
+    );
 }
