@@ -35,11 +35,41 @@
 
         #portada {
             display: block;
+
             max-width: 100%;
             max-height: 100vh;
+
             width: auto;
             height: auto;
+
             cursor: pointer;
+
+            /*
+             * Estado inicial:
+             * invisible
+             */
+            opacity: 0;
+
+            /*
+             * Fade in / fade out
+             */
+            transition: opacity 1s ease;
+        }
+
+
+        /*
+         * Estado visible
+         */
+        #portada.visible {
+            opacity: 1;
+        }
+
+
+        /*
+         * Estado de salida
+         */
+        #portada.saliendo {
+            opacity: 0;
         }
 
     </style>
@@ -157,7 +187,7 @@
 
 
         // ============================================================
-        // CARGAR PORTADA
+        // ELEMENTO PORTADA
         // ============================================================
 
         const portada =
@@ -169,13 +199,81 @@
 
 
         // ============================================================
-        // REDIRECCIÓN
+        // MOSTRAR PORTADA
         // ============================================================
+
+        /*
+         * Esperamos un instante para permitir que
+         * el navegador renderice el estado opacity: 0
+         * antes de comenzar el fade in.
+         */
+
+        portada.addEventListener(
+            'load',
+            () => {
+
+                requestAnimationFrame(() => {
+
+                    portada.classList.add(
+                        'visible'
+                    );
+
+                });
+
+            }
+        );
+
+
+        // ============================================================
+        // REDIRECCIÓN CON FADE OUT
+        // ============================================================
+
+        let redireccionando = false;
+
 
         function irAlIndice() {
 
-            window.location.replace(
-                urlDestino
+            /*
+             * Evita que un click y el timeout
+             * disparen dos redirecciones.
+             */
+
+            if (redireccionando) {
+                return;
+            }
+
+
+            redireccionando = true;
+
+
+            /*
+             * Comenzar fade out
+             */
+
+            portada.classList.remove(
+                'visible'
+            );
+
+
+            portada.classList.add(
+                'saliendo'
+            );
+
+
+            /*
+             * Esperar a que termine
+             * la transición CSS.
+             */
+
+            setTimeout(
+                () => {
+
+                    window.location.replace(
+                        urlDestino
+                    );
+
+                },
+                1000
             );
 
         }
@@ -193,7 +291,6 @@
 
         // ============================================================
         // REDIRECCIÓN AUTOMÁTICA
-        // 30 SEGUNDOS
         // ============================================================
 
         setTimeout(
