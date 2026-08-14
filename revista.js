@@ -52,16 +52,60 @@ function mostrarNotas( notas, numeroEdicion )  {
     const claseSeccion = obtenerClaseSeccion( nota.seccion );
     const tarjeta = document.createElement( 'article' );
     tarjeta.className = 'nota-card';
-    tarjeta.innerHTML = ` <a href="nota.html?edicion=${numeroEdicion}&id=${encodeURIComponent(nota.id)}" class="nota-link" > <div class="nota-imagen"> <img src="${nota.imagen_destacada || ''}" alt="${nota.titulo || ''}" loading="lazy" > </div> <div class="nota-contenido"> <div class="nota-seccion ${claseSeccion}" > ${nota.seccion || ''} </div> ${ nota.tag ? ` <div class="nota-tag"> $ {
-      nota.tag
-    }
-    </div> ` : '' } <h3 class="nota-titulo"> ${nota.titulo || ''} </h3> ${ nota.entradilla ? ` <p class="nota-entradilla"> $ {
-      nota.entradilla
-    }
-    </p> ` : '' } ${ nota.autor ? ` <div class="nota-autor"> $ {
-      nota.autor
-    }
-    </div> ` : '' } </div> </a> `;
+    tarjeta.innerHTML = `
+
+    <a
+        href="nota.html?edicion=${numeroEdicion}&id=${encodeURIComponent(nota.id)}"
+        class="nota-link"
+    >
+
+        <div class="nota-imagen">
+
+            <img
+                src="${nota.imagen_destacada || ''}"
+                alt="${nota.titulo || ''}"
+                loading="lazy"
+            >
+
+        </div>
+
+
+        <div class="nota-contenido">
+
+            <div class="nota-seccion ${claseSeccion}">
+                ${nota.seccion || ''}
+            </div>
+
+
+            ${nota.tag ? `
+                <div class="nota-tag">
+                    ${nota.tag}
+                </div>
+            ` : ''}
+
+
+            <h3 class="nota-titulo">
+                ${nota.titulo || ''}
+            </h3>
+
+
+            ${nota.entradilla ? `
+                <p class="nota-entradilla">
+                    ${nota.entradilla}
+                </p>
+            ` : ''}
+
+
+            ${nota.autor ? `
+                <div class="nota-autor">
+                    ${nota.autor}
+                </div>
+            ` : ''}
+
+        </div>
+
+    </a>
+    `;
     contenedor.appendChild( tarjeta );
   }
   );
