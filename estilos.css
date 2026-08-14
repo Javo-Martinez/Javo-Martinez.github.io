@@ -58,7 +58,7 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
     border-bottom: 2px solid #feebc8; 
 }
 main {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
 }
 
@@ -212,7 +212,8 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
  .nota-link:hover {
      text-decoration: none;
 }
- .nota-imagen {
+/* 
+.nota-imagen {
      width: 200px;
      max-width: 100%;
      overflow: hidden;
@@ -223,6 +224,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
      height: auto;
      object-fit: contain;
 }
+*/
 .nota-navegacion {
     display: flex;
     justify-content: space-between;
