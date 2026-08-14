@@ -150,7 +150,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 
 .indice-notas {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 30px;
     margin-top: 40px;
 }
@@ -162,8 +162,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 }
 
 .nota-imagen {
-    width: 200px;
-    max-width: 100%;
+    width: 100%;
     overflow: hidden;
 }
 
@@ -171,7 +170,6 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     display: block;
     width: 100%;
     height: auto;
-    object-fit: contain;
 }
 
 .nota-contenido {
@@ -261,4 +259,20 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
   width: auto;
   height: auto;
   object-fit: contain;
+}
+
+@media (max-width: 1000px) {
+    .indice-notas {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+@media (max-width: 600px) {
+    main {
+        width: 90%;
+    }
+
+    .indice-notas {
+        grid-template-columns: 1fr;
+    }
 }
