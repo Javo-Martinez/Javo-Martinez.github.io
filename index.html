@@ -12,68 +12,8 @@
 
     <title>Esto No Es Una Revista</title>
 
-
-    <style>
-
-        html,
-        body {
-            width: 100%;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-            background-color: #000000;
-        }
-
-
-        body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            overflow: hidden;
-        }
-
-
-        #portada {
-            display: block;
-
-            max-width: 100%;
-            max-height: 100vh;
-
-            width: auto;
-            height: auto;
-
-            cursor: pointer;
-
-            /*
-             * Estado inicial:
-             * invisible
-             */
-            opacity: 0;
-
-            /*
-             * Fade in / fade out
-             */
-            transition: opacity 1s ease;
-        }
-
-
-        /*
-         * Estado visible
-         */
-        #portada.visible {
-            opacity: 1;
-        }
-
-
-        /*
-         * Estado de salida
-         */
-        #portada.saliendo {
-            opacity: 0;
-        }
-
-    </style>
-
+<link rel="stylesheet" href="estilos.css">
+    
 </head>
 
 
