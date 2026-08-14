@@ -57,11 +57,9 @@ body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-
     color: #c05621; 
     border-bottom: 2px solid #feebc8; 
 }
-.contenedor-principal{
-        width: 1200px;
-    max-width: 100%;
-    margin-left: auto;
-    margin-right: auto;
+main {
+    width: 80%;
+    margin: 0 auto;
 }
 
 /* SECCIÓN 5: SABORES (Verde Oliva) */
