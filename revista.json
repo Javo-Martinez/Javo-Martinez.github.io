@@ -8,13 +8,19 @@
       "secciones_config": [
         {
           "nombre": "Blablablá",
-          "color_seccion": "#de0239",
+          "color_seccion": "red",
           "frase_encabezado": "Ya no sé lo que sabía",
           "autor_frase": "Al Ceimer"
         },
         {
           "nombre": "Miradas",
           "color_seccion": "violet",
+          "frase_encabezado": "Tuve un culo tremendo",
+          "autor_frase": "Jennifer López"
+        },
+        {
+          "nombre": "Escritos",
+          "color_seccion": "orange",
           "frase_encabezado": "Tuve un culo tremendo",
           "autor_frase": "Jennifer López"
         }
@@ -48,6 +54,16 @@
           "autor": "Conejo Editor",
           "seccion": "Blablablá",
           "contenido_html": "Estoy probando el comportamientop del yeison",
+          "imagen_destacada": "https://www.estonoesunarevista.com.ar/eneur-01-10/revista08/images/oxb00.jpg"
+        },
+        {
+          "id": "4",
+          "tag": "Blabletas",
+          "titulo": "Supongo que nos vimos antes 4",
+          "entradilla": "Entradilla la ladilla",
+          "autor": "Pikachu",
+          "seccion": "Escritos",
+          "contenido_html": "Estoy probando el diseño",
           "imagen_destacada": "https://www.estonoesunarevista.com.ar/eneur-01-10/revista08/images/oxb00.jpg"
         }
       ]
