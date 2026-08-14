@@ -1,52 +1,209 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
     <title>Esto No Es Una Revista</title>
+
+
     <style>
-        /* Pantalla de espera limpia en negro mientras salta de servidor */
-        body { 
-            background-color: #000000; 
-            margin: 0; 
-            padding: 0; 
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background-color: #000000;
         }
+
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+
+        #portada {
+            display: block;
+            max-width: 100%;
+            max-height: 100vh;
+            width: auto;
+            height: auto;
+            cursor: pointer;
+        }
+
     </style>
-    <script>
-        document.addEventListener("DOMContentLoaded", () => {
-            // ==========================================================================
-            // CONFIGURÁ ACÁ EL NÚMERO DE EDICIÓN VIGENTE QUE QUERÉS MOSTRAR EN PORTADA
-            // ==========================================================================
-            const EDICION_VIGENTE = 28; 
 
-            // Formateamos el número a dos dígitos (ej: 3 -> "03", 15 -> "15")
-            const numFormateado = String(EDICION_VIGENTE).padStart(2, '0');
-            
-            let urlDestino = "";
-
-            // REGLAS MATEMÁTICAS DE ENRUTAMIENTO SEGÚN EL NÚMERO
-            
-            // Bloque 1: Del Número 1 al 10
-            if (EDICION_VIGENTE >= 1 && EDICION_VIGENTE <= 10) {
-                urlDestino = `/eneur-01-10/revista${numFormateado}/index.html`;
-            } 
-            // Bloque 2: Del Número 11 al 20
-            else if (EDICION_VIGENTE >= 11 && EDICION_VIGENTE <= 20) {
-                urlDestino = `/eneur-11-20/revista${numFormateado}/index.html`;
-            } 
-            // Bloque 3: Del Número 21 al 26 (Tu último tramo estático)
-            else if (EDICION_VIGENTE >= 21 && EDICION_VIGENTE <= 26) {
-                urlDestino = `/eneur-21-26/revista${numFormateado}/index.html`;
-            } 
-            // Futuro Dinámico: Número 27 en adelante (Manejados por tu nuevo sistema responsivo)
-            else {
-                urlDestino = `/indice.html?num=${EDICION_VIGENTE}`;
-            }
-
-            // Ejecutamos la redirección saltando el historial para evitar bucles molestos
-            window.location.replace(urlDestino);
-        });
-    </script>
 </head>
+
+
 <body>
+
+
+    <img
+        id="portada"
+        alt="Esto No Es Una Revista"
+    >
+
+
+    <script>
+
+        // ============================================================
+        // CONFIGURACIÓN
+        // ============================================================
+
+        const EDICION_VIGENTE = 28;
+
+
+        // ============================================================
+        // VARIABLES
+        // ============================================================
+
+        const numFormateado =
+            String(EDICION_VIGENTE)
+                .padStart(2, '0');
+
+
+        let urlDestino = "";
+        let urlPortada = "";
+
+
+        // ============================================================
+        // EDICIONES 1 A 10
+        // ============================================================
+
+        if (
+            EDICION_VIGENTE >= 1 &&
+            EDICION_VIGENTE <= 10
+        ) {
+
+            const directorio =
+                `/eneur-01-10/revista${numFormateado}`;
+
+            urlDestino =
+                `${directorio}/index.html`;
+
+            urlPortada =
+                `${directorio}/portada.jpg`;
+
+        }
+
+
+        // ============================================================
+        // EDICIONES 11 A 20
+        // ============================================================
+
+        else if (
+            EDICION_VIGENTE >= 11 &&
+            EDICION_VIGENTE <= 20
+        ) {
+
+            const directorio =
+                `/eneur-11-20/revista${numFormateado}`;
+
+            urlDestino =
+                `${directorio}/index.html`;
+
+            urlPortada =
+                `${directorio}/portada.jpg`;
+
+        }
+
+
+        // ============================================================
+        // EDICIONES 21 A 26
+        // ============================================================
+
+        else if (
+            EDICION_VIGENTE >= 21 &&
+            EDICION_VIGENTE <= 26
+        ) {
+
+            const directorio =
+                `/eneur-21-26/revista${numFormateado}`;
+
+            urlDestino =
+                `${directorio}/index.html`;
+
+            urlPortada =
+                `${directorio}/portada.jpg`;
+
+        }
+
+
+        // ============================================================
+        // EDICIONES 27 EN ADELANTE
+        // ============================================================
+
+        else {
+
+            urlDestino =
+                `/indice.html?num=${EDICION_VIGENTE}`;
+
+            urlPortada =
+                `/ediciones/${EDICION_VIGENTE}/portada.jpg`;
+
+        }
+
+
+        // ============================================================
+        // CARGAR PORTADA
+        // ============================================================
+
+        const portada =
+            document.getElementById('portada');
+
+
+        portada.src =
+            urlPortada;
+
+
+        // ============================================================
+        // REDIRECCIÓN
+        // ============================================================
+
+        function irAlIndice() {
+
+            window.location.replace(
+                urlDestino
+            );
+
+        }
+
+
+        // ============================================================
+        // CLICK EN LA PORTADA
+        // ============================================================
+
+        portada.addEventListener(
+            'click',
+            irAlIndice
+        );
+
+
+        // ============================================================
+        // REDIRECCIÓN AUTOMÁTICA
+        // 30 SEGUNDOS
+        // ============================================================
+
+        setTimeout(
+            irAlIndice,
+            30000
+        );
+
+    </script>
+
+
 </body>
+
 </html>
