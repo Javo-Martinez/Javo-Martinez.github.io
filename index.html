@@ -12,7 +12,7 @@
 
     <title>Esto No Es Una Revista</title>
 
-<link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="estilos.css">
     
 </head>
 
@@ -116,12 +116,51 @@
         // ============================================================
 
         else {
+            if (
+                EDICION_VIGENTE >= 27 &&
+                EDICION_VIGENTE <= 40
+            ){
+                urlPortada = `/eneur-27-40/revista${numFormateado}/portada.jpg`;
+            }
+            else if (
+                EDICION_VIGENTE >= 41 &&
+                EDICION_VIGENTE <= 50
+            ){
+                urlPortada = `/eneur-41-50/revista${numFormateado}/portada.jpg`;
+            }
+            else if (
+                EDICION_VIGENTE >= 51 &&
+                EDICION_VIGENTE <= 60
+            ){
+                urlPortada = `/eneur-51-60/revista${numFormateado}/portada.jpg`;
+            }
+            else if (
+                EDICION_VIGENTE >= 61 &&
+                EDICION_VIGENTE <= 70
+            ){
+                urlPortada = `/eneur-61-70/revista${numFormateado}/portada.jpg`;
+            }
+            else if (
+                EDICION_VIGENTE >= 71 &&
+                EDICION_VIGENTE <= 80
+            ){
+                urlPortada = `/eneur-71-80/revista${numFormateado}/portada.jpg`;
+            }
+            else if (
+                EDICION_VIGENTE >= 81 &&
+                EDICION_VIGENTE <= 90
+            ){
+                urlPortada = `/eneur-81-90/revista${numFormateado}/portada.jpg`;
+            }
+            else if (
+                EDICION_VIGENTE >= 91 &&
+                EDICION_VIGENTE <= 100
+            ){
+                urlPortada = `/eneur-91-00/revista${numFormateado}/portada.jpg`;
+            }
 
             urlDestino =
                 `/indice.html?num=${EDICION_VIGENTE}`;
-
-            urlPortada =
-                `/ediciones/${EDICION_VIGENTE}/portada.jpg`;
 
         }
 
