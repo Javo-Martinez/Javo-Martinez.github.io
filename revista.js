@@ -46,7 +46,15 @@ function mostrarEditorial(editorial)  {
 }
 /* * Grilla de notas */
 function mostrarNotas( notas, numeroEdicion )  {
+  
   const contenedor = document.getElementById( 'indice-notas' );
+  const numFormateado = String(numeroEdicion).padStart(2, '0');
+
+  // ============================================================
+  // VARIABLES
+  // ============================================================
+  let urlImage = "";
+  
   if (!contenedor)  {
     console.error( 'No existe el elemento #indice-notas en indice.html' );
     return;
@@ -65,8 +73,12 @@ function mostrarNotas( notas, numeroEdicion )  {
 
         <div class="nota-imagen">
 
+            if(numeroEdicion>= 27 && numeroEdicion<= 40 ){
+              urlImage = `/eneur-27-40/revista${numFormateado}/images/${nota.id_nota}.jpg`;
+            }
+
             <img
-                src="${nota.imagen_destacada || ''}"
+                src="${urlImage || ''}"
                 alt="${nota.titulo || ''}"
                 loading="lazy"
             >
