@@ -66,6 +66,24 @@ function mostrarNotas( notas, numeroEdicion )  {
       if (numeroEdicion >= 27 && numeroEdicion <= 40) {
          urlImage = `/eneur-27-40/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
       }
+      else if (numeroEdicion >= 41 && numeroEdicion <= 50) {
+         urlImage = `/eneur-41-50/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+      }
+      else if (numeroEdicion >= 51 && numeroEdicion <= 60) {
+         urlImage = `/eneur-51-60/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+      }
+      else if (numeroEdicion >= 61 && numeroEdicion <= 70) {
+         urlImage = `/eneur-61-70/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+      }
+      else if (numeroEdicion >= 71 && numeroEdicion <= 80) {
+         urlImage = `/eneur-71-80/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+      }
+      else if (numeroEdicion >= 81 && numeroEdicion <= 90) {
+         urlImage = `/eneur-81-90/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+      }
+      else if (numeroEdicion >= 91 && numeroEdicion <= 00) {
+         urlImage = `/eneur-91-00/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+      }
     const tarjeta = document.createElement( 'article' );
     tarjeta.className = 'nota-card';
     tarjeta.innerHTML = `
