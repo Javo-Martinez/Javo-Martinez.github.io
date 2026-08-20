@@ -51,9 +51,14 @@ function mostrarNotas( notas, numeroEdicion )  {
   const numFormateado = String(numeroEdicion).padStart(2, '0');
 
   // ============================================================
-  // VARIABLES
+  // URL DE LA IMAGEN
   // ============================================================
-  let urlImage = "";
+
+  let urlImage = '';
+
+  if (numeroEdicion >= 27 && numeroEdicion <= 40) {
+      urlImage = `/eneur-27-40/revista${numFormateado}/images/${nota.id_nota}.jpg`;
+  }
   
   if (!contenedor)  {
     console.error( 'No existe el elemento #indice-notas en indice.html' );
@@ -72,10 +77,6 @@ function mostrarNotas( notas, numeroEdicion )  {
     >
 
         <div class="nota-imagen">
-
-            if(numeroEdicion>= 27 && numeroEdicion<= 40 ){
-              urlImage = `/eneur-27-40/revista${numFormateado}/images/${nota.id_nota}.jpg`;
-            }
 
             <img
                 src="${urlImage || ''}"
