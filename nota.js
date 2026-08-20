@@ -205,22 +205,53 @@ async function mostrarNota(
     // ============================================================
     // IMAGEN
     // ============================================================
-
+    
     const elementoImagen =
         document.getElementById('nota-imagen');
-
+    
     if (nota.imagen_destacada) {
-
-        elementoImagen.innerHTML = `
-            <img
-                src="${nota.imagen_destacada}"
-            >
-        `;
-
+    
+        let urlImagen = '';
+    
+        if (numeroEdicion >= 27 && numeroEdicion <= 40) {
+            urlImagen =
+                `/eneur-27-40/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+        }
+        else if (numeroEdicion >= 41 && numeroEdicion <= 60) {
+            urlImagen =
+                `/eneur-41-60/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+        }
+        else if (numeroEdicion >= 61 && numeroEdicion <= 70) {
+            urlImagen =
+                `/eneur-61-70/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+        }
+        else if (numeroEdicion >= 71 && numeroEdicion <= 80) {
+            urlImagen =
+                `/eneur-71-80/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+        }
+        else if (numeroEdicion >= 81 && numeroEdicion <= 90) {
+            urlImagen =
+                `/eneur-81-90/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+        }
+        else if (numeroEdicion >= 91 && numeroEdicion <= 99) {
+            urlImagen =
+                `/eneur-91-00/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+        }
+    
+        if (urlImagen) {
+            elementoImagen.innerHTML = `
+                <img
+                    src="${urlImagen}"
+                    alt="${nota.titulo || ''}"
+                >
+            `;
+        } else {
+            elementoImagen.style.display = 'none';
+        }
+    
     } else {
-
-        elementoImagen.style.display =
-            'none';
+    
+        elementoImagen.style.display = 'none';
     }
 
 
