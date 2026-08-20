@@ -64,7 +64,7 @@ function mostrarNotas( notas, numeroEdicion )  {
     const claseSeccion = obtenerClaseSeccion( nota.seccion );
     let urlImage = '';
       if (numeroEdicion >= 27 && numeroEdicion <= 40) {
-         urlImage = `/eneur-27-40/revista${numFormateado}/images/${nota.id_nota}.jpg`;
+         urlImage = `/eneur-27-40/revista${numFormateado}/images/${nota.id_nota}min.jpg`;
       }
     const tarjeta = document.createElement( 'article' );
     tarjeta.className = 'nota-card';
