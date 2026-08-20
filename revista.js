@@ -54,12 +54,7 @@ function mostrarNotas( notas, numeroEdicion )  {
   // URL DE LA IMAGEN
   // ============================================================
 
-  let urlImage = '';
-
-  if (numeroEdicion >= 27 && numeroEdicion <= 40) {
-      urlImage = `/eneur-27-40/revista${numFormateado}/images/${nota.id_nota}.jpg`;
-  }
-  
+ 
   if (!contenedor)  {
     console.error( 'No existe el elemento #indice-notas en indice.html' );
     return;
@@ -67,6 +62,10 @@ function mostrarNotas( notas, numeroEdicion )  {
   contenedor.innerHTML = '';
   notas.forEach(nota =>  {
     const claseSeccion = obtenerClaseSeccion( nota.seccion );
+    let urlImage = '';
+      if (numeroEdicion >= 27 && numeroEdicion <= 40) {
+         urlImage = `/eneur-27-40/revista${numFormateado}/images/${nota.id_nota}.jpg`;
+      }
     const tarjeta = document.createElement( 'article' );
     tarjeta.className = 'nota-card';
     tarjeta.innerHTML = `
