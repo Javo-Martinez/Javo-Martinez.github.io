@@ -68,7 +68,21 @@ function mostrarNota(
   } else  {
     elementoImagen.style.display = 'none';
   }
-  document.getElementById( 'nota-contenido' ).innerHTML = nota.contenido_html || '';    
+
+  
+  //document.getElementById( 'nota-contenido' ).innerHTML = nota.contenido_html || '';    
+
+  const urlContenido = `/eneur-27-40/revista${numFormateado}/content/${nota.id_pagina}.php`;
+  const respuestaContenido = await fetch(urlContenido);
+
+  if (!respuestaContenido.ok) {
+      throw new Error(`No se pudo cargar el contenido: ${respuestaContenido.status}`);
+  }
+
+  const contenidoHTML = await respuestaContenido.text();
+
+  document.getElementById('nota-contenido').innerHTML = contenidoHTML;
+  
   mostrarNavegacion(
         nota,
         notas,
