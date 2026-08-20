@@ -214,7 +214,6 @@ async function mostrarNota(
         elementoImagen.innerHTML = `
             <img
                 src="${nota.imagen_destacada}"
-                alt="${nota.titulo || ''}"
             >
         `;
 
