@@ -215,27 +215,31 @@ async function mostrarNota(
     
         if (numeroEdicion >= 27 && numeroEdicion <= 40) {
             urlImagen =
-                `/eneur-27-40/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+                `/eneur-27-40/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
         }
-        else if (numeroEdicion >= 41 && numeroEdicion <= 60) {
+        else if (numeroEdicion >= 41 && numeroEdicion <= 50) {
             urlImagen =
-                `/eneur-41-60/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+                `/eneur-41-50/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
+        }
+        else if (numeroEdicion >= 51 && numeroEdicion <= 60) {
+            urlImagen =
+                `/eneur-51-60/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
         }
         else if (numeroEdicion >= 61 && numeroEdicion <= 70) {
             urlImagen =
-                `/eneur-61-70/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+                `/eneur-61-70/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
         }
         else if (numeroEdicion >= 71 && numeroEdicion <= 80) {
             urlImagen =
-                `/eneur-71-80/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+                `/eneur-71-80/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
         }
         else if (numeroEdicion >= 81 && numeroEdicion <= 90) {
             urlImagen =
-                `/eneur-81-90/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+                `/eneur-81-90/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
         }
         else if (numeroEdicion >= 91 && numeroEdicion <= 99) {
             urlImagen =
-                `/eneur-91-00/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
+                `/eneur-91-00/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
         }
     
         if (urlImagen) {
