@@ -73,37 +73,44 @@ function mostrarNota(
   //document.getElementById( 'nota-contenido' ).innerHTML = nota.contenido_html || '';    
 
   
-      if (numeroEdicion >= 27 && numeroEdicion <= 40) {
-         urlContenido = `/eneur-27-40/revista${numFormateado}/content/${nota.id_pagina}.php`;
-      }
-      else if (numeroEdicion >= 41 && numeroEdicion <= 50) {
-         urlContenido = `/eneur-41-60/revista${numFormateado}/content/${nota.id_pagina}.php`;
-      }
-      else if (numeroEdicion >= 51 && numeroEdicion <= 60) {
-         urlContenido = `/eneur-51-60/revista${numFormateado}/content/${nota.id_pagina}.php`;
-      }
-      else if (numeroEdicion >= 61 && numeroEdicion <= 70) {
-         urlContenido = `/eneur-61-70/revista${numFormateado}/content/${nota.id_pagina}.php`;
-      }
-      else if (numeroEdicion >= 71 && numeroEdicion <= 80) {
-         urlContenido = `/eneur-71-80/revista${numFormateado}/content/${nota.id_pagina}.php`;
-      }
-      else if (numeroEdicion >= 81 && numeroEdicion <= 90) {
-         urlContenido = `/eneur-81-90/revista${numFormateado}/content/${nota.id_pagina}.php`;
-      }
-      else if (numeroEdicion >= 91 && numeroEdicion <= 100) {
-         urlContenido = `/eneur-91-00/revista${numFormateado}/content/${nota.id_pagina}.php`;
-      }
+  let urlContenido = '';
 
-  const urlContenido = `/urlContenido/revista${numFormateado}/content/${nota.id_pagina}.php`;
-  const respuestaContenido = await fetch(urlContenido);
-
-  if (!respuestaContenido.ok) {
-      throw new Error(`No se pudo cargar el contenido: ${respuestaContenido.status}`);
+  if (numeroEdicion >= 27 && numeroEdicion <= 40) {
+      urlContenido = `/eneur-27-40/revista${numFormateado}/content/${nota.id_pagina}.php`;
   }
-
+  else if (numeroEdicion >= 41 && numeroEdicion <= 50) {
+      urlContenido = `/eneur-41-60/revista${numFormateado}/content/${nota.id_pagina}.php`;
+  }
+  else if (numeroEdicion >= 51 && numeroEdicion <= 60) {
+      urlContenido = `/eneur-51-60/revista${numFormateado}/content/${nota.id_pagina}.php`;
+  }
+  else if (numeroEdicion >= 61 && numeroEdicion <= 70) {
+      urlContenido = `/eneur-61-70/revista${numFormateado}/content/${nota.id_pagina}.php`;
+  }
+  else if (numeroEdicion >= 71 && numeroEdicion <= 80) {
+      urlContenido = `/eneur-71-80/revista${numFormateado}/content/${nota.id_pagina}.php`;
+  }
+  else if (numeroEdicion >= 81 && numeroEdicion <= 90) {
+      urlContenido = `/eneur-81-90/revista${numFormateado}/content/${nota.id_pagina}.php`;
+  }
+  else if (numeroEdicion >= 91 && numeroEdicion <= 100) {
+      urlContenido = `/eneur-91-00/revista${numFormateado}/content/${nota.id_pagina}.php`;
+  }
+  
+  if (!urlContenido) {
+      throw new Error(`No se encontró una ruta de contenido para la edición ${numeroEdicion}.`);
+  }
+  
+  const respuestaContenido = await fetch(urlContenido);
+  
+  if (!respuestaContenido.ok) {
+      throw new Error(
+          `No se pudo cargar el contenido de ${urlContenido}: HTTP ${respuestaContenido.status}`
+      );
+  }
+  
   const contenidoHTML = await respuestaContenido.text();
-
+  
   document.getElementById('nota-contenido').innerHTML = contenidoHTML;
   
   mostrarNavegacion(
