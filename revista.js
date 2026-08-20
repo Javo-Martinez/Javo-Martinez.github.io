@@ -81,7 +81,7 @@ function mostrarNotas( notas, numeroEdicion )  {
       else if (numeroEdicion >= 81 && numeroEdicion <= 90) {
          urlImage = `/eneur-81-90/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
       }
-      else if (numeroEdicion >= 91 && numeroEdicion <= 00) {
+      else if (numeroEdicion >= 91 && numeroEdicion <= 100) {
          urlImage = `/eneur-91-00/revista${numFormateado}/images/${nota.imagen_destacada}min.jpg`;
       }
     const tarjeta = document.createElement( 'article' );
