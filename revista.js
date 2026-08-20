@@ -26,8 +26,12 @@ async function cargarIndice()  {
     if (!edicion)  {
       throw new Error( `No se encontró la edición ${numeroEdicion}.` );
     }
-    mostrarEditorial( edicion.editorial );
-    mostrarNotas( edicion.notas || [], numeroEdicion );
+    const notasOrdenadas = [...(edicion.notas || [])].sort(
+    (a, b) => Number(a.id_nota) - Number(b.id_nota)
+    );
+    mostrarEditorial(edicion.editorial);
+    mostrarNotas(notasOrdenadas, numeroEdicion);
+    //mostrarNotas( edicion.notas || [], numeroEdicion );
   } catch (error)  {
     console.error( 'Error en la revista:', error );
   }
