@@ -33,7 +33,7 @@
         {
           "id": "652",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Sacate esa cruz",
           "titulo": "Misa negra",
           "entradilla": "Casi desconocido en castellano, el prolífico y polémico dramaturgo Edward Bond es autor de \"Misa negra\", una obra en la que la violencia se erige como síntoma de una sociedad desigual. ",
@@ -45,7 +45,7 @@
         {
           "id": "653",
           "id_nota": 2,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Papa blanca",
           "titulo": "Los puentes de San Francisco",
           "entradilla": "La llegada de Francisco al Vaticano consiguió que el papado haya restaurado el vínculo de dominación con la feligresía, ávida de pastores sin manchas en el delantal.",
@@ -57,7 +57,7 @@
         {
           "id": "654",
           "id_nota": 3,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Contate otro",
           "titulo": "La creación futura del cuento actual",
           "entradilla": "Los cuentos de Samanta Schweblin conducen al lector a escenarios donde lo extraño es cotidiano y en los cuales todo es lo más importante de todo. ",
@@ -69,7 +69,7 @@
         {
           "id": "655",
           "id_nota": 4,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Dulce leer",
           "titulo": "Golosinas literarias",
           "entradilla": "Leer es una hermosa actividad. La colaboradora más jovencita de nuestro staff lo sabe con creces y lo comparte con los lectores.",
@@ -81,7 +81,7 @@
         {
           "id": "656",
           "id_nota": 5,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Son un puéma",
           "titulo": "Plaquette",
           "entradilla": "Los poetas Ricardo G. Curci y Marion Berguenfeld se invitan al cumpleaños de nuestra revista con poemas de belleza y desasosiego a partes prácticamente iguales. ",
@@ -93,7 +93,7 @@
         {
           "id": "681",
           "id_nota": 6,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Sagrada familia",
           "titulo": "Entonces rezo",
           "entradilla": "En los trazos infinitos de lo cotidiano, al puzzle de curas que podamos haber conocido siempre le faltará un capítulo...",
@@ -105,7 +105,7 @@
         {
           "id": "657",
           "id_nota": 7,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Abuelita dime tú",
           "titulo": "Pueblo, de Julia Magistratti",
           "entradilla": "El difícil arte de amasar los paisajes locales sin ser costumbrista encuentra en Pueblo una muy buena materia prima.",
@@ -117,7 +117,7 @@
         {
           "id": "658",
           "id_nota": 9,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "The talking priests",
           "titulo": "Suenan curas",
           "entradilla": "Un breve repaso por la presencia eclesiástica en canciones nos revela que, sin llegar a la reputación de un Pomelo, los curas también tienen con qué dar qué hablar. ",
@@ -129,7 +129,7 @@
         {
           "id": "659",
           "id_nota": 10,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Éramos tan jóvenes",
           "titulo": "Inconfesables: Pilot",
           "entradilla": "Vayan poniéndose en fila los maduros que alguna vez no hayan agitado sus articulaciones al ritmo de alguna de las canciones producidas por el productor de los productores. ",
@@ -141,7 +141,7 @@
         {
           "id": "660",
           "id_nota": 12,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Rompiendo la opacidad",
           "titulo": "Anton Bruckner ",
           "entradilla": "La figura de Anton Bruckner osciló entre el apocamiento de su personalidad, la fragilidad ante los otros y un genio musical que revolucionó formas de la sinfonía. ",
@@ -153,7 +153,7 @@
         {
           "id": "661",
           "id_nota": 13,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Botines jailaifes",
           "titulo": "Aquellas milongas en el patio",
           "entradilla": "El tango es memoria individual y colectiva. Después uno crece y se olvida de todo. Hasta que el fuelle universal vuelve a sonar. ",
@@ -165,7 +165,7 @@
         {
           "id": "662",
           "id_nota": 14,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "Muta, mutita, mutón",
           "titulo": "Un tema: LP",
           "entradilla": "Laura Pergolizzi mutó en LP como una síntesis clara de la diversidad que presenta su hacer musical dúctil, ambiguo y mediático a su pesar. ",
@@ -177,7 +177,7 @@
         {
           "id": "663",
           "id_nota": 15,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Oh, my God!",
           "titulo": "Video sorpresa x 2",
           "entradilla": "Preparen el pochoclo, mis queridos monaguillos, que los videos sorpresa de este número nos llevan de cabeza al cine con mayúscula. ",
@@ -189,7 +189,7 @@
         {
           "id": "664",
           "id_nota": 16,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Color desesperanza",
           "titulo": "Fotografías: William Eggleston",
           "entradilla": "Las fotos de William Eggleston nos devuelven (coloreada) la pregunta del millón: ¿qué puede haber de artístico en el revoque de una pared?",
@@ -201,7 +201,7 @@
         {
           "id": "665",
           "id_nota": 17,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "¡Santa muerte, Batman!",
           "titulo": "RIP: Adam West",
           "entradilla": "El eterno encapotado emprendió su vuelo definitivo tras habernos decorado todas las tardes de cuando la vida, simplemente, era posible. ",
@@ -213,7 +213,7 @@
         {
           "id": "666",
           "id_nota": 18,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Un vestido y un amor",
           "titulo": "Nada del amor me produce envidia",
           "entradilla": "  Lo extraordinario se cuela un día por una puerta como si una tela se rasgara y revelara lo que intentó disimular tanto tiempo. ",
@@ -225,7 +225,7 @@
         {
           "id": "667",
           "id_nota": 20,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Fumata pictórica",
           "titulo": "Plástica: Papas",
           "entradilla": "A pesar del relativismo imperante, no se puede negar que ser papa no es cosa fácil. Ni divertida, tal y como lo muestran estos seculares retratos. ",
@@ -237,7 +237,7 @@
         {
           "id": "668",
           "id_nota": 21,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "El desierto de las almas",
           "titulo": "Fargo: elogio del idiota",
           "entradilla": "Bajo la sombra de los hermanos Coen se despliega la serie televisiva Fargo, que tiene mucho más que ofrecer que su buena factura y sus fabulosas interpretaciones. ",
@@ -249,7 +249,7 @@
         {
           "id": "669",
           "id_nota": 22,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Retócala de nuevo, Sam",
           "titulo": "Fotografías: Matt Stuart",
           "entradilla": "La mirada constante del fotógrafo londinense Matt Stuart convierte en ¿real? aquello que el Photoshop te compondría en un par de capas. ",
@@ -261,7 +261,7 @@
         {
           "id": "670",
           "id_nota": 23,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Los colores del cielo",
           "titulo": "Londaibere: adiós al maestro",
           "entradilla": "Poco tiempo atrás levó anclas Alfredo Londaibere -Londaitzbehere-, quien atravesó todos los paisajes de este mundo sobre la Tierra y se despidió de nosotros para conquistar la eternidad. ",
@@ -273,7 +273,7 @@
         {
           "id": "671",
           "id_nota": 25,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Trazo grueso",
           "titulo": "Plástica: Tomory Dodge ",
           "entradilla": "Cuando Tomory Dodge dejó atrás los trazos figurativos en su pintura comenzó a revelar esos terrores tan modernos, tan de antaño; tan centrales, tan de todos. ",
@@ -285,7 +285,7 @@
         {
           "id": "672",
           "id_nota": 26,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "El padre de la tía Vicenta",
           "titulo": "RIP: Landrú",
           "entradilla": "El adiós a Landrú es también la despedida de una forma cándida y profunda de compartir el humor gráfica.",
@@ -297,7 +297,7 @@
         {
           "id": "673",
           "id_nota": 27,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "¡Quiero mover el bote!",
           "titulo": "Fotos: Isabel Díez",
           "entradilla": "Los paisajes de Isabel Díez se inscriben en un registro onírico que hace de la naturaleza un territorio en movimiento constante. ",
@@ -309,7 +309,7 @@
         {
           "id": "674",
           "id_nota": 28,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Las bombas tan temidas",
           "titulo": "A 80 años del genocidio de Guernica",
           "entradilla": "La tragedia de Guernica constituye un momento clave en el devenir de los horrores posteriores que aún hoy siguen espantando al mundo.",
@@ -321,7 +321,7 @@
         {
           "id": "675",
           "id_nota": 29,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Mirá para arriba",
           "titulo": "Mi techo de madera",
           "entradilla": "¿\"Están solos en la cama y empiezan a mirar el techo y en el techo no hay nada, hay solamente un techo\"? Nada de eso.",
@@ -333,7 +333,7 @@
         {
           "id": "676",
           "id_nota": 30,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Manden fruta",
           "titulo": "Veggies",
           "entradilla": "Ahí, mientras secaba cubiertos y le sacaba brillo a las copas, comprendió que su intimidad no estaba a su alcance. ",
@@ -345,7 +345,7 @@
         {
           "id": "677",
           "id_nota": 31,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Te conozco, sotanita",
           "titulo": "Curas",
           "entradilla": "La presencia de curas contribuye a trazar un recorrido biográfico que, no puede ser de otra manera, atraviesa también la historia del país. ",
@@ -357,7 +357,7 @@
         {
           "id": "678",
           "id_nota": 32,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Tiempo de blandura",
           "titulo": "Fatto in casa: bondiola braseada",
           "entradilla": "Paso a paso, la dedicación con que encaremos la bondiola braseada será directamente proporcional a la ternura que obtengamos en el resultado final. ",
@@ -369,7 +369,7 @@
         {
           "id": "679",
           "id_nota": 33,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "Aquellos chicos antisopa",
           "titulo": "Sopas para el invierno",
           "entradilla": "Todo somos Mafalda, ok. Salvo cuando se trata de blandir la cuchara y enfrentarnos a alguna de las sopas que con tanta generosidad nos ofrece nuestro máster chef. ",
@@ -381,7 +381,7 @@
         {
           "id": "680",
           "id_nota": 34,
-          "id_Pagina": 30,
+          "id_pagina": 30,
           "tag": "Un poco de amor francés",
           "titulo": "Fatto in casa II: ragú",
           "entradilla": "No importa cómo entiendas el ragú: esta receta le viene como anillo al dedo de cualquier definición. ",
@@ -425,7 +425,7 @@
         {
           "id": "615",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "ET phone home",
           "titulo": "La historia del checoslovaco",
           "entradilla": "Un recorte periodístico creado por Camus lo obliga a dar a luz una nueva obra.",
@@ -437,7 +437,7 @@
         {
           "id": "616",
           "id_nota": 3,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Blanco y rabiante",
           "titulo": "El amor puro, de Pascal Quignard",
           "entradilla": "Apelando a un heterónimo femenino, Quignard se mete de lleno con los vericuetos amorosos en tiempos impuros.",
@@ -449,7 +449,7 @@
         {
           "id": "617",
           "id_nota": 4,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Tócalo de nuevo, Kurt",
           "titulo": "Madre noche, de Kurt Vonnegut",
           "entradilla": "El novelista vuelve sobre el leitmotiv de gran parte de su literatura para crear una criatura mordaz, inteligente, incorrecta y descarnada.",
@@ -461,7 +461,7 @@
         {
           "id": "618",
           "id_nota": 5,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Llueve sobre Viena",
           "titulo": "Lluvia freudiana",
           "entradilla": "Una carta de Freud a su esposa describe una tormenta inolvidable y feroz.",
@@ -473,7 +473,7 @@
         {
           "id": "619",
           "id_nota": 6,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Hasta las manos",
           "titulo": "Nadie, ni siquiera la lluvia...",
           "entradilla": "Uno de los más precisos y preciosos poemas del norteamericano que viene al dedillo en ocasión de este número.",
@@ -485,7 +485,7 @@
         {
           "id": "620",
           "id_nota": 7,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Bicho raro",
           "titulo": "Ante el horror",
           "entradilla": "Franz Kafka y muchas formas del horror cotidiano se dieron cita frecuentemente para parir monstruos y literatura.",
@@ -497,7 +497,7 @@
         {
           "id": "621",
           "id_nota": 8,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Dulce por dónde la mires",
           "titulo": "Golosinas literarias",
           "entradilla": "La gurrumina de la casa se puso deditos al teclado y no dejó que los adultos intervinieran sus notas sobre libros que le gustaron mucho.",
@@ -509,7 +509,7 @@
         {
           "id": "622",
           "id_nota": 9,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Poemas x 2",
           "titulo": "Plaquette: Patricia Verón y Guillermo Cácharo",
           "entradilla": "Nueva plaquette de poesía de ENEUR que invita a (re)descubrir a dos poetas de la provincia de Buenos Aires. ",
@@ -521,7 +521,7 @@
         {
           "id": "623",
           "id_nota": 10,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Un largo adiós",
           "titulo": "Presencia de Rubén Darío",
           "entradilla": "A cien años de la muerte de Rubén Darío, el autor de esta nota nos invita a experimentar un nuevo modo de leer su obra.",
@@ -533,7 +533,7 @@
         {
           "id": "624",
           "id_nota": 11,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "La mano de Dios",
           "titulo": "Dios se desnuda en la lluvia...",
           "entradilla": "El poema de Juanele nos libera de la responsabilidad de decir algo profundo sobre él.",
@@ -545,7 +545,7 @@
         {
           "id": "625",
           "id_nota": 12,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Alma negra",
           "titulo": "Michael Kiwanuka: Love & Hate",
           "entradilla": "El soul de Michael Kiwanuka excede los límites de lo retro para erguirse como una invención hecha y derecha.",
@@ -557,7 +557,7 @@
         {
           "id": "627",
           "id_nota": 14,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "Gran valor del tango",
           "titulo": "RIP: Horacio Salgán",
           "entradilla": "Tipo moderno si los hubo, en formaciones clásicas si las hubo, el viejo Horacio se fue para el cielo del 2 x 4.",
@@ -569,7 +569,7 @@
         {
           "id": "626",
           "id_nota": 15,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Lluevan corcheas",
           "titulo": "Breves: ¡no more paragua!",
           "entradilla": "El tema central de ENEUR/39 dio para una selección amplia en varios sentidos y acotada a unos pocos botones de muestra.",
@@ -581,7 +581,7 @@
         {
           "id": "628",
           "id_nota": 16,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Lo hicimos de nuevo",
           "titulo": "Inconfesables",
           "entradilla": "El pasado tiene zonas oscuras e inconfesables que es bueno exorcizar a la luz de vinilos de colores.",
@@ -593,7 +593,7 @@
         {
           "id": "629",
           "id_nota": 18,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Lluvia cantada",
           "titulo": "Video Sorpresa",
           "entradilla": "No hubo mucho que pensar, menos hubo que discutir al respecto. Queda para la trivia si el protagonista tenía o no 39 grados de fiebre cuando filmó la famosa escena.",
@@ -605,7 +605,7 @@
         {
           "id": "630",
           "id_nota": 19,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Siempre garpa",
           "titulo": "Plástica: Turner",
           "entradilla": "La pintura del inglés siempre da paño para recortar una experiencia única.",
@@ -617,7 +617,7 @@
         {
           "id": "631",
           "id_nota": 20,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Los patrones del mal",
           "titulo": "Snowtown",
           "entradilla": "Uno de los mayores logros de Snowtown es escabullirse airosamente de cualquier trampa de la banalidad.",
@@ -629,7 +629,7 @@
         {
           "id": "632",
           "id_nota": 21,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Las casualidades que no existen",
           "titulo": "Fotografías: Vivien Maier",
           "entradilla": "Descubierta por azar, la mayor parte de la obra fotográfica de Vivien Maier permaneció sin revelar durante mucho tiempo.",
@@ -641,7 +641,7 @@
         {
           "id": "633",
           "id_nota": 22,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Abuelito dime tú",
           "titulo": "Los Justos. Augusto César Ferrari.",
           "entradilla": "La pintura del padre de León Ferrari le trae reminiscencias familiares a la autora de esta nota.",
@@ -653,7 +653,7 @@
         {
           "id": "634",
           "id_nota": 23,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Pequeña demonia",
           "titulo": "Fotografías: Francesca Woodman",
           "entradilla": "La obra de Francesca Woodman, desarrollada en sus pocos años sobre la faz de la Tierra, es tan inquietante como intensa y conmovedora.",
@@ -665,7 +665,7 @@
         {
           "id": "635",
           "id_nota": 24,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Cortar, confeccionar, editar",
           "titulo": "La importancia de la edición",
           "entradilla": "El cine no agota sus posibilidades estéticas con la luz y su registro en celuloide...",
@@ -677,7 +677,7 @@
         {
           "id": "636",
           "id_nota": 25,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Sistema francés",
           "titulo": "¿Vender o vender(se)? Esa es la cuestión",
           "entradilla": "El cine francés ha explorado en muchas ocasiones la relación del hombre con el sistema político y económico en el que vive. El largometraje de Stéphane Brizé es una nueva vuelta de tuerca.",
@@ -689,7 +689,7 @@
         {
           "id": "637",
           "id_nota": 26,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Take a walk on the wildside",
           "titulo": "El legado Supertramp",
           "entradilla": "Una carretera en Alaska se convirtió en el camino sin retorno de Christopher McCandless.",
@@ -701,7 +701,7 @@
         {
           "id": "638",
           "id_nota": 27,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Frankie en el cielo con diamantes",
           "titulo": "RIP: Gene Wilder",
           "entradilla": "La vida no dura para siempre, pero Gene Wilder nos deja una herencia de comedias que la hacen mejor.",
@@ -713,7 +713,7 @@
         {
           "id": "639",
           "id_nota": 28,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "París no era una fiesta",
           "titulo": "Francofonía",
           "entradilla": "Un nuevo filme de Alexander Sokurov construye y reconstruye su discurso pivotando en la inagotable Segunda Guerra Mundial.",
@@ -725,7 +725,7 @@
         {
           "id": "640",
           "id_nota": 29,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Llueve y lloverá",
           "titulo": "Aplastamiento de las gotas",
           "entradilla": "Con pocas palabras, don Julio Cortázar logró urdir un cuento que hizo correr chorros de tinta desde su aparición.",
@@ -737,7 +737,7 @@
         {
           "id": "641",
           "id_nota": 31,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Cine en 8 bits",
           "titulo": "Cinefix: de la pantalla al arcade",
           "entradilla": "Cinefix es un proyecto alocado, inútil e interesante que versiona en pocos minutos y en 8 bits a grandes tanques de la industria del cine.",
@@ -749,7 +749,7 @@
         {
           "id": "642",
           "id_nota": 32,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "El oso se asoma",
           "titulo": "Maldito Winnie ",
           "entradilla": "No todo fueron osos amarillos en la vida del creador de Winnie the Pooh, pero el más conocido de ellos hizo estragos...",
@@ -761,7 +761,7 @@
         {
           "id": "643",
           "id_nota": 34,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "Memorias del despojo",
           "titulo": "Museo Larco",
           "entradilla": "El Museo Larco es un excelente complemento que nos acerca al mundo (generalmente) invisible de los objetos precolombinos.",
@@ -773,7 +773,7 @@
         {
           "id": "644",
           "id_nota": 35,
-          "id_Pagina": 30,
+          "id_pagina": 30,
           "tag": "Receta telefónica",
           "titulo": "Tumbet",
           "entradilla": "Desde los fondos de las revistas femeninas de la década del sesenta llega esta renovada receta a base de verduras.",
@@ -785,7 +785,7 @@
         {
           "id": "645",
           "id_nota": 36,
-          "id_Pagina": 31,
+          "id_pagina": 31,
           "tag": "Dime como cocinas...",
           "titulo": "En realidad",
           "entradilla": "Los devenires de la cocina de Leda no se atan simplemente a recetas, sino que muchas veces recorren el camino de la improvisación",
@@ -797,7 +797,7 @@
         {
           "id": "646",
           "id_nota": 37,
-          "id_Pagina": 32,
+          "id_pagina": 32,
           "tag": "Mangia bene...",
           "titulo": "Fatto in casa: lasagna mixta",
           "entradilla": "Desde las entrañas mismas de la tradición italiana llegan estas pastas que se apilan como un canto al buen comer.",
@@ -841,7 +841,7 @@
         {
           "id": "552",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Viajes de ida",
           "titulo": "Los viajes: Hebe Uhart + Esteban López Brusa",
           "entradilla": "Dos libros nos permiten recuperar los viajes transversales que se desarrollan cuando la geografía pasa a través de la ventanilla",
@@ -853,7 +853,7 @@
         {
           "id": "553",
           "id_nota": 2,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Guerras, las de antes",
           "titulo": "El imperio empantanado, de Juan Gelman",
           "entradilla": "La historia reciente nos regala espejos en los que apreciar la perversa repetición de los usos y los modos imperiales",
@@ -865,7 +865,7 @@
         {
           "id": "554",
           "id_nota": 3,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Orejas amputadas",
           "titulo": "Una extraña naturalidad, de Luis Velázquez Buendía",
           "entradilla": "La poesía de Luis Velázquez prepara al lector dispuesto a transformar la decepción en una vía de conocimiento",
@@ -877,7 +877,7 @@
         {
           "id": "555",
           "id_nota": 4,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "En el gym",
           "titulo": "Fuerzas de flaqueza, de Germán Cano",
           "entradilla": "El 15-M español traza las coordenadas para reconstruir los lazos de una construcción común frente a las prácticas individualizantes",
@@ -889,7 +889,7 @@
         {
           "id": "556",
           "id_nota": 5,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Ganas de escribir",
           "titulo": "La pulsión literaria o la escritura del desastre",
           "entradilla": "El territorio lúdico de la literatura contiene la pretensión de una enunciación total al tiempo que anula la búsqueda permanente de sentido",
@@ -901,7 +901,7 @@
         {
           "id": "557",
           "id_nota": 6,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Bioy y vengo",
           "titulo": "Página exquisita",
           "entradilla": "Un estudio preliminar de Adolfo Bioy Casares vincula el género ensayístico con los problemas centrales de la estética",
@@ -913,7 +913,7 @@
         {
           "id": "558",
           "id_nota": 7,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Hormiga de pensar",
           "titulo": "\"La hormiga\" de Marco Denevi: entre la alegoría de la caverna platónica y el panoptismo foucaultiano",
           "entradilla": "La autora revela las relaciones transtextuales que se exponen, con mayor o menor énfasis, en un relato de Marco Denevi",
@@ -925,7 +925,7 @@
         {
           "id": "559",
           "id_nota": 8,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Esos raros poemas nuevos",
           "titulo": "Poemas: Leandro Alva + Valeria Cervero",
           "entradilla": "De incógnito, | escondida tras el barullo de los pétalos | duerme la espina | que va a matar a Rilke",
@@ -937,7 +937,7 @@
         {
           "id": "560",
           "id_nota": 9,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Los primeros 50",
           "titulo": "50 Años de rock en Argentina, de Marcelo Fernández Bitar",
           "entradilla": "Un libro celebra con sana obsesión el primer medio siglo de rock vernáculo. Y que cumplas muchos más",
@@ -949,7 +949,7 @@
         {
           "id": "561",
           "id_nota": 10,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Bataclan y después",
           "titulo": "Eagles of Death Metal",
           "entradilla": "Tras los atentados de París, y a pesar de ellos, la música de Eagles of Death Metal sigue desplegando su propuesta desenfadada",
@@ -961,7 +961,7 @@
         {
           "id": "562",
           "id_nota": 11,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Con chupines",
           "titulo": "Inconfesables: Para bailar en jeans, Vol. 3",
           "entradilla": "Los pantalones piel de durazno color arena marcan la estética de un recuerdo disponible exclusivamente en formato magazine",
@@ -973,7 +973,7 @@
         {
           "id": "563",
           "id_nota": 12,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "Ground control to Major Tom...",
           "titulo": "RIP: David Bowie",
           "entradilla": "En plena edición de nuestro número 38, a la muerte se le dio por llevarse al Duque Blanco",
@@ -985,7 +985,7 @@
         {
           "id": "564",
           "id_nota": 13,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "No-aceite",
           "titulo": "Breves: sólo porque sí",
           "entradilla": "A lomos del indie cabalgamos por estos breves musicales sin importarnos un comino la línea maestra del aceite que supimos conseguir",
@@ -997,7 +997,7 @@
         {
           "id": "565",
           "id_nota": 14,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Rellenas de anchoa",
           "titulo": "Video Sorpresa",
           "entradilla": "El aroma ineludible de este video sorpresa se cuela por las ventanillas del auto para no soltarnos nunca jamás",
@@ -1009,7 +1009,7 @@
         {
           "id": "567",
           "id_nota": 15,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Appassionato",
           "titulo": "Pasión de Pasolini",
           "entradilla": "Pier Paolo Pasolini filmó y escribió con la misma pasión con la que impregnó una vida cuyas raíces estaban en el viento",
@@ -1021,7 +1021,7 @@
         {
           "id": "568",
           "id_nota": 16,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Haciendo equilibrio",
           "titulo": "El loco del pelo rojo",
           "entradilla": "El documental \"Man on Wire\" recupera uno de los crímenes artísticos más grandes de todos los tiempos",
@@ -1033,7 +1033,7 @@
         {
           "id": "569",
           "id_nota": 17,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "El alma inquieta",
           "titulo": "Plástica: Enrique Sobisch",
           "entradilla": "Yendo de un movimiento a otro la pintura de Enrique Sobisch adquirió los trazos de una obra intensa e inquietante",
@@ -1045,7 +1045,7 @@
         {
           "id": "570",
           "id_nota": 18,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Hagamos esculturas, no la guerra",
           "titulo": "Esculturas: Gonçalo Mabunda",
           "entradilla": "Los desechos de guerra se convierten en esculturas en las manos de este artista nacido en Mozambique",
@@ -1057,7 +1057,7 @@
         {
           "id": "571",
           "id_nota": 19,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Harinas blancas",
           "titulo": "Agenda 2016: Flores negras",
           "entradilla": "La ópera prima de Marcos de las Carreras se presenta como una de las obras a las que no perder el rastro en esta temporada que comienza",
@@ -1069,7 +1069,7 @@
         {
           "id": "572",
           "id_nota": 20,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Flores que pinchan",
           "titulo": "Cactus orquídea",
           "entradilla": "La propuesta escénica constituye el gran hallazgo de Cactus orquídea, una obra en la que el piso se convierte en otra cosa",
@@ -1081,7 +1081,7 @@
         {
           "id": "573",
           "id_nota": 22,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Helado oscuro",
           "titulo": "¿Por qué nos gusta Star Wars?",
           "entradilla": "El secreto del éxito de la saga de Star Wars radica en su carácter de aventura en mayúsculas, al estilo de un western intergaláctico",
@@ -1093,7 +1093,7 @@
         {
           "id": "574",
           "id_nota": 24,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Todo carbono",
           "titulo": "Somos materia",
           "entradilla": "Potenciar el pitta e incluso exacerbar el kapha: pocas tareas más nobles tiene ante sí el hombre recubierto de carbono",
@@ -1105,7 +1105,7 @@
         {
           "id": "575",
           "id_nota": 25,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Ponete la capa",
           "titulo": "Superhéroes",
           "entradilla": "No todos los superhéroes necesitan cambiarse en una cabina telefónica, como bien lo demuestra este peculiar relato de nuestro chico maravilla",
@@ -1117,7 +1117,7 @@
         {
           "id": "576",
           "id_nota": 26,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Me resbala la violencia",
           "titulo": "Boogie, el Aceitoso",
           "entradilla": "Adalid del lenguaje políticamente incorrecto, el bueno de Boogie revuelve su saña en el caldero de nuestras emociones más profundas",
@@ -1129,7 +1129,7 @@
         {
           "id": "577",
           "id_nota": 28,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Ladran, Sancho...",
           "titulo": "Aceite de perro",
           "entradilla": "La transformación de sus vecinos en aceite de perro llegó a convertirse en la única pasión de sus vidas",
@@ -1141,7 +1141,7 @@
         {
           "id": "578",
           "id_nota": 29,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Raviolada",
           "titulo": "Manos a la cosa",
           "entradilla": "Los ravioles de toda la vida se elevan a una categoría especial por obra y gracia de un recuerdo amaestrado por un palo de amasar",
@@ -1153,7 +1153,7 @@
         {
           "id": "579",
           "id_nota": 30,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "De toda la vida",
           "titulo": "Tostada de pan con aceite, ajo y sal",
           "entradilla": "Pan, aceite, ajo y sal: el resto es literatura",
@@ -1165,7 +1165,7 @@
         {
           "id": "580",
           "id_nota": 32,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "¡Ay, Mamma Pulpa!",
           "titulo": "Fatto in casa: pulpo a la algherese",
           "entradilla": "Un pulpo cubano, una receta italiana y un mazo de baraja francesa resumen la esencia de la argentinidad",
@@ -1209,7 +1209,7 @@
         {
           "id": "518",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Forma y fondo",
           "titulo": "La forma inicial, de Ricardo Piglia",
           "entradilla": "Lupa del entomólogo en mano, Ricardo Piglia recorre la anatomía del relatar desde la caverna de ayer hasta el byte de mañana.",
@@ -1221,7 +1221,7 @@
         {
           "id": "519",
           "id_nota": 3,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Libertad enmarcada",
           "titulo": "Marcos de guerra",
           "entradilla": "El libro de Judith Butler plantea una serie de cuestiones que cuestionan los límites y los usos que atribuimos a nuestra soberanía individual.",
@@ -1233,7 +1233,7 @@
         {
           "id": "520",
           "id_nota": 4,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Dientes literarios",
           "titulo": "Dentaduras postizas",
           "entradilla": "Las viejas dentaduras postizas, exiliadas ya de los vasos de agua, agitan su recuerdo en selectos fragmentos literarios.",
@@ -1245,7 +1245,7 @@
         {
           "id": "521",
           "id_nota": 5,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Colmillo rojo",
           "titulo": "Drácula",
           "entradilla": "Entre el colmillo fálico y la pulpa receptora repasamos la historia del Conde más famoso de los Cárpatos y alrededores.",
@@ -1257,7 +1257,7 @@
         {
           "id": "522",
           "id_nota": 7,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Paralelas asimétricas",
           "titulo": "Jünger y el cruce de la línea",
           "entradilla": "\"El que hombres con historial criminal se vuelvan peligrosos es menos preocupante que tipos que uno ve en cada esquina de la calle entren en el automatismo moral\".",
@@ -1269,7 +1269,7 @@
         {
           "id": "523",
           "id_nota": 8,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Dientes de leche",
           "titulo": "Golosinas literarias: primavera a todo cuento",
           "entradilla": "Una nueva entrega de las recomendaciones literarias infantiles a cargo de nuestra colaboradora más coqueta y golosa.",
@@ -1281,7 +1281,7 @@
         {
           "id": "524",
           "id_nota": 9,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Los heraldos andinos",
           "titulo": "¿César Vallejo ha muerto?",
           "entradilla": "El autor recrea el proceso de descubrimiento de la poesía de César Vallejo, palabra viva y comprometida, verbo hecho aliento.",
@@ -1293,7 +1293,7 @@
         {
           "id": "525",
           "id_nota": 10,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Los salieris de Carmen",
           "titulo": "Poemas",
           "entradilla": "La desaparición (física) de la mítica editora Carmen Balcells nos sirve de disparador para recorrer las palabras de unos chicos que empiezan en esto de la poesía.",
@@ -1305,7 +1305,7 @@
         {
           "id": "526",
           "id_nota": 11,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Buenos discos nuevos",
           "titulo": "Novedades",
           "entradilla": "La prácticamente extinta industria discográfica sigue dando síntomas de gozar de un estado de salud impecable.",
@@ -1317,7 +1317,7 @@
         {
           "id": "527",
           "id_nota": 12,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Concepto hip-hop",
           "titulo": "Kendrick Lamar: La mariposa salió del capullo",
           "entradilla": "El joven rapero Kendrick Lamar da una vuelta de tuerca lírica y conceptual a las coordenadas hasta ahora canónicas del hip-hop.",
@@ -1329,7 +1329,7 @@
         {
           "id": "528",
           "id_nota": 13,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Huellas del cordón onírico",
           "titulo": "El ombligo de un sueño",
           "entradilla": "El ombligo de un sueño se basa, según sus autores e intérpretes, en melodías atravesadas por la magia de los sueños.",
@@ -1341,7 +1341,7 @@
         {
           "id": "529",
           "id_nota": 14,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "Dura de domar",
           "titulo": "Nina Simone: sacerdotisa de lo imposible",
           "entradilla": "La maquinita del sistema audiovisual no llega a licuar el tuétano de la indomable Nina.",
@@ -1353,7 +1353,7 @@
         {
           "id": "530",
           "id_nota": 15,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Rubio ceniza",
           "titulo": "Los inconfesables: Richard Clayderman",
           "entradilla": "Rescatamos, sin vergüenza ni orgullo, al rubio animador de teclados de un tiempo que no fue mejor ni todo lo contrario.",
@@ -1365,7 +1365,7 @@
         {
           "id": "531",
           "id_nota": 16,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Son de sonrisa",
           "titulo": "Breves: smile & enjoy",
           "entradilla": "En nuestra huida eterna del aterrador torno, optamos por la cara más bonita de la dentición humana: la nunca bien ponderada sonrisa.",
@@ -1377,7 +1377,7 @@
         {
           "id": "532",
           "id_nota": 17,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Corte y quebrada",
           "titulo": "Ben Molar: Los 14 con el Tango",
           "entradilla": "El proyecto de Ben Molar reunió en un momento oscuro a lo más luminoso del panorama musical y artístico de la Argentina.",
@@ -1389,7 +1389,7 @@
         {
           "id": "533",
           "id_nota": 18,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Hay dentistas y dentistas",
           "titulo": "Video Sorpresa",
           "entradilla": "Un dentista sádico y una miríada de plantas sangrívoras alegran la sorpresa videográfica de este número dentario.",
@@ -1401,7 +1401,7 @@
         {
           "id": "534",
           "id_nota": 19,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Contando las fotos",
           "titulo": "Fotografías: Duane Michals",
           "entradilla": "Conocer a Duane Michals es un viaje de ida, pues luego será difícil volver a ver una fotografía como si de una fotografía se tratara.",
@@ -1413,7 +1413,7 @@
         {
           "id": "535",
           "id_nota": 20,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Oda a las pulpas",
           "titulo": "El cine, esa excusa",
           "entradilla": "El cine sirve de pretexto para cotejar los dos extremos de la existencia humana: el horror experimental y el deseo siempre de estreno.",
@@ -1425,7 +1425,7 @@
         {
           "id": "536",
           "id_nota": 21,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "El Siemprenauta",
           "titulo": "¿Quién cura al Eternauta?",
           "entradilla": "Una versión cinematográfica nunca consumada de El Eternauta abre las puertas a una resignificación que no siempre hace justicia al héroe de la escafandra.",
@@ -1437,7 +1437,7 @@
         {
           "id": "537",
           "id_nota": 22,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Luto luthier",
           "titulo": "RIP: Daniel Rabinovich",
           "entradilla": "Esta es la única vez que el inimitable Daniel Rabinovich nos invita al silencio y no a la risa.",
@@ -1449,7 +1449,7 @@
         {
           "id": "538",
           "id_nota": 23,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "El canguro ruso",
           "titulo": "Plástica: Ilya Volykhine",
           "entradilla": "De punta a punta del mundo, Illya Volykhine compone su obra valiéndose de una fuente inagotable de inspiraciones varias.",
@@ -1461,7 +1461,7 @@
         {
           "id": "539",
           "id_nota": 24,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Lo breve si es tabla...",
           "titulo": "Breves sobre tablas",
           "entradilla": "En nuestros breves teatrales repasamos la historia de tres amigas que se juntan a filmar un video para el casamiento de otra... El resto es puro teatro.",
@@ -1473,7 +1473,7 @@
         {
           "id": "540",
           "id_nota": 25,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Más allá de los '80",
           "titulo": "Plástica: Gumier Maier",
           "entradilla": "Las \"caruchas\" de Gumier Maier siguen denunciando la opresiva monocromía de un tiempo en el que era obligatorio ser derecho y humano.",
@@ -1485,7 +1485,7 @@
         {
           "id": "541",
           "id_nota": 26,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Como chicos con juguete viejo",
           "titulo": "Pixar en la encrucijada",
           "entradilla": "Pixar vuelve a asombrar por su atrevimiento y su impecable factura técnica, pero ¿es lo que podemos esperar quienes aplaudimos sus anteriores obras maestras?",
@@ -1497,7 +1497,7 @@
         {
           "id": "542",
           "id_nota": 28,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Ojo avizor",
           "titulo": "Fotografía amateur",
           "entradilla": "El ojo del fotógrafo amateur consigue colarse en la grilla de ENEUR con tres propuestas de ignotos pero no por ello desconocidos colaboradores.",
@@ -1509,7 +1509,7 @@
         {
           "id": "543",
           "id_nota": 29,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "La buena alienación",
           "titulo": "Oro por baratijas: El último doblez",
           "entradilla": "De tanto buscar por buscar, el hombre acaba encontrando el último doblez.",
@@ -1521,7 +1521,7 @@
         {
           "id": "544",
           "id_nota": 30,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "De las aves con dientes, me gusta el cuervo",
           "titulo": "Berenice, de Edgar Allan Poe",
           "entradilla": "En la extraña anomalía de mi existencia, los sentimientos en mí nunca venían del corazón, y las pasiones siempre venían de la inteligencia.",
@@ -1533,7 +1533,7 @@
         {
           "id": "545",
           "id_nota": 31,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Soliloquio liguero",
           "titulo": "Nancy Dossier (7/7)",
           "entradilla": "El alma sobornable se hace presa de la elocuencia del mundo. Se pudre patética en esa recompensa sucia que le da el silencio.",
@@ -1545,7 +1545,7 @@
         {
           "id": "546",
           "id_nota": 33,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "Yorugua al dente",
           "titulo": "Un día en Montevideo",
           "entradilla": "La vieja y bella Montevideo nos deja hacer la digestión de cara a un río que se convierte en mar sin ningún tipo de conflicto.",
@@ -1557,7 +1557,7 @@
         {
           "id": "547",
           "id_nota": 34,
-          "id_Pagina": 30,
+          "id_pagina": 30,
           "tag": "Del ovo venimos, al ovo vamos",
           "titulo": "Fatto in casa: huevos al horno",
           "entradilla": "Una receta tan sencilla como novedosa amenaza con trepar en los charts de los fanáticos ovívoros.",
@@ -1601,7 +1601,7 @@
         {
           "id": "483",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Tan (sub) maravillosa",
           "titulo": "Sub rosa, de Juan Benet",
           "entradilla": "¿Podemos leer a Juan Benet sin estar poseídos por el demonio de la literatura, sin hallarnos sumergidos en el campo minado del escribir?",
@@ -1613,7 +1613,7 @@
         {
           "id": "483",
           "id_nota": 2,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Tan (sub) maravillosa",
           "titulo": "Sub rosa, de Juan Benet",
           "entradilla": "¿Podemos leer a Juan Benet sin estar poseídos por el demonio de la literatura, sin hallarnos sumergidos en el campo minado del escribir?",
@@ -1625,7 +1625,7 @@
         {
           "id": "484",
           "id_nota": 3,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Blue, white, red",
           "titulo": "Gentlemen. Los mejores escritos del dandismo inglés. ",
           "entradilla": "Una compilación de textos sobre el dandismo se convierte en una galería de premisas que también remiten a tiempos actuales.",
@@ -1637,7 +1637,7 @@
         {
           "id": "484",
           "id_nota": 4,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Blue, white, red",
           "titulo": "Gentlemen. Los mejores escritos del dandismo inglés. ",
           "entradilla": "Una compilación de textos sobre el dandismo se convierte en una galería de premisas que también remiten a tiempos actuales.",
@@ -1649,7 +1649,7 @@
         {
           "id": "485",
           "id_nota": 5,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Chomsky en Buenos Aires",
           "titulo": "El efecto Chomsky",
           "entradilla": "El Foro Internacional por la Emancipación y la Igualdad, realizado en Buenos Aires, tuvo como uno de sus invitados de lujo al filoso filósofo estadounidense.",
@@ -1661,7 +1661,7 @@
         {
           "id": "485",
           "id_nota": 6,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Chomsky en Buenos Aires",
           "titulo": "El efecto Chomsky",
           "entradilla": "El Foro Internacional por la Emancipación y la Igualdad, realizado en Buenos Aires, tuvo como uno de sus invitados de lujo al filoso filósofo estadounidense.",
@@ -1673,7 +1673,7 @@
         {
           "id": "486",
           "id_nota": 7,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Reeditar es novedoso",
           "titulo": "Más allá del principio de placer",
           "entradilla": "La edición de Mármol Izquierdo constituye una gran oportunidad para quien pretenda estudiar con seriedad la obra de Freud y sus formulaciones en estado naciente.",
@@ -1685,7 +1685,7 @@
         {
           "id": "486",
           "id_nota": 8,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Reeditar es novedoso",
           "titulo": "Más allá del principio de placer",
           "entradilla": "La edición de Mármol Izquierdo constituye una gran oportunidad para quien pretenda estudiar con seriedad la obra de Freud y sus formulaciones en estado naciente.",
@@ -1697,7 +1697,7 @@
         {
           "id": "487",
           "id_nota": 10,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "O poeta mais grande",
           "titulo": "Mário de Andrade, el más brasileño de los poetas brasileños",
           "entradilla": "La traducción de unos poemas de Mário de Andrade nos permite apreciar la composición de este organismo vivo del lenguaje.",
@@ -1709,7 +1709,7 @@
         {
           "id": "487",
           "id_nota": 11,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "O poeta mais grande",
           "titulo": "Mário de Andrade, el más brasileño de los poetas brasileños",
           "entradilla": "La traducción de unos poemas de Mário de Andrade nos permite apreciar la composición de este organismo vivo del lenguaje.",
@@ -1721,7 +1721,7 @@
         {
           "id": "488",
           "id_nota": 12,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Dulce infancia",
           "titulo": "Golosinas literarias: hay surtido",
           "entradilla": "Lo que tienen en común los cuentos de Kipling, las distintas formas de lo familiar y Alicia es que pasaron por los ojitos lectores de la menor de nuestras colaboradoras.",
@@ -1733,7 +1733,7 @@
         {
           "id": "488",
           "id_nota": 13,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Dulce infancia",
           "titulo": "Golosinas literarias: hay surtido",
           "entradilla": "Lo que tienen en común los cuentos de Kipling, las distintas formas de lo familiar y Alicia es que pasaron por los ojitos lectores de la menor de nuestras colaboradoras.",
@@ -1745,7 +1745,7 @@
         {
           "id": "489",
           "id_nota": 14,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "La escatología al poder",
           "titulo": "O. Lamborghini: escritor fragmentario y el principio del fin",
           "entradilla": "Con Osvaldo Lamborghini empieza a terminar lo que Borges se empeñó en refundar desde las tinieblas del todo.",
@@ -1757,7 +1757,7 @@
         {
           "id": "489",
           "id_nota": 15,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "La escatología al poder",
           "titulo": "O. Lamborghini: escritor fragmentario y el principio del fin",
           "entradilla": "Con Osvaldo Lamborghini empieza a terminar lo que Borges se empeñó en refundar desde las tinieblas del todo.",
@@ -1769,7 +1769,7 @@
         {
           "id": "490",
           "id_nota": 16,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Cien años de soledad",
           "titulo": "14, de Jean Echenoz",
           "entradilla": "128 páginas le bastan al escritor francés para recorrer muchos de los lugares geográficos y simbólicos que devastó la Gran Guerra.",
@@ -1781,7 +1781,7 @@
         {
           "id": "490",
           "id_nota": 17,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Cien años de soledad",
           "titulo": "14, de Jean Echenoz",
           "entradilla": "128 páginas le bastan al escritor francés para recorrer muchos de los lugares geográficos y simbólicos que devastó la Gran Guerra.",
@@ -1793,7 +1793,7 @@
         {
           "id": "491",
           "id_nota": 19,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Mucho más que cri... cri...",
           "titulo": "Los grillos del Monte",
           "entradilla": "Sietún, Flores, Reznik y Lebrero se reunen a tocar y cantar en busca de la fluidez y la sonoridad que los ha vuelto grillos.",
@@ -1805,7 +1805,7 @@
         {
           "id": "491",
           "id_nota": 20,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Mucho más que cri... cri...",
           "titulo": "Los grillos del Monte",
           "entradilla": "Sietún, Flores, Reznik y Lebrero se reunen a tocar y cantar en busca de la fluidez y la sonoridad que los ha vuelto grillos.",
@@ -1817,7 +1817,7 @@
         {
           "id": "492",
           "id_nota": 21,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Honrarás a tu madre",
           "titulo": "Carrie & Lowell, de Sufjan Stevens",
           "entradilla": "Sufjan Stevens dedica a su madre un disco melodioso y susurrante que se inscribe  sin estridencias en su larga y nutrida discografía.",
@@ -1829,7 +1829,7 @@
         {
           "id": "492",
           "id_nota": 22,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Honrarás a tu madre",
           "titulo": "Carrie & Lowell, de Sufjan Stevens",
           "entradilla": "Sufjan Stevens dedica a su madre un disco melodioso y susurrante que se inscribe  sin estridencias en su larga y nutrida discografía.",
@@ -1841,7 +1841,7 @@
         {
           "id": "493",
           "id_nota": 23,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "El rey ha muerto",
           "titulo": "RIP: B. B. King",
           "entradilla": "Si alguien es el faro musical y guitarrero del blues, ese es B. B. un inmortal en el alma de su pueblo global.",
@@ -1853,7 +1853,7 @@
         {
           "id": "493",
           "id_nota": 24,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "El rey ha muerto",
           "titulo": "RIP: B. B. King",
           "entradilla": "Si alguien es el faro musical y guitarrero del blues, ese es B. B. un inmortal en el alma de su pueblo global.",
@@ -1865,7 +1865,7 @@
         {
           "id": "494",
           "id_nota": 25,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "De diez en diez",
           "titulo": "Breves: Tirando manteca al techo",
           "entradilla": "Jugamos la carta fuerte mantequero-musical en otra sección, así que decidimos recorrer álbumes insignia, saltando de década en década...",
@@ -1877,7 +1877,7 @@
         {
           "id": "494",
           "id_nota": 26,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "De diez en diez",
           "titulo": "Breves: Tirando manteca al techo",
           "entradilla": "Jugamos la carta fuerte mantequero-musical en otra sección, así que decidimos recorrer álbumes insignia, saltando de década en década...",
@@ -1889,7 +1889,7 @@
         {
           "id": "495",
           "id_nota": 27,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Eramos tan Hutchinson...",
           "titulo": "Los inconfesables: Dama de plata",
           "entradilla": "El mundo se detuvo y las chicas se agitaron cuando el rubio de Starsky & Hutch se bajó del Torino y se puso delante de un micrófono.",
@@ -1901,7 +1901,7 @@
         {
           "id": "495",
           "id_nota": 28,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Eramos tan Hutchinson...",
           "titulo": "Los inconfesables: Dama de plata",
           "entradilla": "El mundo se detuvo y las chicas se agitaron cuando el rubio de Starsky & Hutch se bajó del Torino y se puso delante de un micrófono.",
@@ -1913,7 +1913,7 @@
         {
           "id": "496",
           "id_nota": 29,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "La forma del jazz",
           "titulo": "RIP: Ornette Coleman",
           "entradilla": "El artífice de que la gramática jazzera llegara a su disolución ha partido de este mundo. !Trompetas celestiales, temblad!",
@@ -1925,7 +1925,7 @@
         {
           "id": "496",
           "id_nota": 30,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "La forma del jazz",
           "titulo": "RIP: Ornette Coleman",
           "entradilla": "El artífice de que la gramática jazzera llegara a su disolución ha partido de este mundo. !Trompetas celestiales, temblad!",
@@ -1937,7 +1937,7 @@
         {
           "id": "497",
           "id_nota": 31,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Pasame la Manteca",
           "titulo": "Video Sorpresa",
           "entradilla": "Pocos atrevidos le hicieron honor al derviado lácteo en sus composiciones. Sin embargo hubo alguien que logró llevarla al status de estándar.",
@@ -1949,7 +1949,7 @@
         {
           "id": "497",
           "id_nota": 32,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Pasame la Manteca",
           "titulo": "Video Sorpresa",
           "entradilla": "Pocos atrevidos le hicieron honor al derviado lácteo en sus composiciones. Sin embargo hubo alguien que logró llevarla al status de estándar.",
@@ -1961,7 +1961,7 @@
         {
           "id": "498",
           "id_nota": 33,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "El mundo posnuclear",
           "titulo": "Fotografías: Shomei Tomatsu",
           "entradilla": "Nacido y criado en Japón, Shomei Tomatsu dejó las lides de la economía para retratar la trama del tejido social japonés.",
@@ -1973,7 +1973,7 @@
         {
           "id": "498",
           "id_nota": 34,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "El mundo posnuclear",
           "titulo": "Fotografías: Shomei Tomatsu",
           "entradilla": "Nacido y criado en Japón, Shomei Tomatsu dejó las lides de la economía para retratar la trama del tejido social japonés.",
@@ -1985,7 +1985,7 @@
         {
           "id": "499",
           "id_nota": 35,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Ser y no ser surrealista",
           "titulo": "Plástica: Paul Delvaux",
           "entradilla": "Aunque nunca adscrito formalmente al surrealismo, la obra de Paul Delvaux se nutre de resabios oníricos y una poética cercana a aquel movimiento.",
@@ -1997,7 +1997,7 @@
         {
           "id": "499",
           "id_nota": 36,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Ser y no ser surrealista",
           "titulo": "Plástica: Paul Delvaux",
           "entradilla": "Aunque nunca adscrito formalmente al surrealismo, la obra de Paul Delvaux se nutre de resabios oníricos y una poética cercana a aquel movimiento.",
@@ -2009,7 +2009,7 @@
         {
           "id": "500",
           "id_nota": 37,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "La gomorrización de la cultura",
           "titulo": "Gomorra",
           "entradilla": "El mundo de las mafias napolitanas traduce en violencia años de olvido, marginación, pobreza y despojo.",
@@ -2021,7 +2021,7 @@
         {
           "id": "500",
           "id_nota": 38,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "La gomorrización de la cultura",
           "titulo": "Gomorra",
           "entradilla": "El mundo de las mafias napolitanas traduce en violencia años de olvido, marginación, pobreza y despojo.",
@@ -2033,7 +2033,7 @@
         {
           "id": "501",
           "id_nota": 39,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Take a Walk on the Wild Side",
           "titulo": "Viaje hacia el corazón salvaje",
           "entradilla": "El diario de la filmación de Fitzcarraldo se convierte en un alegato a favor de las apelaciones instintivas que acaban resolviendo casi cualquier entuerto artístico.",
@@ -2045,7 +2045,7 @@
         {
           "id": "501",
           "id_nota": 40,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Take a Walk on the Wild Side",
           "titulo": "Viaje hacia el corazón salvaje",
           "entradilla": "El diario de la filmación de Fitzcarraldo se convierte en un alegato a favor de las apelaciones instintivas que acaban resolviendo casi cualquier entuerto artístico.",
@@ -2057,7 +2057,7 @@
         {
           "id": "502",
           "id_nota": 41,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Todos los vampiros van al cielo",
           "titulo": "RIP: Cristopher Lee",
           "entradilla": "\"Todos somos Drácula\" en la hora del adiós al inigualable actor de dientes largos.",
@@ -2069,7 +2069,7 @@
         {
           "id": "502",
           "id_nota": 42,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Todos los vampiros van al cielo",
           "titulo": "RIP: Cristopher Lee",
           "entradilla": "\"Todos somos Drácula\" en la hora del adiós al inigualable actor de dientes largos.",
@@ -2081,7 +2081,7 @@
         {
           "id": "503",
           "id_nota": 43,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Modelo para armar",
           "titulo": "Muñeca",
           "entradilla": "La dramaturgia de Armando Discépolo y la poesía de Marosa di Giorgio son los elementos con los que Pompeyo Audivert modela una imperdible versión de \"Muñeca\".",
@@ -2093,7 +2093,7 @@
         {
           "id": "503",
           "id_nota": 44,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Modelo para armar",
           "titulo": "Muñeca",
           "entradilla": "La dramaturgia de Armando Discépolo y la poesía de Marosa di Giorgio son los elementos con los que Pompeyo Audivert modela una imperdible versión de \"Muñeca\".",
@@ -2105,7 +2105,7 @@
         {
           "id": "504",
           "id_nota": 46,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Los intestinos del cosmos",
           "titulo": "Mundo bipolar",
           "entradilla": "Stanley Kubrick y Andréi Tarkovski firman, respectivamente, dos obras que, por inquietantes, resultan un manjar para el análisis cinematográfico.",
@@ -2117,7 +2117,7 @@
         {
           "id": "504",
           "id_nota": 47,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Los intestinos del cosmos",
           "titulo": "Mundo bipolar",
           "entradilla": "Stanley Kubrick y Andréi Tarkovski firman, respectivamente, dos obras que, por inquietantes, resultan un manjar para el análisis cinematográfico.",
@@ -2129,7 +2129,7 @@
         {
           "id": "505",
           "id_nota": 48,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Superficies y colores",
           "titulo": "Muestra: Eugenio Cuttica en el MNBA",
           "entradilla": "La muestra reciente de Eugenio Cuttica nos invita a sumergirnos en las fusiones coloridas del pintor argentino.",
@@ -2141,7 +2141,7 @@
         {
           "id": "505",
           "id_nota": 49,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Superficies y colores",
           "titulo": "Muestra: Eugenio Cuttica en el MNBA",
           "entradilla": "La muestra reciente de Eugenio Cuttica nos invita a sumergirnos en las fusiones coloridas del pintor argentino.",
@@ -2153,7 +2153,7 @@
         {
           "id": "506",
           "id_nota": 50,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Apretaditos todos",
           "titulo": "Fotografías: Michael Wolf",
           "entradilla": "El ojo del fotógrafo alemán captura las formas del apiñamiento humano sobre y bajo la tierra.",
@@ -2165,7 +2165,7 @@
         {
           "id": "506",
           "id_nota": 51,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Apretaditos todos",
           "titulo": "Fotografías: Michael Wolf",
           "entradilla": "El ojo del fotógrafo alemán captura las formas del apiñamiento humano sobre y bajo la tierra.",
@@ -2177,7 +2177,7 @@
         {
           "id": "507",
           "id_nota": 52,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Días y flores",
           "titulo": "OxB: Fragmentos de un diario vivido",
           "entradilla": "Aquel que fuimos no solo no volverá, tampoco puede defenderse del ataque de un futuro que se consolida.",
@@ -2189,7 +2189,7 @@
         {
           "id": "507",
           "id_nota": 53,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Días y flores",
           "titulo": "OxB: Fragmentos de un diario vivido",
           "entradilla": "Aquel que fuimos no solo no volverá, tampoco puede defenderse del ataque de un futuro que se consolida.",
@@ -2201,7 +2201,7 @@
         {
           "id": "508",
           "id_nota": 54,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Apocalipsis sexy",
           "titulo": "Nancy Dossier (6/7)",
           "entradilla": "Este es el mundo. El que se va a la mierda. El que siempre está por irse a la mierda y, como venganza (¿divina?), sólo dobla la esquina y se expande, se amplía, intoxica.",
@@ -2213,7 +2213,7 @@
         {
           "id": "508",
           "id_nota": 55,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Apocalipsis sexy",
           "titulo": "Nancy Dossier (6/7)",
           "entradilla": "Este es el mundo. El que se va a la mierda. El que siempre está por irse a la mierda y, como venganza (¿divina?), sólo dobla la esquina y se expande, se amplía, intoxica.",
@@ -2225,7 +2225,7 @@
         {
           "id": "509",
           "id_nota": 57,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Había una vez...",
           "titulo": "El religioso que vertió la miel y la manteca sobre su cabeza",
           "entradilla": "Desde su origen en el Panchatantra hindú del s. VII, \"Calila y Dimna\" es algo más que una colección de parábolas sobre el mundo.",
@@ -2237,7 +2237,7 @@
         {
           "id": "509",
           "id_nota": 58,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Había una vez...",
           "titulo": "El religioso que vertió la miel y la manteca sobre su cabeza",
           "entradilla": "Desde su origen en el Panchatantra hindú del s. VII, \"Calila y Dimna\" es algo más que una colección de parábolas sobre el mundo.",
@@ -2249,7 +2249,7 @@
         {
           "id": "510",
           "id_nota": 59,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Diga 36",
           "titulo": "Manteca: un santo remedio",
           "entradilla": "Al canon del colesterol no hay nada mejor que enfrentarle la inmensa variedad de mantecas de los más diversos seres vivos.",
@@ -2261,7 +2261,7 @@
         {
           "id": "510",
           "id_nota": 60,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Diga 36",
           "titulo": "Manteca: un santo remedio",
           "entradilla": "Al canon del colesterol no hay nada mejor que enfrentarle la inmensa variedad de mantecas de los más diversos seres vivos.",
@@ -2273,7 +2273,7 @@
         {
           "id": "511",
           "id_nota": 61,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "Y también la colorá",
           "titulo": "El discreto encanto de la manteca",
           "entradilla": "Contra toda impostura de \"Lo Saludable\", le ponemos fichas a la manteca en cualquiera de sus versiones y derviados.",
@@ -2285,7 +2285,7 @@
         {
           "id": "511",
           "id_nota": 62,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "Y también la colorá",
           "titulo": "El discreto encanto de la manteca",
           "entradilla": "Contra toda impostura de \"Lo Saludable\", le ponemos fichas a la manteca en cualquiera de sus versiones y derviados.",
@@ -2297,7 +2297,7 @@
         {
           "id": "512",
           "id_nota": 63,
-          "id_Pagina": 30,
+          "id_pagina": 30,
           "tag": "Sabor a paraíso",
           "titulo": "Comer en Tinharé",
           "entradilla": "Tres lugares tres para disfrutar de la buena mesa a pocos metros de uno de los mares más bonitos de la costa nordestina de Brasil.",
@@ -2309,7 +2309,7 @@
         {
           "id": "512",
           "id_nota": 64,
-          "id_Pagina": 30,
+          "id_pagina": 30,
           "tag": "Sabor a paraíso",
           "titulo": "Comer en Tinharé",
           "entradilla": "Tres lugares tres para disfrutar de la buena mesa a pocos metros de uno de los mares más bonitos de la costa nordestina de Brasil.",
@@ -2321,7 +2321,7 @@
         {
           "id": "513",
           "id_nota": 65,
-          "id_Pagina": 31,
+          "id_pagina": 31,
           "tag": "El orgullo de la nona",
           "titulo": "Fatto in casa",
           "entradilla": "La tradición familiar nos deja una exquisita receta de canelones más que aptos para resistir los fríos australes.",
@@ -2333,7 +2333,7 @@
         {
           "id": "513",
           "id_nota": 66,
-          "id_Pagina": 31,
+          "id_pagina": 31,
           "tag": "El orgullo de la nona",
           "titulo": "Fatto in casa",
           "entradilla": "La tradición familiar nos deja una exquisita receta de canelones más que aptos para resistir los fríos australes.",
@@ -2377,7 +2377,7 @@
         {
           "id": "474",
           "id_nota": 2,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Poco es mucho",
           "titulo": "Poco hombre, de Pedro Lemebel",
           "entradilla": "Pedro Lemebel sabía que cada uno de sus interminables giros y redobles proliferantes eran las formas de tender una trampa a todas las teorías de la correspondencia. ",
@@ -2389,7 +2389,7 @@
         {
           "id": "474",
           "id_nota": 2,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Poco es mucho",
           "titulo": "Poco hombre, de Pedro Lemebel",
           "entradilla": "Pedro Lemebel sabía que cada uno de sus interminables giros y redobles proliferantes eran las formas de tender una trampa a todas las teorías de la correspondencia. ",
@@ -2401,7 +2401,7 @@
         {
           "id": "473",
           "id_nota": 3,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Cría cuervos",
           "titulo": "Cuervo blanco, nevermore...",
           "entradilla": "El ser humano sigue culpando a un pájaro por enterarse tarde de lo que ya sabía hace tiempo, y haciendo de lo negro una desgracia o algo de lo que desconfiar.",
@@ -2413,7 +2413,7 @@
         {
           "id": "473",
           "id_nota": 4,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Cría cuervos",
           "titulo": "Cuervo blanco, nevermore...",
           "entradilla": "El ser humano sigue culpando a un pájaro por enterarse tarde de lo que ya sabía hace tiempo, y haciendo de lo negro una desgracia o algo de lo que desconfiar.",
@@ -2425,7 +2425,7 @@
         {
           "id": "472",
           "id_nota": 7,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Georgie al desnudo",
           "titulo": "Borges: caos aparente o totalidad revelada",
           "entradilla": "Los preceptos borgeanos se someten a la precisión del autor de esta nota, legítimamente empeñado en gambetear los tópicos que se derraman sobre dobles y laberintos.",
@@ -2437,7 +2437,7 @@
         {
           "id": "472",
           "id_nota": 8,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Georgie al desnudo",
           "titulo": "Borges: caos aparente o totalidad revelada",
           "entradilla": "Los preceptos borgeanos se someten a la precisión del autor de esta nota, legítimamente empeñado en gambetear los tópicos que se derraman sobre dobles y laberintos.",
@@ -2449,7 +2449,7 @@
         {
           "id": "470",
           "id_nota": 9,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Mamá, quiero ser negro",
           "titulo": "Black Music, de LeRoi Jones",
           "entradilla": "La historia del jazz y la de la población afroamericana se encuentran tan unidas que algunos se empeñan en desvincularlas.",
@@ -2461,7 +2461,7 @@
         {
           "id": "470",
           "id_nota": 10,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Mamá, quiero ser negro",
           "titulo": "Black Music, de LeRoi Jones",
           "entradilla": "La historia del jazz y la de la población afroamericana se encuentran tan unidas que algunos se empeñan en desvincularlas.",
@@ -2473,7 +2473,7 @@
         {
           "id": "471",
           "id_nota": 11,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Queremos tanto a Olivia",
           "titulo": "Golosinas literarias",
           "entradilla": "La dupla artística Olivia & Martínez vuelve a regalarnos recomendaciones literarias envueltas en papel de golosina. Un caramelo.",
@@ -2485,7 +2485,7 @@
         {
           "id": "471",
           "id_nota": 12,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Queremos tanto a Olivia",
           "titulo": "Golosinas literarias",
           "entradilla": "La dupla artística Olivia & Martínez vuelve a regalarnos recomendaciones literarias envueltas en papel de golosina. Un caramelo.",
@@ -2497,7 +2497,7 @@
         {
           "id": "469",
           "id_nota": 13,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Ave canora (y violinista)",
           "titulo": "Andrew Bird",
           "entradilla": "Una entrevista a distancia con el músico estadounidense Andrew Bird nos abre las puertas de sus influencias y sus proyectos futuros, marcados por el eclecticismo.",
@@ -2509,7 +2509,7 @@
         {
           "id": "469",
           "id_nota": 14,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Ave canora (y violinista)",
           "titulo": "Andrew Bird",
           "entradilla": "Una entrevista a distancia con el músico estadounidense Andrew Bird nos abre las puertas de sus influencias y sus proyectos futuros, marcados por el eclecticismo.",
@@ -2521,7 +2521,7 @@
         {
           "id": "468",
           "id_nota": 15,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Escuchá la metáfora",
           "titulo": "Sami Abadi: El poeta del sonido",
           "entradilla": "La charla con el multiinstrumentista Sami Abadi nos deja lleva hasta las orillas de la experimentación y el riesgo aplicados a un universo sonoro emparentado con la poesía oriental.",
@@ -2533,7 +2533,7 @@
         {
           "id": "468",
           "id_nota": 16,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Escuchá la metáfora",
           "titulo": "Sami Abadi: El poeta del sonido",
           "entradilla": "La charla con el multiinstrumentista Sami Abadi nos deja lleva hasta las orillas de la experimentación y el riesgo aplicados a un universo sonoro emparentado con la poesía oriental.",
@@ -2545,7 +2545,7 @@
         {
           "id": "477",
           "id_nota": 17,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Prohibido copiar",
           "titulo": "With a Little Help from My Fwends, de The Flaming Lips",
           "entradilla": "The Flaming Lips vuelven a hacerlo con un disco que parece el Sgt. Pepper's de los Beatles sin que lo nuevo se parezca necesariamente a las viejas canciones que todos sabemos tararear.",
@@ -2557,7 +2557,7 @@
         {
           "id": "477",
           "id_nota": 18,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Prohibido copiar",
           "titulo": "With a Little Help from My Fwends, de The Flaming Lips",
           "entradilla": "The Flaming Lips vuelven a hacerlo con un disco que parece el Sgt. Pepper's de los Beatles sin que lo nuevo se parezca necesariamente a las viejas canciones que todos sabemos tararear.",
@@ -2569,7 +2569,7 @@
         {
           "id": "467",
           "id_nota": 21,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Rapeame la tribu",
           "titulo": "A Tribe Called Quest",
           "entradilla": "Un repaso por el hip hop de los neoyorquinos A Tribe Called Quest nos revela un legado que aún perdura entre los cultores actuales del género.",
@@ -2581,7 +2581,7 @@
         {
           "id": "467",
           "id_nota": 22,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Rapeame la tribu",
           "titulo": "A Tribe Called Quest",
           "entradilla": "Un repaso por el hip hop de los neoyorquinos A Tribe Called Quest nos revela un legado que aún perdura entre los cultores actuales del género.",
@@ -2593,7 +2593,7 @@
         {
           "id": "466",
           "id_nota": 23,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Estaba en llamas cuando volé",
           "titulo": "Pájaro de fuego: La rueda de la fortuna + Be Bop Club",
           "entradilla": "El pianista Esteban Sehinkman hace de su banda Pájaro de Fuego una experiencia que tuerce géneros musicales hasta colmar las expectativas de los escuchas más exigentes. ",
@@ -2605,7 +2605,7 @@
         {
           "id": "466",
           "id_nota": 24,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Estaba en llamas cuando volé",
           "titulo": "Pájaro de fuego: La rueda de la fortuna + Be Bop Club",
           "entradilla": "El pianista Esteban Sehinkman hace de su banda Pájaro de Fuego una experiencia que tuerce géneros musicales hasta colmar las expectativas de los escuchas más exigentes. ",
@@ -2617,7 +2617,7 @@
         {
           "id": "464",
           "id_nota": 25,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "De todos los tamaños",
           "titulo": "Breves: pajaritos, pajarones y pajarracos",
           "entradilla": "Aves de todos los tamaños adornan los breves musicales que abarcan desde grandes pájaros al saxofón hasta una fábrica de maravillas con alas.",
@@ -2629,7 +2629,7 @@
         {
           "id": "464",
           "id_nota": 26,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "De todos los tamaños",
           "titulo": "Breves: pajaritos, pajarones y pajarracos",
           "entradilla": "Aves de todos los tamaños adornan los breves musicales que abarcan desde grandes pájaros al saxofón hasta una fábrica de maravillas con alas.",
@@ -2641,7 +2641,7 @@
         {
           "id": "465",
           "id_nota": 27,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "(No) todos los mirlos son blancos",
           "titulo": "Video Sorpresa",
           "entradilla": "Intenso como pocos, el protagonista de nuestro video sorpresa recrea las aventuras de uno de los mirlos más versionados de la historia de la música reciente. ",
@@ -2653,7 +2653,7 @@
         {
           "id": "465",
           "id_nota": 28,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "(No) todos los mirlos son blancos",
           "titulo": "Video Sorpresa",
           "entradilla": "Intenso como pocos, el protagonista de nuestro video sorpresa recrea las aventuras de uno de los mirlos más versionados de la historia de la música reciente. ",
@@ -2665,7 +2665,7 @@
         {
           "id": "463",
           "id_nota": 29,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Todo sobre mi musa",
           "titulo": "Fotografías: Emmet Gowin",
           "entradilla": "Un padre, una cámara, una musa: poco más necesita el fotógrafo estadounidense Emmet Gowin para componer sus retratos profundos y silenciosamente elocuentes.",
@@ -2677,7 +2677,7 @@
         {
           "id": "463",
           "id_nota": 30,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Todo sobre mi musa",
           "titulo": "Fotografías: Emmet Gowin",
           "entradilla": "Un padre, una cámara, una musa: poco más necesita el fotógrafo estadounidense Emmet Gowin para componer sus retratos profundos y silenciosamente elocuentes.",
@@ -2689,7 +2689,7 @@
         {
           "id": "462",
           "id_nota": 31,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Del ombligo al pajarito",
           "titulo": "Mirando mi propio pajarito",
           "entradilla": "En la época del imperio del selfie alardeamos de nuestro espíritu vintage para rescatar a fotógrafos inmortalizados mirando su propio pajarito.",
@@ -2701,7 +2701,7 @@
         {
           "id": "462",
           "id_nota": 32,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Del ombligo al pajarito",
           "titulo": "Mirando mi propio pajarito",
           "entradilla": "En la época del imperio del selfie alardeamos de nuestro espíritu vintage para rescatar a fotógrafos inmortalizados mirando su propio pajarito.",
@@ -2713,7 +2713,7 @@
         {
           "id": "461",
           "id_nota": 33,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Ojo con la foto",
           "titulo": "Blow-Up",
           "entradilla": "¿Es posible capturar la realidad a través de un instante fotográfico? El autor de esta nota bucea en sus recuerdos y, por fortuna, no encuentra una respuesta a pregunta tan irreal. ",
@@ -2725,7 +2725,7 @@
         {
           "id": "461",
           "id_nota": 34,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Ojo con la foto",
           "titulo": "Blow-Up",
           "entradilla": "¿Es posible capturar la realidad a través de un instante fotográfico? El autor de esta nota bucea en sus recuerdos y, por fortuna, no encuentra una respuesta a pregunta tan irreal. ",
@@ -2737,7 +2737,7 @@
         {
           "id": "460",
           "id_nota": 37,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Cara de Víctor",
           "titulo": "Plástica: Víctor Brauner",
           "entradilla": "Los cuadros del rumano Víctor Brauner exponen una forma de crear en la que la realidad tal cual la apreciamos deja paso a registros de alto significado simbólico.",
@@ -2749,7 +2749,7 @@
         {
           "id": "460",
           "id_nota": 38,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Cara de Víctor",
           "titulo": "Plástica: Víctor Brauner",
           "entradilla": "Los cuadros del rumano Víctor Brauner exponen una forma de crear en la que la realidad tal cual la apreciamos deja paso a registros de alto significado simbólico.",
@@ -2761,7 +2761,7 @@
         {
           "id": "459",
           "id_nota": 39,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Tag 17",
           "titulo": "20,000 días en la Tierra",
           "entradilla": "Falso documental o viaje a la mente del creador, en 20.000 días en la Tierra acompañamos a Nick Cave en esa detestada salida diaria al mundo real desde su torre de marfil ",
@@ -2773,7 +2773,7 @@
         {
           "id": "459",
           "id_nota": 40,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Tag 17",
           "titulo": "20,000 días en la Tierra",
           "entradilla": "Falso documental o viaje a la mente del creador, en 20.000 días en la Tierra acompañamos a Nick Cave en esa detestada salida diaria al mundo real desde su torre de marfil ",
@@ -2785,7 +2785,7 @@
         {
           "id": "458",
           "id_nota": 43,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Un museo calcado",
           "titulo": "Un lugar donde reina la escultura",
           "entradilla": "El Museo de Calcos, en la Costanera Sur, brinda la oportunidad de abstraerse del bullicio urbano entre esculturas y piezas que abarcan distintos períodos artísticos.",
@@ -2797,7 +2797,7 @@
         {
           "id": "458",
           "id_nota": 44,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Un museo calcado",
           "titulo": "Un lugar donde reina la escultura",
           "entradilla": "El Museo de Calcos, en la Costanera Sur, brinda la oportunidad de abstraerse del bullicio urbano entre esculturas y piezas que abarcan distintos períodos artísticos.",
@@ -2809,7 +2809,7 @@
         {
           "id": "456",
           "id_nota": 45,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Al infinito y más allá",
           "titulo": "RIP: Leonard Nimoy",
           "entradilla": "El señor Spock partió rumbo al infinito dejándonos tras de sí muchas tardes de sueños interestelares.",
@@ -2821,7 +2821,7 @@
         {
           "id": "456",
           "id_nota": 46,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Al infinito y más allá",
           "titulo": "RIP: Leonard Nimoy",
           "entradilla": "El señor Spock partió rumbo al infinito dejándonos tras de sí muchas tardes de sueños interestelares.",
@@ -2833,7 +2833,7 @@
         {
           "id": "457",
           "id_nota": 47,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "La naturaleza del artificio",
           "titulo": "Cai Guo Qiang en La Boca",
           "entradilla": "Paradigma de lo efímero, los fuegos artificiales se convierten en una experiencia no perecedera cuando proceden del universo cromático del artista chino Cai Guo Qiang.",
@@ -2845,7 +2845,7 @@
         {
           "id": "457",
           "id_nota": 48,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "La naturaleza del artificio",
           "titulo": "Cai Guo Qiang en La Boca",
           "entradilla": "Paradigma de lo efímero, los fuegos artificiales se convierten en una experiencia no perecedera cuando proceden del universo cromático del artista chino Cai Guo Qiang.",
@@ -2857,7 +2857,7 @@
         {
           "id": "455",
           "id_nota": 49,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Los pájaros ya no pían",
           "titulo": "RIP: Rod Taylor",
           "entradilla": "La muerte de Rod Taylor deja en la orfandad a los pájaros más inquietantes de la cinematografía universal.",
@@ -2869,7 +2869,7 @@
         {
           "id": "455",
           "id_nota": 50,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Los pájaros ya no pían",
           "titulo": "RIP: Rod Taylor",
           "entradilla": "La muerte de Rod Taylor deja en la orfandad a los pájaros más inquietantes de la cinematografía universal.",
@@ -2881,7 +2881,7 @@
         {
           "id": "454",
           "id_nota": 51,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Navegar es preciso",
           "titulo": "OxB: Las cosas de la esencia",
           "entradilla": "El hombre vuelve del viaje sin que las coordenadas se hayan asentado, lo cual no significa que los polos quieran ser antípodas.",
@@ -2893,7 +2893,7 @@
         {
           "id": "454",
           "id_nota": 52,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Navegar es preciso",
           "titulo": "OxB: Las cosas de la esencia",
           "entradilla": "El hombre vuelve del viaje sin que las coordenadas se hayan asentado, lo cual no significa que los polos quieran ser antípodas.",
@@ -2905,7 +2905,7 @@
         {
           "id": "453",
           "id_nota": 53,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Raros pájaros viejos",
           "titulo": "Pájaros que huyen de nuestro interior",
           "entradilla": "Los viejos pájaros marcan el ritmo interior de un texto nocturno, silencioso, insinuante.",
@@ -2917,7 +2917,7 @@
         {
           "id": "453",
           "id_nota": 54,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Raros pájaros viejos",
           "titulo": "Pájaros que huyen de nuestro interior",
           "entradilla": "Los viejos pájaros marcan el ritmo interior de un texto nocturno, silencioso, insinuante.",
@@ -2929,7 +2929,7 @@
         {
           "id": "451",
           "id_nota": 55,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Encuentros cercanos",
           "titulo": "Qué par de pájaros: Allen vs Borges",
           "entradilla": "Un matrimonio imposible (pero no tanto) que acaba encontrándose bajo las alas de un mismos pájaro que vuela por los siglos de los siglos.",
@@ -2941,7 +2941,7 @@
         {
           "id": "451",
           "id_nota": 56,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Encuentros cercanos",
           "titulo": "Qué par de pájaros: Allen vs Borges",
           "entradilla": "Un matrimonio imposible (pero no tanto) que acaba encontrándose bajo las alas de un mismos pájaro que vuela por los siglos de los siglos.",
@@ -2953,7 +2953,7 @@
         {
           "id": "452",
           "id_nota": 59,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Escalera al cielo",
           "titulo": "Nancy Dossier (5/7)",
           "entradilla": "La imprevisibilidad del alma humana resulta el único elemento perturbador para una mujer acostumbrada a conocer los escalones más bajos de la existencia.",
@@ -2965,7 +2965,7 @@
         {
           "id": "452",
           "id_nota": 60,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Escalera al cielo",
           "titulo": "Nancy Dossier (5/7)",
           "entradilla": "La imprevisibilidad del alma humana resulta el único elemento perturbador para una mujer acostumbrada a conocer los escalones más bajos de la existencia.",
@@ -2977,7 +2977,7 @@
         {
           "id": "450",
           "id_nota": 61,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Blue canary",
           "titulo": "Canarios",
           "entradilla": "El protagonismo de una pareja de canarios se despliega como una potente metáfora sobre el amor y la ausencia en esta perturbadora carta. ",
@@ -2989,7 +2989,7 @@
         {
           "id": "450",
           "id_nota": 62,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Blue canary",
           "titulo": "Canarios",
           "entradilla": "El protagonismo de una pareja de canarios se despliega como una potente metáfora sobre el amor y la ausencia en esta perturbadora carta. ",
@@ -3001,7 +3001,7 @@
         {
           "id": "449",
           "id_nota": 63,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Cazando codornices",
           "titulo": "Codornices estofadas",
           "entradilla": "De las aves que vuelan nos gusta el chancho, y también, cómo no, las codornices estofadas que nos propone nuestro colaborador más culinario en esta receta apta para paladares exigentes.",
@@ -3013,7 +3013,7 @@
         {
           "id": "449",
           "id_nota": 64,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Cazando codornices",
           "titulo": "Codornices estofadas",
           "entradilla": "De las aves que vuelan nos gusta el chancho, y también, cómo no, las codornices estofadas que nos propone nuestro colaborador más culinario en esta receta apta para paladares exigentes.",
@@ -3025,7 +3025,7 @@
         {
           "id": "475",
           "id_nota": 65,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Un disco de sui generis",
           "titulo": "Fatto in casa: pollo y cerdo sui generis",
           "entradilla": "Sui Generis no solo fue la banda que marcó el arranque del rock nacional. También es la forma de encarar la cocción de cerdo y pollo al disco de hierro.",
@@ -3037,7 +3037,7 @@
         {
           "id": "475",
           "id_nota": 66,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Un disco de sui generis",
           "titulo": "Fatto in casa: pollo y cerdo sui generis",
           "entradilla": "Sui Generis no solo fue la banda que marcó el arranque del rock nacional. También es la forma de encarar la cocción de cerdo y pollo al disco de hierro.",
@@ -3049,7 +3049,7 @@
         {
           "id": "476",
           "id_nota": 67,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "Bien pulenta",
           "titulo": "Polenta con pajarito",
           "entradilla": "Más allá del mito, la polenta con pajarito se alza como un plato versátil que admite tanto una preparación sencilla como una presentación de las más sofisticadas.",
@@ -3061,7 +3061,7 @@
         {
           "id": "476",
           "id_nota": 68,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "Bien pulenta",
           "titulo": "Polenta con pajarito",
           "entradilla": "Más allá del mito, la polenta con pajarito se alza como un plato versátil que admite tanto una preparación sencilla como una presentación de las más sofisticadas.",
@@ -3105,7 +3105,7 @@
         {
           "id": "378",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Somos lo que debemos",
           "titulo": "Fabrica del hombre endeudado, de Maurizio Lazzarato",
           "entradilla": "El verbo hipotecarse cobra un nuevo sentido tras la lectura del libro del sociólogo y filósofo italiano.",
@@ -3117,7 +3117,7 @@
         {
           "id": "379",
           "id_nota": 2,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Comer con las manos",
           "titulo": "La cabeza del cordero, de Francisco Ayala",
           "entradilla": "El célebre texto de Francisco Ayala combina con maestría experimentos formales y una honda preocupación social.",
@@ -3129,7 +3129,7 @@
         {
           "id": "380",
           "id_nota": 3,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Ménage à deux ",
           "titulo": "Adriana Hidalgo x 2: Flechas de Plata, de Walter Kappacher + Estuve allá afuera, de Correia de Brito",
           "entradilla": "El nazismo y la militancia revolucionaria entrecruzan sus coordenadas en estos dos títulos de Adriana Hidalgo Editora. ",
@@ -3141,7 +3141,7 @@
         {
           "id": "381",
           "id_nota": 4,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Mi querido enemigo",
           "titulo": "Bajezas con altura",
           "entradilla": "Quevedo y Góngora mantuvieron en su tiempo una disputa intelectual que no encontraría espacio en la parrilla televisiva actual.",
@@ -3153,7 +3153,7 @@
         {
           "id": "382",
           "id_nota": 5,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Ojos inocentes",
           "titulo": "Surtido infantil navideño",
           "entradilla": "La pequeña gran Olivia recomienda cinco títulos literarios infantiles para que los padres les lean a sus hijos... y viceversa.",
@@ -3165,7 +3165,7 @@
         {
           "id": "383",
           "id_nota": 6,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "El barón varón",
           "titulo": "Barón Biza: el gran maldito argentino",
           "entradilla": "Raúl Barón Biza es el imponente de su irreductible voluntad de poder, el desafiante, el criminal: el gran maldito argentino.",
@@ -3177,7 +3177,7 @@
         {
           "id": "384",
           "id_nota": 8,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "De fina porcelana",
           "titulo": "Reseña de Utz, de Bruce Chatwin",
           "entradilla": "Bruce Chatwin traza en su novela Utz un collage discontinuo que sorprende por su simbolismo y precisión.",
@@ -3189,7 +3189,7 @@
         {
           "id": "385",
           "id_nota": 9,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Otro Borges es posible",
           "titulo": "Borges se copia",
           "entradilla": "Un delicado trabajo de investigación literaria revela lo que hasta ahora parecía imposible de descubrir: Borges también usó el copy and paste.",
@@ -3201,7 +3201,7 @@
         {
           "id": "386",
           "id_nota": 10,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "No dejes de traducir",
           "titulo": "Traducir, reescribir, editar: Mme. Bovary y los haikus",
           "entradilla": "Nuevas traducciones de viejos libros destapan mapas inéditos de lectura en dos textos clásicos que siguen ofreciendo sorpresas.",
@@ -3213,7 +3213,7 @@
         {
           "id": "387",
           "id_nota": 11,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Tres eclécticos",
           "titulo": "Horse stories, de Dirty Three",
           "entradilla": "El multiinstrumentismo y el mejunje de géneros se encuentran en el mapa genético del trío australiano Dirty Three.",
@@ -3225,7 +3225,7 @@
         {
           "id": "388",
           "id_nota": 12,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Tiempo de balance",
           "titulo": "Repaso musical",
           "entradilla": "El año musical 2014 nos dejó algunas perlas, varias ausencias irreparables y la sensación ineludible de que mañana es mejor.",
@@ -3237,7 +3237,7 @@
         {
           "id": "389",
           "id_nota": 13,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "Está hablando del faaaso",
           "titulo": "Breves: Cabeza de la creación",
           "entradilla": "Bucear en los orígenes del reggae nos lleva al rastafarismo primitivo que dio origen a uno de los géneros más humeantes del mundo.",
@@ -3249,7 +3249,7 @@
         {
           "id": "390",
           "id_nota": 14,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Double fantasy",
           "titulo": "RIP: 34 años sin Lennon",
           "entradilla": "Parece que fue ayer cuando Mark David Chapman tiroteó a un hombre y mató a toda una generación.",
@@ -3261,7 +3261,7 @@
         {
           "id": "391",
           "id_nota": 15,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Como blanca diosa",
           "titulo": "Mama Rosa, de Brian Blade",
           "entradilla": "El disco de Brian Blade nos ofrece dos caras que van del intimismo cadencioso a la turbiedad instrumental más inquietante.",
@@ -3273,7 +3273,7 @@
         {
           "id": "392",
           "id_nota": 17,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Damas gratis",
           "titulo": "Los inconfesables: el cielo es too much",
           "entradilla": "Una tormenta de verano trajo hasta la grilla de ENEUR los efluvios de un trío cuyo amos nos resulta inconfesable.",
@@ -3285,7 +3285,7 @@
         {
           "id": "393",
           "id_nota": 18,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "No way",
           "titulo": "Video Sorpresa",
           "entradilla": "Los verdaderos hombres de ningún lugar recorren caminos cuyo final es tan ninguno como ellos mismos.",
@@ -3297,7 +3297,7 @@
         {
           "id": "394",
           "id_nota": 19,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "El otro monstruo de (la) Laguna",
           "titulo": "Plástica: Juanito y Ramona: Berni en el MALBA",
           "entradilla": "ENEUR celebra el desembarco, en el MALBA, de Juanito y Ramona, dos formas de ver el mundo y pintar del gran Antonio Berni.",
@@ -3309,7 +3309,7 @@
         {
           "id": "395",
           "id_nota": 20,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Franca sutileza",
           "titulo": "Fotografías: La Franca, de Silvana Muscio",
           "entradilla": "Las fotografías de Silvana Muscio cuestionan la posibilidad de adicionar belleza al territorio mítico del Delta. ",
@@ -3321,7 +3321,7 @@
         {
           "id": "396",
           "id_nota": 21,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Dios y el diablo en el taller",
           "titulo": "Terrenal, de Mauricio Kartun",
           "entradilla": "El autor dice que la obra de Kartun es una obra maestra. Y acá no hay dios ni morrón que lo desmienta. ",
@@ -3333,7 +3333,7 @@
         {
           "id": "397",
           "id_nota": 22,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Dos por uno",
           "titulo": "MAMBA x 2",
           "entradilla": "Una mirada por el circuito da cuenta de numerosas y atractivas propuestas en el campo de las artes visuales, en las que vale la pena adentrarse. ",
@@ -3345,7 +3345,7 @@
         {
           "id": "398",
           "id_nota": 23,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Simplemente Frances",
           "titulo": "La honestidad por Frances McDormand",
           "entradilla": "Hay actrices que a golpe de talento y papeles memorables parecen haber vencido al tiempo: Frances McDormand es una de estas maravillosas excepciones.",
@@ -3357,7 +3357,7 @@
         {
           "id": "399",
           "id_nota": 25,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Cartoonero",
           "titulo": "Ilustraciones: Nico Mezca",
           "entradilla": "Las ilustraciones de Nico Mezca remiten a un universo onírico e inquietante que bebe de muchas y buenas fuentes.",
@@ -3369,7 +3369,7 @@
         {
           "id": "400",
           "id_nota": 26,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Navegar es preciso",
           "titulo": "OxB",
           "entradilla": "El hombre se presenta ante el viaje con la misma disposición con la que el campesino espera ante las puertas de la ley.",
@@ -3381,7 +3381,7 @@
         {
           "id": "401",
           "id_nota": 27,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "En el circo me enseñaron las piruetas",
           "titulo": "Nancy Dossier [4/7]",
           "entradilla": "El circo me gusta porque es decadencia. Es ir a un lugar con olor a mierda y desesperación, con gusto a soledad y cocaína. ",
@@ -3393,7 +3393,7 @@
         {
           "id": "402",
           "id_nota": 29,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Me gusta cuando callas",
           "titulo": "Poemas",
           "entradilla": "Tres poemas inéditos ayudan a despuntar el vicio que en esta publicación tenemos con los versos y las estrofas.",
@@ -3405,7 +3405,7 @@
         {
           "id": "403",
           "id_nota": 30,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "No seas cabezón",
           "titulo": "Delincuentes cabezones: El Pibe Cabeza y Mate Cosido",
           "entradilla": "Esta es la historia de dos bandidos caracterizados por su importante perímetro craneal y convertidos en leyendas no exentas de romanticismo.",
@@ -3417,7 +3417,7 @@
         {
           "id": "404",
           "id_nota": 31,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Bocatto di padrone",
           "titulo": "Fatto in casa: pesto siciliano",
           "entradilla": "Un pesto siciliano nacido de la oscuridad y no exento de secretos alegra los platos de pasta y nuestras páginas de sabores.",
@@ -3429,7 +3429,7 @@
         {
           "id": "405",
           "id_nota": 32,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Me como la cabeza",
           "titulo": "Por una cabeza...",
           "entradilla": "Las cabezas de los animales pueden convertirse en sabrosos manjares que alegren nuestras mesas de fin de año.",
@@ -3473,7 +3473,7 @@
         {
           "id": "344",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Mirar el pajarito",
           "titulo": "Trazos de Luz, de Walter Benjamin",
           "entradilla": "¿Qué es aquello que viene a la luz, que guarda una secreta relación con la posibilidad de ser iluminado con un haz distinto al de la antorcha de la razón?",
@@ -3485,7 +3485,7 @@
         {
           "id": "347",
           "id_nota": 2,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Ser o no ser (robot)",
           "titulo": "Cuentos completos, de Philip K. Dick",
           "entradilla": "En el universo de Philip K. Dick la realidad es tan inquieta que puede hacernos dudar de nuestra condición de seres humanos.",
@@ -3497,7 +3497,7 @@
         {
           "id": "346",
           "id_nota": 4,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Indio hacer verso",
           "titulo": "La voz cruda de la indiada",
           "entradilla": "La entrevista a los responsables de Malón Malón muestra un camino posible para que la poesía sea hecha por todas las tribus.",
@@ -3509,7 +3509,7 @@
         {
           "id": "345",
           "id_nota": 5,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Solos & solas",
           "titulo": "La Mujer de Guatemala, de V. S. Pritchett",
           "entradilla": "Los solitarios cuyas vidas se compilan en este nuevo volumen de relatos del escritor inglés son un motivo para celebrar con algo más que un té a las cinco de la tarde.",
@@ -3521,7 +3521,7 @@
         {
           "id": "348",
           "id_nota": 7,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Woody y sus hermanos",
           "titulo": "Un tranvía llamado Woody Allen",
           "entradilla": "La obra temprana de Woody Allen nos revela que todos quisimos ser otros antes de ser quienes creemos que somos.",
@@ -3533,7 +3533,7 @@
         {
           "id": "349",
           "id_nota": 8,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Psicología de las masas",
           "titulo": "Todo lo que necesitás saber sobre psicoanálisis, de Silvia Ons",
           "entradilla": "Los libros de divulgación popular aplicados al psicoanálisis pueden dar como resultado páginas más cercanas a los Simpson que al barbudo vienés.",
@@ -3545,7 +3545,7 @@
         {
           "id": "350",
           "id_nota": 9,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "El pasado no llegó aún",
           "titulo": "Prólogo a la reedición fascimilar de Poesía Buenos Aires",
           "entradilla": "La inclusión de Poesía Buenos Aires en el proyecto Argentina Fascimilar, de la Biblioteca Nacional, lleva este prólogo de uno de nuestros colaboradores y artífices de la insigne revista de poesía. ",
@@ -3557,7 +3557,7 @@
         {
           "id": "371",
           "id_nota": 10,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Ser o no ser (robot) - Parte II",
           "titulo": "¿Sueñan los andoides con ovejas eléctricas?, de Philip K. Dick",
           "entradilla": "Las aventuras e intringulis de Rick Deckard llegan a manos del más joven de nuestros colaboradores y le dan pie a dudas androides y preguntas eléctricas...",
@@ -3569,7 +3569,7 @@
         {
           "id": "351",
           "id_nota": 11,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Mar adentro",
           "titulo": "Seafarer's Songs, de Ketil Björnstad",
           "entradilla": "Con el mar como excusa, el pianista noruego Ketil Bjørnstad compone un disco pleno en texturas y matices poéticos y musicales.",
@@ -3581,7 +3581,7 @@
         {
           "id": "352",
           "id_nota": 12,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Todo nuevo bajo el sol",
           "titulo": "Pan caliente",
           "entradilla": "Nueva entrega de nuestro compendio de novedades discográficas, en el que coinciden chicos malos, chicas mandonas y un señor que vive protestando.",
@@ -3593,7 +3593,7 @@
         {
           "id": "353",
           "id_nota": 13,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Ahí viene el rebaño",
           "titulo": "The Shepherd's Dog, de Iron & Wine",
           "entradilla": "El tercer disco de Iron & Wine marcó un punto de ruptura en la utilización de nuevos instrumentos que combinan a la perfección con la cadencia del folk.",
@@ -3605,7 +3605,7 @@
         {
           "id": "354",
           "id_nota": 15,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "¡Santos sudarios, Batman!",
           "titulo": "Breves: En nombre de Cristo",
           "entradilla": "Un recorrido por la presencia de Jesús en la música popular nos devuelve tantos Cristos como autores le cantaron.",
@@ -3617,7 +3617,7 @@
         {
           "id": "355",
           "id_nota": 16,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Di Stéfano no murió",
           "titulo": "Video Sorpresa",
           "entradilla": "Con el video sorpresa de este número sacamos a pasear a un Cristo al que, sospechamos, le encantaría unirse a la fiesta.",
@@ -3629,7 +3629,7 @@
         {
           "id": "356",
           "id_nota": 17,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Seguí pintando",
           "titulo": "Plástica: Antonio Seguí",
           "entradilla": "Como la de todos los grandes artistas, la obra de Antonio Seguí abraza la universalidad sin renunciar a característicos localismos que afilan sus pinturas.",
@@ -3641,7 +3641,7 @@
         {
           "id": "357",
           "id_nota": 18,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Ya morí de espaldas, nena",
           "titulo": "Fotografías:  Drop Dead Gorgeous, de Daniela Edburg",
           "entradilla": "Las fotografías de Daniel Edburg trascienden la más evidente crítica al sistema capitalista para adentrarse en terrenos de una metafísica kitsch.",
@@ -3653,7 +3653,7 @@
         {
           "id": "358",
           "id_nota": 19,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Mi gran casamiento griego",
           "titulo": "El Greco: 400 años",
           "entradilla": "El griego más español cumple 400 años rodeado de boatos oficiales y sentidos homenajes privados.",
@@ -3665,7 +3665,7 @@
         {
           "id": "359",
           "id_nota": 20,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Atrincherados",
           "titulo": "A 100 años de la Gran Guerra",
           "entradilla": "El centenario de la Guerra Guerra nos encuentra entre el horror de una masacre hasta entonces sin igual y la poderosa atracción que ejercen sus maravillosas fotografías.",
@@ -3677,7 +3677,7 @@
         {
           "id": "360",
           "id_nota": 21,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Doble estreno no es reestreno",
           "titulo": "Teatro x 2",
           "entradilla": "En análisis de dos estrenos teatrales da cuenta de la buena salud de la que disfrutan las siempre estimulantes tablas porteñas. ",
@@ -3689,7 +3689,7 @@
         {
           "id": "361",
           "id_nota": 23,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Ladrillos invisibles",
           "titulo": "La cuarta pared en el cine",
           "entradilla": "La cuarta pared establece una frontera que se rompe cuando el protagonista nos mira directamente a los ojos.",
@@ -3701,7 +3701,7 @@
         {
           "id": "362",
           "id_nota": 24,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Mano y contramano",
           "titulo": "OxB",
           "entradilla": "El sueño del hombre esta vez trae consigo un apéndice que duda entre buscar y encontrar.",
@@ -3713,7 +3713,7 @@
         {
           "id": "363",
           "id_nota": 25,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Alguien que anda por ahí",
           "titulo": "De la simetría interplanetaria, de Julio Cortázar",
           "entradilla": "No es novedad la hipótesis de que bien podría el Hijo de Dios pasearse por los planetas convirtiendo a los universales.",
@@ -3725,7 +3725,7 @@
         {
           "id": "364",
           "id_nota": 26,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Diga 33",
           "titulo": "La edad de Cristo... ¡amén!",
           "entradilla": "Las ansias por ser Willem Dafoe empujan al autor a ver Marías Magdalenas en cuanto Gólgota se yergue en la meseta.",
@@ -3737,7 +3737,7 @@
         {
           "id": "365",
           "id_nota": 27,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Feliz anticumpleaños a tí",
           "titulo": "El siglo I de Nicanor Parra",
           "entradilla": "El antipoeta chileno Nicanor Parra cumplió 100 años y lo celebramos con sus propias (anti)palabras.",
@@ -3749,7 +3749,7 @@
         {
           "id": "366",
           "id_nota": 28,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Te conozco, mascarita",
           "titulo": "Nancy Dossier (3/7)",
           "entradilla": "La tercera entrega de Nancy Dossier arranca las máscaras de los que olvidan que no somos más que un impulso, efímero y primitivo.",
@@ -3761,7 +3761,7 @@
         {
           "id": "367",
           "id_nota": 30,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "La cuestión de ka",
           "titulo": "Poemas",
           "entradilla": "Los poemas de Karina Macció tensan la cuerda impalpable que ata el amor y el dolor, la túnica y los clavos.",
@@ -3773,7 +3773,7 @@
         {
           "id": "368",
           "id_nota": 31,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Nací en el Mediterráneo",
           "titulo": "Cefalonia",
           "entradilla": "La cocina griega, fresca y desordenada, nos invita a experimentar con colores vivos e ingredientes que están al alcance de cualquier mano.",
@@ -3785,7 +3785,7 @@
         {
           "id": "369",
           "id_nota": 33,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Lobos de invierno",
           "titulo": "El sabor de La Feliz",
           "entradilla": "El invierno en Mar del Plata nos deja un gran sabor de boca, y no solo por la ausencia de los miles de turistas que no van cuando hace frío.",
@@ -3797,7 +3797,7 @@
         {
           "id": "370",
           "id_nota": 34,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Del río al plato",
           "titulo": "Fatto in casa: chupín de pescado",
           "entradilla": "El chupín de pescado, aun siendo plato canónico de las riberas, admite variaciones sin perder una espina de su autenticidad.",
@@ -3841,7 +3841,7 @@
         {
           "id": "305",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "El violinista en el tejado",
           "titulo": "Toque de Queda, de Jesse Ball",
           "entradilla": "Las palabras de Jesse Ball acaban reverberando su sentido en el ánimo del lector que se acerque a esta novela desolada, metafórica y trágicamente cercana",
@@ -3853,7 +3853,7 @@
         {
           "id": "306",
           "id_nota": 2,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Poética y política del cuerpo",
           "titulo": "La sublevación, de Franco Berardi",
           "entradilla": "La iniciativa editorial colectiva Hekht Libros pasa de los hechos a las palabras con una serie de textos del filósofo italiano Franco Berardi sobre la emergencia política europea",
@@ -3865,7 +3865,7 @@
         {
           "id": "307",
           "id_nota": 3,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "El otoño de la matriarca",
           "titulo": "Otoño alemán, de Stig Dagerman",
           "entradilla": "Cada infierno es el peor de los infiernos. Cada dolor es el máximo. Y el propio sufrimiento es el consuelo del máximo sufrimiento: todo lo demás es Dagerman.",
@@ -3877,7 +3877,7 @@
         {
           "id": "308",
           "id_nota": 4,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Réquiem para un sueño",
           "titulo": "Bajar es lo peor, de Mariana Enríquez",
           "entradilla": "La reedición de Bajar es lo peor nos da la oportunidad de volver a recorrer un libro tenso escrito entre la urgencia de un país a punto de estallar.",
@@ -3889,7 +3889,7 @@
         {
           "id": "309",
           "id_nota": 5,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "El polaco más argentino y viceversa",
           "titulo": "Cumbre ferdydurkista",
           "entradilla": "Expertos y lectores de todo el mundo se reunirán del 7 al 10 de agosto en la Biblioteca Nacional para celebrar el Primer Congreso Internacional Witold Gombrowicz.",
@@ -3901,7 +3901,7 @@
         {
           "id": "310",
           "id_nota": 6,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Lo siniestro, lo umbrío, lo intraducible",
           "titulo": "Das Unheimliche",
           "entradilla": "Fresquita edición del manuscrito de Sigmund Freud que puso en libro nuestro amigo y colaborador Lionel Klimkiewicz.",
@@ -3913,7 +3913,7 @@
         {
           "id": "311",
           "id_nota": 7,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Saltando a la mexicana",
           "titulo": "Octavio Paz enfrenta al Gran Dinero",
           "entradilla": "La estatura intelectual de Octavio Paz excede por los cuatro costados los moldes ideológicos en los que tanto se han empeñado en encorsetarlo.",
@@ -3925,7 +3925,7 @@
         {
           "id": "312",
           "id_nota": 8,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Doble contra sencillo",
           "titulo": "El Doble, de Fiodor Dostoievski",
           "entradilla": "La editorial Eterna Cadencia duplica El doble de Dostoievski, en un juego de espejos que pone a prueba la sagacidad (y la salud mental) del lector.",
@@ -3937,7 +3937,7 @@
         {
           "id": "313",
           "id_nota": 9,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Elogio de la fritura",
           "titulo": "A Letter Home, de Neil Young",
           "entradilla": "Neil Young hace la \"gran González Tuñón\" con un disco grabado en una cabina de los años cuarenta que suena a gramola vieja.",
@@ -3949,7 +3949,7 @@
         {
           "id": "314",
           "id_nota": 11,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "La vida es una moneda",
           "titulo": "30 denarios",
           "entradilla": "Parece que la historia fue mal contada, pues las míticas 30 monedas sirven para sentar en la misma mesa a García, Borges, Martín Fierro y compañía.",
@@ -3961,7 +3961,7 @@
         {
           "id": "315",
           "id_nota": 12,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "El imperio del solo naciente",
           "titulo": "Rising Son, de Takuya Kuroda",
           "entradilla": "La mezcolanza de estos tiempos que nos corren saca a pasear su lado más virtuoso en el último disco del trompetista japonés Takuya Kuroda.",
@@ -3973,7 +3973,7 @@
         {
           "id": "316",
           "id_nota": 13,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "3... 2... 1... ¡Despegue!",
           "titulo": "Lanzamientos musicales",
           "entradilla": "Las novedades musicales de la temporada nos dejan con la sensación de tener el mundo a los pies de nuestros oídos.",
@@ -3985,7 +3985,7 @@
         {
           "id": "317",
           "id_nota": 14,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Lo esencial es audible",
           "titulo": "The Invisible Man, de Mark Eitzel",
           "entradilla": "Mark Eitzel coteja el dolor propio con el dolor ajeno en medio de un disco que visibiliza la opacidad del alma humana.",
@@ -3997,7 +3997,7 @@
         {
           "id": "318",
           "id_nota": 16,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "La música no tiene bolsillos",
           "titulo": "Breves: el dinero no puede comprarme, amor",
           "entradilla": "Aunque algunos sostengan que no les alcanza el dinero para llegar al final de mes, a nosotros nos sobran las reseñas musicales para llegar al centro del dinero.",
@@ -4009,7 +4009,7 @@
         {
           "id": "319",
           "id_nota": 17,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Más allá del ¡cling caja!",
           "titulo": "Video Sorpresa",
           "entradilla": "Ni todas las monedas del mundo alcanzarían para comprar la emoción que se sentía al oír el retintín de aquella mítica caja registradora.",
@@ -4021,7 +4021,7 @@
         {
           "id": "320",
           "id_nota": 18,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Verona anduvo en Cinquecento",
           "titulo": "Plástica: Veronese en la National Art Gallery de Londres",
           "entradilla": "El riesgo fue una constante en la vida de Veronese, cuyo pincel nos ha legado grandes obras que se adelantaron a los cánones de su época.",
@@ -4033,7 +4033,7 @@
         {
           "id": "321",
           "id_nota": 19,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "El ojo en el deshaucio",
           "titulo": "Fotografías: Olmo Calvo",
           "entradilla": "Las fotografías de las víctimas de los desahucios, realizadas por Olmo Calvo, tienen un doble valor testimonial y artístico.",
@@ -4045,7 +4045,7 @@
         {
           "id": "322",
           "id_nota": 20,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "El lado L de los años 80",
           "titulo": "Alfredo Londaibere y el goce de la pintura",
           "entradilla": "En la obra del artista argentino Alfredo Londaibere, el acto pictórico constituye un fenómeno exógeno al plano intelectual que no siempre admite explicaciones.",
@@ -4057,7 +4057,7 @@
         {
           "id": "323",
           "id_nota": 21,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "De piedras y verdores",
           "titulo": "Teatro x 2",
           "entradilla": "Una relectura lúdica de la barbarie conquistadora y la policromía de una costurera reflejan la vigorosa salud de la que gozan las tablas argentinas.",
@@ -4069,7 +4069,7 @@
         {
           "id": "324",
           "id_nota": 23,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "...y me fui al cine a ver una de terror...",
           "titulo": "Rodar el Apocalipsis",
           "entradilla": "El nuevo Godzilla que se asoma a las pantallas reaviva la seductora idea de ver destruida nuestra civilización a golpe de apocalipsis.",
@@ -4081,7 +4081,7 @@
         {
           "id": "325",
           "id_nota": 25,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Celos que matan",
           "titulo": "Othelo, de Gabriel Chame Buendia",
           "entradilla": "El celoso Othelo surca los siglos para rejuvenecer en esta acertadísima puesta en escena dirigida por Chame Buendía.",
@@ -4093,7 +4093,7 @@
         {
           "id": "326",
           "id_nota": 27,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Hay un alien en mi tumba",
           "titulo": "RIP: Giger",
           "entradilla": "Conocido por haber diseñado al alien más famoso de la cinematografía, H. R. Giger fue el constructor de un mundo donde lo siniestro, el erotismo y la máquina fueron amos y señores.",
@@ -4105,7 +4105,7 @@
         {
           "id": "327",
           "id_nota": 28,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Oro por baratijas",
           "titulo": "El gol de Rensenbrick",
           "entradilla": "La cita mundialista remoza los recuerdos tejidos alrededor de un gol que podría haber cambiado tantas cosas.",
@@ -4117,7 +4117,7 @@
         {
           "id": "328",
           "id_nota": 30,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "La profesión más antigua del mundo",
           "titulo": "Nancy Dossier [2/7]",
           "entradilla": "La segunda entrega de Nancy Dossier planea sobre el silencio como el preludio que quieren eludir aquellos que lo único que saben hacer es ir directamente a los bifes.",
@@ -4129,7 +4129,7 @@
         {
           "id": "329",
           "id_nota": 32,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "El duro filamento de ser Bayley",
           "titulo": "Edgar Bayley",
           "entradilla": "Nunca supongas que la espuma del alba se ha extinguido / después del rostro hay otro rostro [...] / siempre será así.",
@@ -4141,7 +4141,7 @@
         {
           "id": "330",
           "id_nota": 33,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "El rayo que no cesa",
           "titulo": "Hambres",
           "entradilla": "Un poema dedicado a Miguel Hernández \"transita las plazas del desierto humano\" entre los ecos legados por el poeta alicantino.",
@@ -4153,7 +4153,7 @@
         {
           "id": "331",
           "id_nota": 34,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Han dicho",
           "titulo": "En la red: DIXI (He dicho)",
           "entradilla": "Los compañeros de la revista DIXI (He dicho) ocupan en este número la sección destinada a la presentación de publicaciones de las que nos gustaría ser amigos.",
@@ -4165,7 +4165,7 @@
         {
           "id": "332",
           "id_nota": 35,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "¡Paaaaaaassssssta! y algo más",
           "titulo": "Il grande sapore",
           "entradilla": "Siguiendo a Leonardo da Vinci, si comer con desgana convierte el alimento en un repulsivo manjar, este recorrido gastronómico por Italia homenajea por igual el buen paladar y la excelencia culinaria peninsular",
@@ -4177,7 +4177,7 @@
         {
           "id": "333",
           "id_nota": 36,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "El abrigo del atún",
           "titulo": "Coca tapada de atún con tomate",
           "entradilla": "La coca es un clásico de la dieta mediterránea que pide su lugar en las cocinas de todas las latitudes.",
@@ -4189,7 +4189,7 @@
         {
           "id": "334",
           "id_nota": 38,
-          "id_Pagina": 30,
+          "id_pagina": 30,
           "tag": "No creo que el chancho chifle",
           "titulo": "Fatto in casa: bondiola de cerdo",
           "entradilla": "La bondiola emerge de los sótanos fiambreros para convertirse en un plato principal al que no le falta ese toque característico del fin del mundo.",
@@ -4233,7 +4233,7 @@
         {
           "id": "272",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "Bichos de reformatorio",
           "titulo": "Larvas, de Elías Castelnuovo",
           "entradilla": "La Ilustración dobla las rodillas dentro de los muros de un reformatorio, cuyas prácticas conocemos gracias a un maestro que denuncia después de ejecutar.",
@@ -4245,7 +4245,7 @@
         {
           "id": "273",
           "id_nota": 2,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Traduttore, traditore",
           "titulo": "Encuentro íntimo entre lenguas",
           "entradilla": "El encuentro casual entre dos libros y un lector aceita una reflexión acerca de lo que se dice el lenguaje cuando habla más allá de la semántica. ",
@@ -4257,7 +4257,7 @@
         {
           "id": "274",
           "id_nota": 4,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Loving the alien",
           "titulo": "Desde ahora en adelante vivirás dentro de mí",
           "entradilla": "Los cuentos que narraremos nos moldean del mismo modo que la luz hace con la sombra, y más si aquello es imposible de contar. ",
@@ -4269,7 +4269,7 @@
         {
           "id": "275",
           "id_nota": 5,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "L'enfant merengue",
           "titulo": "Ray Loriga",
           "entradilla": "Ray Loriga, el otrora enfant terrible de la narrativa española, da nuevas muestras de su olfato literario en esta historia de drogas perfectas y perdedores no menos intachables.",
@@ -4281,7 +4281,7 @@
         {
           "id": "276",
           "id_nota": 6,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Luces y sombras",
           "titulo": "Las iluminaciones",
           "entradilla": "El siempre joven Rimbaud y el humilde Léolo se dan la mano en este elogio desbordado de la embriaguez de las sombras. ",
@@ -4293,7 +4293,7 @@
         {
           "id": "277",
           "id_nota": 7,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Cruzando el charco poético",
           "titulo": "Poemas",
           "entradilla": "En su debut con Esto No Es Una Revista, el poeta uruguayo Jorge Palma nos regala dos poemas sobre el circo de la vida y sus alrededores.",
@@ -4305,7 +4305,7 @@
         {
           "id": "278",
           "id_nota": 8,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Debajo de la X",
           "titulo": "Zona de Tesoros",
           "entradilla": "Los libros de la colección \"Zona de tesoros\" nos ofrecen la posibilidad de redescubrir gemas literarias a través de exquisitos objetos editoriales.",
@@ -4317,7 +4317,7 @@
         {
           "id": "279",
           "id_nota": 10,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Una temporada en el infierno",
           "titulo": "RIP: Leopoldo María Panero",
           "entradilla": "Incómodo hasta más allá del final, el poeta Leopoldo María Panero nos deja con su muerte la obligación de leerlo echados a la sombra de su furiosa luz.",
@@ -4329,7 +4329,7 @@
         {
           "id": "280",
           "id_nota": 11,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Cuando Cateura suena...",
           "titulo": "Orquesta de instrumentos reciclados ",
           "entradilla": "Cuando la lata de aceite usado de uno se convierte en el violonchelo de otro, entonces el pasado se abre de piernas para dejar asomarse al porvenir.",
@@ -4341,7 +4341,7 @@
         {
           "id": "281",
           "id_nota": 12,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Arpegios a la hora de partir",
           "titulo": "RIP: Paco de Lucía",
           "entradilla": "La muerte puede resultar aceptable, pero la ausencia se hace difícil de remontar si no es recordando algo de todo lo bello que dejó Paco en nuestra piel.",
@@ -4353,7 +4353,7 @@
         {
           "id": "282",
           "id_nota": 13,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Golden boy",
           "titulo": "Morning Phase, de Beck",
           "entradilla": "Cuando el dolor encuentra un pasamanos del que agarrarse surgen discos como el nuevo de Beck, donde la nostalgia navega entre burbujas de champagne. ",
@@ -4365,7 +4365,7 @@
         {
           "id": "283",
           "id_nota": 14,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "Más cerca del arpa...",
           "titulo": "Ys, de Joanna Newsom",
           "entradilla": "Joanna Newsom elude los tópicos sobre el arpa para regalarnos un disco complejo y sorprendente que fluctúa más allá de géneros y etiquetas musicales.",
@@ -4377,7 +4377,7 @@
         {
           "id": "284",
           "id_nota": 16,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Hágase la luz",
           "titulo": "Breves: bichitos musicales en busca de la luz",
           "entradilla": "La luz es casi más parte de la música que de la física, como lo demuestra este travelling auditivo que va desde el valle de Arizona al exuberante nordeste brasileño.",
@@ -4389,7 +4389,7 @@
         {
           "id": "285",
           "id_nota": 17,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Clasicismo a pantalla completa",
           "titulo": "Video Sorpresa",
           "entradilla": "La cacareada furia del rock and roll es nesquik con galletitas al lado de estos pibes que desquiciaron hasta a lo más granado de la colina de Hollywood.",
@@ -4401,7 +4401,7 @@
         {
           "id": "286",
           "id_nota": 18,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "El ojo mágico",
           "titulo": "Sergio Larraín ",
           "entradilla": "La obsesión de Sergio Larraín por fotografiar \"seres comunes\" no fue menor que la de mantener el pulso de su propia vida, y ambas las aplicó con igual rigor.",
@@ -4413,7 +4413,7 @@
         {
           "id": "287",
           "id_nota": 19,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Contra el olvido",
           "titulo": "Hasta siempre, Alain Resnais",
           "entradilla": "¿Cómo intentar transmitir, hoy, casi en otro planeta, lo que significó para los jóvenes de los sesenta el estreno de Hiroshima mon amour?",
@@ -4425,7 +4425,7 @@
         {
           "id": "288",
           "id_nota": 21,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Rojo Rothko",
           "titulo": "Red, de Daniel Barone",
           "entradilla": "La vida del pintor Mark Rothko abre las puertas a cuestionamientos artísticos que no necesariamente se responden en este texto de John Logan puesto en escena por Daniel Barone. ",
@@ -4437,7 +4437,7 @@
         {
           "id": "289",
           "id_nota": 23,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Arde Roma",
           "titulo": "Sucumbiendo a la gran belleza",
           "entradilla": "La decadencia se viste de gala en La gran belleza, un hermoso poema que, a pesar del Oscar, vuelve a vestir a Roma de la más sublime y la más mundana de las esencias.",
@@ -4449,7 +4449,7 @@
         {
           "id": "290",
           "id_nota": 24,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Pintor de pintores",
           "titulo": "Cézanne site/non site ",
           "entradilla": "Lo interior y lo exterior se complementan de tal forma en la obra de Paul Cézanne que los bodegones y la intemperie acaban prestándose la distancia entre el orden y el caos.",
@@ -4461,7 +4461,7 @@
         {
           "id": "291",
           "id_nota": 25,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "¡Mascalzone!",
           "titulo": "Noches Romanas, de Oscar Barney Finn",
           "entradilla": "La relación entre Anna Magnani y Tennesse Williams sube a escena en Noches romanas, en la que éxito y fracaso se presentan como luces de un mismo candil. ",
@@ -4473,7 +4473,7 @@
         {
           "id": "292",
           "id_nota": 26,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Tan joven y tan viejo",
           "titulo": "Oro por baratijas: Elogio del eco",
           "entradilla": "El callejón de las edades se despliega como el preludio de aquello que revelará al hombre su propia denominación, su propio eco. ",
@@ -4485,7 +4485,7 @@
         {
           "id": "293",
           "id_nota": 27,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "La puta que vale la pena estar vivo",
           "titulo": "Nancy Dossier [1/7]",
           "entradilla": "El oficio más antiguo del mundo nos regala un personaje que habla y vive desde más allá de las entrañas, y que andará por estas páginas a través de sucesivas entregas.",
@@ -4497,7 +4497,7 @@
         {
           "id": "294",
           "id_nota": 29,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Dale tu mano al indio",
           "titulo": "Cuando todo se nada",
           "entradilla": "A veces se necesita más de una vida para incorporar algunas enseñanzas, como las de este Maestro cuyo rostro maduro fue bordado por el viento.",
@@ -4509,7 +4509,7 @@
         {
           "id": "295",
           "id_nota": 30,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Autitos chocadores",
           "titulo": "Choque",
           "entradilla": "Un accidente automovilístico ocurrido en plena ruta revive una de las preguntas del millón de muertos: ¿quién dijo que los testigos son neutrales?",
@@ -4521,7 +4521,7 @@
         {
           "id": "296",
           "id_nota": 32,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Semilla de sé/sano",
           "titulo": "Hummus",
           "entradilla": "Sencillez y nutrición se reúnen en esta receta que rompe las barreras de los prejuicios digestivos para acercarse hasta su plato principal o entremés.",
@@ -4533,7 +4533,7 @@
         {
           "id": "297",
           "id_nota": 33,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Salta pequeña langosta",
           "titulo": "Fatto in casa: langostinos",
           "entradilla": "Los langostinos se prestan a múltiples y sabrosas interpretaciones, sobre todo si uno vive tan cerquita del Asia oriental como nuestro sibarita colaborador.",
@@ -4577,7 +4577,7 @@
         {
           "id": "184",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "L'enfant merengue",
           "titulo": "Escuchar a Lobo Antunes",
           "entradilla": "El escritor portugués no es plato recomendable si lo que se busca es salir del libro sin mácula ni cicatrices.",
@@ -4589,7 +4589,7 @@
         {
           "id": "185",
           "id_nota": 2,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "El norte también existe",
           "titulo": "Fabio Martínez: La catequesis del realismo norteño",
           "entradilla": "El realismo se convierte, en manos de Fabio Martínez, en un puente tendido entre lo geográfico y el proyecto existencial.",
@@ -4601,7 +4601,7 @@
         {
           "id": "186",
           "id_nota": 3,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "El irlandés errante",
           "titulo": "Entrevista a Ian Gibson",
           "entradilla": "El hispanista Ian Gibson comienza hablándonos de su biografía de Buñuel recientemente publicada para terminar desmenuzando la triste España de hoy.",
@@ -4613,7 +4613,7 @@
         {
           "id": "187",
           "id_nota": 4,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "De Rusia con amor (1ra. parte)",
           "titulo": "Historia del libro",
           "entradilla": "El libro que habla de la historia del libro revela un recorrido en el que forma y fondo se fusionan unidos por el lomo. ",
@@ -4625,7 +4625,7 @@
         {
           "id": "188",
           "id_nota": 6,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Ya no sos mi Margarita",
           "titulo": "La perdición de Alfred Hayes",
           "entradilla": "La novela de Hayes pone en juego la relación de un hombre maduro con los embates transgresores de la juventud.",
@@ -4637,7 +4637,7 @@
         {
           "id": "189",
           "id_nota": 8,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Las cartas de René",
           "titulo": "René Char y nosotros",
           "entradilla": "La publicación de la correspondencia entre René Char y Raúl Gustavo Aguirre abre las puertas de un tiempo donde la convención se sentaba en otra mesa.",
@@ -4649,7 +4649,7 @@
         {
           "id": "191",
           "id_nota": 9,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Mi monstruo y yo",
           "titulo": "El mal ya no es lo que era",
           "entradilla": "Los relatos de Ferdinand von Schirach, basados en casos judiciales reales, cuestionan el límite entre lo lógico y lo delictivo.",
@@ -4661,7 +4661,7 @@
         {
           "id": "190",
           "id_nota": 11,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Comandante Pajarito",
           "titulo": "... y allá andará, según se dice...",
           "entradilla": "La muerte de Juan Gelman llena de orfandad a todos aquellos que aprendimos a volar sentados al borde de una silla desfondada.",
@@ -4673,7 +4673,7 @@
         {
           "id": "192",
           "id_nota": 12,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "¿Bootleg o no bootleg?",
           "titulo": "Peter Schärli en Jazz nos Fundos ",
           "entradilla": "El trompetista suizo Peter Schärli se llena de Brasil para regalarnos un disco ecléctico que, sin ser oficial, tampoco parece pirata.",
@@ -4685,7 +4685,7 @@
         {
           "id": "206",
           "id_nota": 14,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Repasando lo escuchado",
           "titulo": "La música del pasado año pasado",
           "entradilla": "El repaso a lo mejor de 2013 nos deja con la sensación de que el año pasado pudo haber sido bastante peor.",
@@ -4697,7 +4697,7 @@
         {
           "id": "194",
           "id_nota": 15,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Revistando al gorrión",
           "titulo": "Breves: ¡qué rosa está la cosa!",
           "entradilla": "Si hay ave que canta poco y nada, ese es el gorrión. Poco le importó a Edith Piaf y escribió una chanson que se multiplica en versiones que no dejan de aparecer.",
@@ -4709,7 +4709,7 @@
         {
           "id": "195",
           "id_nota": 16,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "Qué par de pájaros los dos",
           "titulo": "Video Sorpresa x 2",
           "entradilla": "Cuando vea los videos publicados, más de uno se golpeará la frente. Sí, queridos lectores, conociéndonos desde hace más de 3 años, deberían haberlos anticipado...",
@@ -4721,7 +4721,7 @@
         {
           "id": "196",
           "id_nota": 17,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "África mía",
           "titulo": "Imany: cambio de modelo",
           "entradilla": "El paso de Imany de las pasarelas al rhythm & blues viene acompañado por sonidos mestizos que resumen su trayectoria vital.",
@@ -4733,7 +4733,7 @@
         {
           "id": "193",
           "id_nota": 19,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Súbete a mi dromedario",
           "titulo": "Blues tuareg",
           "entradilla": "De los campamentos tuareg de Níger y Malí nos llegan sonidos que huelen a desierto y saben a rock & roll.",
@@ -4745,7 +4745,7 @@
         {
           "id": "197",
           "id_nota": 20,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Mirando otro Madrid",
           "titulo": "Natalia Torrego: Fotografías",
           "entradilla": "La capital de España, que supo en tiempos condensar la animación de un país pujante, resume hoy el perfil de un país monocromático.",
@@ -4757,7 +4757,7 @@
         {
           "id": "199",
           "id_nota": 21,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "50 sombras de Lars",
           "titulo": "Nymphomaniac y la línea roja",
           "entradilla": "La nueva aventura del enfant terrible del cine europeo parece ser tan pródiga en exposición como escasa en sustancia.",
@@ -4769,7 +4769,7 @@
         {
           "id": "198",
           "id_nota": 23,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "De hombre a hombre",
           "titulo": "Masculino/Masculino",
           "entradilla": "La exposición del Museo d' Orsay se atreve con el cuerpo masculino desnudo, un motivo que es tabú hasta para el arte.",
@@ -4781,7 +4781,7 @@
         {
           "id": "201",
           "id_nota": 24,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Ahuyentando al año pasado",
           "titulo": "Los 12 del 13: otro ranking caprichoso...",
           "entradilla": "La vitalidad del pulso cultural porteño queda de manifiesto en este ranking con lo mejor que ha pasado por nuestros teatros, museos y alrededores.",
@@ -4793,7 +4793,7 @@
         {
           "id": "200",
           "id_nota": 25,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Ver y leer (y viceversa)",
           "titulo": "Uri Gordon y Cintia Zaremsky: Derivas de la Luz",
           "entradilla": "Las palabras y las imágenes trazan un camino que recorre por igual los rincones de la ciudad y de lo íntimo.",
@@ -4805,7 +4805,7 @@
         {
           "id": "203",
           "id_nota": 26,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "De Rusia con amor (2da. parte)",
           "titulo": "Otoño en Siberia",
           "entradilla": "Literatura, trenes interminables y un montón de husos horarios se entremezclan en esta aventura personal hasta el fin del mundo.",
@@ -4817,7 +4817,7 @@
         {
           "id": "205",
           "id_nota": 27,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "No hay rosa sin espinas",
           "titulo": "Flamencos",
           "entradilla": "Los flamencos pierden su característico color rosa al final de su vida y no les gusta ser molestados. Como la vida misma.",
@@ -4829,7 +4829,7 @@
         {
           "id": "202",
           "id_nota": 28,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Recuerdo que fue ayer",
           "titulo": "Oro por baratijas: Aniversario",
           "entradilla": "Atado al calendario, el hombre equilibrado trastabilla contra el olvido de un aniversario necesariamente imperfecto.",
@@ -4841,7 +4841,7 @@
         {
           "id": "207",
           "id_nota": 29,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "El vientre del mundo",
           "titulo": "A mi madre África",
           "entradilla": "Madre-muchos-nombres, que una noche confesaste ser vieja y aún celebrar el amor como pequeña.",
@@ -4853,7 +4853,7 @@
         {
           "id": "208",
           "id_nota": 30,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "¿Quién dijo que todo está colgado?",
           "titulo": "La nube",
           "entradilla": "Una célula de lectores resistente se empeña en mantener encendida la llama del papel y la emoción.",
@@ -4865,7 +4865,7 @@
         {
           "id": "209",
           "id_nota": 32,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Todas las manos todas",
           "titulo": "Descolonizando la literatura latinoamericana",
           "entradilla": "Desde la primera gramática el imperio ha intentado imponer una versión de la historia invariablemente blanca y uniforme.",
@@ -4877,7 +4877,7 @@
         {
           "id": "210",
           "id_nota": 33,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Comida al paso",
           "titulo": "Bocadillos callejeros",
           "entradilla": "Del choripán al balik ekmek, a la comida callejera nunca le faltará un compañero con quien trazar nuevos sabores.",
@@ -4889,7 +4889,7 @@
         {
           "id": "211",
           "id_nota": 35,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Cordero de Dios",
           "titulo": "Sale el pavo, entra el cordero",
           "entradilla": "Los calores y cierto proteccionismo cultural relegan al pavo y encumbran al cordero como el plato principal de las celebraciones navideñas.",
@@ -4901,7 +4901,7 @@
         {
           "id": "212",
           "id_nota": 37,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "Hic! Hic! (et nunc)",
           "titulo": "Fatto in casa: daiquiris a la hora de la siesta",
           "entradilla": "La preparación del cóctel de entre los cócteles requiere más paciencia y armonía interior que conocimientos profundos sobre la alquimia del ron.",
@@ -4945,7 +4945,7 @@
         {
           "id": "144",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "La tierra baldía",
           "titulo": "Eugene Marten: Desperdicios",
           "entradilla": "Con una prosa despojada, Eugene Marten levanta la alfombra de la sociedad para mostrarnos toda la basura que hemos ido acumulando bajo la superficie.",
@@ -4957,7 +4957,7 @@
         {
           "id": "104",
           "id_nota": 2,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "El hombre de los volcanes",
           "titulo": "La aventura literaria de Malcom Lowry",
           "entradilla": "La manera en la que el artista afronta el más allá de su propia ficción marca la singularidad de ciertos ejercicios metaliterarios. Pocos hubo tan intensos como el ejecutado por Malcolm Lowry.",
@@ -4969,7 +4969,7 @@
         {
           "id": "105",
           "id_nota": 3,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "Escombros...",
           "titulo": "Rafael Pinedo: Plop",
           "entradilla": "La reedición de Plop, la primera novela de Rafael Pinedo, vuelve a agitar el debate de los géneros literarios, sus fronteras y los bifurcados caminos del héroe.",
@@ -4981,7 +4981,7 @@
         {
           "id": "106",
           "id_nota": 4,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Libro bicolor",
           "titulo": "Charly García: Líneas paralelas",
           "entradilla": "El paso de Charly García por el Teatro Colón dejó música, polémica y un precioso libro/programa casi tan ecléctico como su creador. ",
@@ -4993,7 +4993,7 @@
         {
           "id": "107",
           "id_nota": 6,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Psicoactivismo editorial",
           "titulo": "Caja Negra: Entrevista",
           "entradilla": "La poesía debe ser hecha por todos, dijo el poeta. Pero la edición mejor la dejamos en manos de los que saben, como los responsables de la Editorial Caja Negra.",
@@ -5005,7 +5005,7 @@
         {
           "id": "108",
           "id_nota": 8,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Misterios & tinieblas",
           "titulo": "Robert Desnos: Poemas",
           "entradilla": "Al igual que el siglo que inauguró con su nacimiento, el poeta francés Robert Desnos expuso su vida, su arte y sus pasiones sobre la superficie fría de una mesa de disección.",
@@ -5017,7 +5017,7 @@
         {
           "id": "109",
           "id_nota": 9,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "El crimen (im)perfecto",
           "titulo": "Elliott Chaze: Mi ángel tiene alas negras",
           "entradilla": "Si la perfección no existe, qué les espera entonces a los golpes criminales planeados entre las piernas esculturales de una mujer de vida licenciosa. ",
@@ -5029,7 +5029,7 @@
         {
           "id": "110",
           "id_nota": 10,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Pan caliente",
           "titulo": "NMA: El neodarwinismo del blues",
           "entradilla": "En su último disco, North Mississippi Allstars gira el pescuezo hacia el pasado para restaurar clásicos que suenan como recién salidos del horno. ",
@@ -5041,7 +5041,7 @@
         {
           "id": "111",
           "id_nota": 12,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Pimienta lunar",
           "titulo": "Art Pepper: Winter Moon",
           "entradilla": "El disco del saxofonista Art Pepper es un compendio de profundidades en el que el oyente se ve suspendido por una delicada urdimbre de vientos y cuerdas.",
@@ -5053,7 +5053,7 @@
         {
           "id": "112",
           "id_nota": 13,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Lou Reed",
           "titulo": "El lado salvaje del Cielo",
           "entradilla": "La marcha de Lou Reed nos deja un mundo que resulta bastante más triste sin su clásico mal humor. ",
@@ -5065,7 +5065,7 @@
         {
           "id": "113",
           "id_nota": 14,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Volveré y seré Tricky",
           "titulo": "Tricky: False Idols",
           "entradilla": "El otrora niño prodigio de Bristol vuelve sobre sus pasos en busca de la piedra filosofal que supuso aquel mágico Maxinquaye que partió en dos a los noventa.",
@@ -5077,7 +5077,7 @@
         {
           "id": "114",
           "id_nota": 15,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "Vista panorámica",
           "titulo": "Breves: Over the hill...",
           "entradilla": "El llamado de la colina, como el de la selva, ha supuesto un mojón prácticamente ineludible para tantos músicos que quisieron acortar el camino al cielo. ",
@@ -5089,7 +5089,7 @@
         {
           "id": "115",
           "id_nota": 16,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "¡Yo también estuve ahí!",
           "titulo": "Video Sorpresa",
           "entradilla": "Sonó la flauta y todo el mundo miró hacia lo más alto de la colina, allí donde se escondía un principito agazapado que finalmente terminó viniendo.",
@@ -5101,7 +5101,7 @@
         {
           "id": "116",
           "id_nota": 17,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Goma bicromatada",
           "titulo": "J. M. Magano: Fotografías",
           "entradilla": "Cuando el obturador se cierra, el fotógrafo se convierte en artista. Es entonces cuando José Manuel Magano, pigmentos en mano, nos transporta cien años atrás.",
@@ -5113,7 +5113,7 @@
         {
           "id": "117",
           "id_nota": 18,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Vi luz y nací",
           "titulo": "Cuando desperté no había nadie",
           "entradilla": "Los cuadros de Mahana tienen lugar en un no-tiempo, en una suerte de atemporalidad que dota al poliedro cromático de más ángulos que vértices. ",
@@ -5125,7 +5125,7 @@
         {
           "id": "118",
           "id_nota": 19,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "No me creo nada",
           "titulo": "Soñando voy, soñando vengo",
           "entradilla": "El surrealismo nos sumerge en el sueño y nos abre los ojos que miran hacia dentro de los ojos cerrados que sueñan con una exposición de cuadros.",
@@ -5137,7 +5137,7 @@
         {
           "id": "119",
           "id_nota": 20,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "Otro santo padre",
           "titulo": "Una mujer puerca",
           "entradilla": "Una mujer quiere subir a los altares de la divinidad yendo por los caminos más chanchos de este infierno",
@@ -5149,7 +5149,7 @@
         {
           "id": "120",
           "id_nota": 22,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Ciencia función",
           "titulo": "Gravity y el gran cine",
           "entradilla": "Algunas inconsistencias de la película Gravity resulta inaceptables para los científicos. Siendo así... ¿puede (y debe) la ciencia ficción luchar contra la física?",
@@ -5161,7 +5161,7 @@
         {
           "id": "121",
           "id_nota": 23,
-          "id_Pagina": 19,
+          "id_pagina": 19,
           "tag": "Vení, gil...",
           "titulo": "Benny Hill: de Inglaterra con humor",
           "entradilla": "La propuesta humorística de Benny Hill se fundaba en corretear tras chicas en bikini, lo cual no siempre obtuvo un apoyo unánime",
@@ -5173,7 +5173,7 @@
         {
           "id": "122",
           "id_nota": 25,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Oro por baratijas",
           "titulo": "Monstruos en ayunas",
           "entradilla": "El hombre parecía ser el único en no haberse enterado: la otra cara del sueño no siempre es la vigilia. Y mucho menos eso que llamamos \"el día de hoy\". ",
@@ -5185,7 +5185,7 @@
         {
           "id": "123",
           "id_nota": 27,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Quiero ser artista",
           "titulo": "A poetizar",
           "entradilla": "El teatro, en tanto lenguaje singular y universal, presenta siempre una verdad que baja a la actualidad perecedera del escenario mediante la imitación. ",
@@ -5197,7 +5197,7 @@
         {
           "id": "124",
           "id_nota": 29,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Un gestito de idea",
           "titulo": "Ella",
           "entradilla": "El aroma de una idea convierte al escritor en un ser sin rumbo que acaba acosándose a sí mismo con tal de volver a sentir aquella fragancia perdida. ",
@@ -5209,7 +5209,7 @@
         {
           "id": "125",
           "id_nota": 30,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "La montaña es la montaña",
           "titulo": "Del Everest para abajo",
           "entradilla": "Todo el mundo sabe que el Everest es la montaña más alta del mundo. De ahí para abajo empiezan las confusiones sobre cómo nombrar las elevaciones naturales del terreno.",
@@ -5221,7 +5221,7 @@
         {
           "id": "126",
           "id_nota": 32,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Pescando amigos",
           "titulo": "En la red: Revista Muu+",
           "entradilla": "La nueva sección \"En la red\" ve la luz como un espacio abierto a publicaciones amigas que hacen de la red su líquido amniótico. Arrancamos con la revista Muu+, que va más allá de la onomatopeya del mugido. ",
@@ -5233,7 +5233,7 @@
         {
           "id": "127",
           "id_nota": 33,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Si esta cárcel sigue así",
           "titulo": "¿Todo arte es político?",
           "entradilla": "La pretendida objetividad del hecho artístico acaba revelándose como un elemento sostén del discurso dominante... o lo contrario.",
@@ -5245,7 +5245,7 @@
         {
           "id": "128",
           "id_nota": 34,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Cuando pa' Chile me voy",
           "titulo": "Palabras a Valparaíso",
           "entradilla": "La ciudad chilena de Valparaíso, rodeada de cerros, recibe un homenaje poético que exalta el recuerdo de sus huellas de sal y cobre.",
@@ -5257,7 +5257,7 @@
         {
           "id": "129",
           "id_nota": 35,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "Tetas en el parque",
           "titulo": "Entre los pechos de la adolescencia",
           "entradilla": "Recuerdos lúbricos, geográficos y artísticos se entremezclan en este elogio a la iniciación rodeado de cerros artificiales.",
@@ -5269,7 +5269,7 @@
         {
           "id": "130",
           "id_nota": 36,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Las tortillas sean unidas",
           "titulo": "Tortillas en peligro de extinción",
           "entradilla": "Asediadas por habladurías, las tortillas retoman el pulso de la cocina moderna gracias a retrospecciones como la que nos detalla nuestro especialista en literatura gastronómica. ",
@@ -5281,7 +5281,7 @@
         {
           "id": "131",
           "id_nota": 38,
-          "id_Pagina": 29,
+          "id_pagina": 29,
           "tag": "De las aves que vuelan me gusta el pulpo",
           "titulo": "Fatto in casa: paella de pulpitos (y otros bichos de mar)",
           "entradilla": "La mítica paella arrocera muta en su composición para convertirse en un plato que te atrapa con todos sus brazos.",
@@ -5293,7 +5293,7 @@
         {
           "id": "132",
           "id_nota": 39,
-          "id_Pagina": 30,
+          "id_pagina": 30,
           "tag": "El encanto de la pesca",
           "titulo": "De Lima a Nantes",
           "entradilla": "Recogidos en las playas atlánticas de los Países del Loira o en las pacíficas costas limeñas, la pesca del día, fresca y sabrosa, se honra en dos restaurantes del barrio de Belgrano.",
@@ -5337,7 +5337,7 @@
         {
           "id": "67",
           "id_nota": 1,
-          "id_Pagina": 1,
+          "id_pagina": 1,
           "tag": "El borde del tiempo",
           "titulo": "Kurt Vonnegut: Desayuno de campeones",
           "entradilla": "El viejo e impar Kurt vuelve a hacerlo: dar vuelta como una media los encajes de la gran democracia del norte con palabras, humor... ¡y dibujos!",
@@ -5349,7 +5349,7 @@
         {
           "id": "68",
           "id_nota": 2,
-          "id_Pagina": 2,
+          "id_pagina": 2,
           "tag": "Ficción científica",
           "titulo": "Kobo Abe: Historia de las pulgas que viajaron a la Luna",
           "entradilla": "La nueva entrega de cuentos del escritor japonés supone un paso más hacia esos futuros que nos esperan tras el abismo del consumo",
@@ -5361,7 +5361,7 @@
         {
           "id": "69",
           "id_nota": 4,
-          "id_Pagina": 3,
+          "id_pagina": 3,
           "tag": "La conexión iraní",
           "titulo": "Kader Abdolah: El reflejo de las palabras",
           "entradilla": "La novela del autor iraní permite al lector recorrer buena parte de la historia de su país a través de las pérdidas y los hallazgos de las distintas generaciones de una familia",
@@ -5373,7 +5373,7 @@
         {
           "id": "70",
           "id_nota": 5,
-          "id_Pagina": 4,
+          "id_pagina": 4,
           "tag": "Peines de acero",
           "titulo": "Peinando el viento",
           "entradilla": "Los escritos del artista vasco complementan su obra y abren nuevas ventanas a las preguntas que formulan sus esculturas de acero y viento",
@@ -5385,7 +5385,7 @@
         {
           "id": "64",
           "id_nota": 6,
-          "id_Pagina": 5,
+          "id_pagina": 5,
           "tag": "Las odiseas del espíritu",
           "titulo": "El Romanticismo por Rüdiger Safranski",
           "entradilla": "Safranski repasa en este libro un movimiento romántico que, apoyado en las transformaciones del pasado, se proyecta como una herramienta con la que leer las extrañezas del presente",
@@ -5397,7 +5397,7 @@
         {
           "id": "72",
           "id_nota": 8,
-          "id_Pagina": 6,
+          "id_pagina": 6,
           "tag": "Una cuestión personal",
           "titulo": "Roberto Espósito: El dispositivo de la persona",
           "entradilla": "Recogiendo a Nietzsche y Simone Weil, el filósofo italiano plantea el camino de una filosofía de lo impersonal alejada de posesiones y relaciones de dominación",
@@ -5409,7 +5409,7 @@
         {
           "id": "73",
           "id_nota": 10,
-          "id_Pagina": 7,
+          "id_pagina": 7,
           "tag": "Cada día canta mejor",
           "titulo": "Pellet Lastra: La noche triste de Gardel",
           "entradilla": "Literatura e historia recorren juntas los cien barrios porteños en esta novela que más parece disfrutarse cuantos más años haya cumplido el lector",
@@ -5421,7 +5421,7 @@
         {
           "id": "74",
           "id_nota": 11,
-          "id_Pagina": 8,
+          "id_pagina": 8,
           "tag": "Thriller a la australiana",
           "titulo": "Kenneth Cook: Pánico al amanecer",
           "entradilla": "La aridez que se le presupone a parte del territorio australiano se traslada al desarrollo de esta novela hipnótica y vertiginosa",
@@ -5433,7 +5433,7 @@
         {
           "id": "75",
           "id_nota": 12,
-          "id_Pagina": 9,
+          "id_pagina": 9,
           "tag": "Peinando el futuro",
           "titulo": "Breves: lo que vendrá",
           "entradilla": "Tres próximas entregas discográficas amenazan con agitar el avispero musical con propuestas de una androide que agita su palosanto montada en una ballena",
@@ -5445,7 +5445,7 @@
         {
           "id": "76",
           "id_nota": 13,
-          "id_Pagina": 10,
+          "id_pagina": 10,
           "tag": "Tambores (no tan) lejanos",
           "titulo": "The Souljazz Orchestra: Freedom No Go Die",
           "entradilla": "Una vez la música se empeña en desmentir a la geografía: gracias a las inyecciones de percusión, Canadá es un lugar del África que limita con el Caribe",
@@ -5457,7 +5457,7 @@
         {
           "id": "77",
           "id_nota": 14,
-          "id_Pagina": 11,
+          "id_pagina": 11,
           "tag": "Blanche et Noire",
           "titulo": "Kouyaté-Neerman: Skyscrapers & Deities",
           "entradilla": "De la celebración de las diferencias nace este disco rítmico y profundo que como todo encuentro casual/causal proyecta su luz hasta más allá de sus límites",
@@ -5469,7 +5469,7 @@
         {
           "id": "78",
           "id_nota": 15,
-          "id_Pagina": 12,
+          "id_pagina": 12,
           "tag": "Poesía & Blues",
           "titulo": "Bluesía: sobre las experimentaciones de Raméntol y Cía",
           "entradilla": "En el laboratorio de Raméntol y sus amigos, los materiales con los que se experimenta son las palabras, los sonidos y algo más...",
@@ -5481,7 +5481,7 @@
         {
           "id": "79",
           "id_nota": 17,
-          "id_Pagina": 13,
+          "id_pagina": 13,
           "tag": "Muñeca rusa",
           "titulo": "Video Sorpresa",
           "entradilla": "La leyenda del corte de pelo más famoso de la historia da lugar a una balada que atraviesa las frías estepas a golpe de teclas blancas y negras",
@@ -5493,7 +5493,7 @@
         {
           "id": "80",
           "id_nota": 18,
-          "id_Pagina": 14,
+          "id_pagina": 14,
           "tag": "Fotografías",
           "titulo": "Hiroshi Sugimoto: Seascapes",
           "entradilla": "Con el mar como excusa casi infinita, el fotógrafo japonés metaforiza sobre los horizontes visibles y a la vez inalcanzables",
@@ -5505,7 +5505,7 @@
         {
           "id": "81",
           "id_nota": 19,
-          "id_Pagina": 15,
+          "id_pagina": 15,
           "tag": "Pinturas",
           "titulo": "Esos raros peinados nuevos",
           "entradilla": "La presencia del peinado femenino a lo largo de la historia de la pintura oscila entre la captura del momento íntimo y la intromisión de un observador que no es neutral",
@@ -5517,7 +5517,7 @@
         {
           "id": "82",
           "id_nota": 20,
-          "id_Pagina": 16,
+          "id_pagina": 16,
           "tag": "Peinate para la foto",
           "titulo": "La historia del peine en la historia",
           "entradilla": "Del marfil de hipopótamos egipcios al actual plástico duro made in China, el peine ha sido siempre ese señor dentado que nos permite salir lindos en las fotos",
@@ -5529,7 +5529,7 @@
         {
           "id": "83",
           "id_nota": 21,
-          "id_Pagina": 17,
+          "id_pagina": 17,
           "tag": "El Cielo como Infierno",
           "titulo": "León Ferrari",
           "entradilla": "La desaparición reciente de León Ferrari nos invita a un homenaje que necesariamente pasa por el reconocimiento a una obra crítica y personalísima",
@@ -5541,7 +5541,7 @@
         {
           "id": "84",
           "id_nota": 22,
-          "id_Pagina": 18,
+          "id_pagina": 18,
           "tag": "Clásico de clásicos",
           "titulo": "La pasión de Carl Dreyer",
           "entradilla": "El autor desgrana La pasión de Juana de Arco, un filme mudo que reúne todos los ingredientes que tienen los ritos fundacionales",
@@ -5553,7 +5553,7 @@
         {
           "id": "86",
           "id_nota": 24,
-          "id_Pagina": 20,
+          "id_pagina": 20,
           "tag": "Un cacho de cultura",
           "titulo": "El arte de mostrar",
           "entradilla": "¿Qué es el arte? La milenaria pregunta desata en la autora una serie de reflexiones que necesariamente abundan en los interrogantes más que en las respuestas cristalinas",
@@ -5565,7 +5565,7 @@
         {
           "id": "96",
           "id_nota": 26,
-          "id_Pagina": 21,
+          "id_pagina": 21,
           "tag": "Adiós al amigo",
           "titulo": "Juliano Borobio",
           "entradilla": "Hay ausencias que, ya se ha cantado, dejan espacios vacíos imposibles de llenar",
@@ -5577,7 +5577,7 @@
         {
           "id": "88",
           "id_nota": 27,
-          "id_Pagina": 22,
+          "id_pagina": 22,
           "tag": "Muertos vivientes",
           "titulo": "Una de zombies",
           "entradilla": "El Apocalipsis se acerca. El mundo se acaba y las calles de nuestras ciudades se pueblan de caminantes que un día fueron humanos, pero que ahora son monstruos semiconscientes que quieren desayunar tu hígado crudo.",
@@ -5589,7 +5589,7 @@
         {
           "id": "89",
           "id_nota": 28,
-          "id_Pagina": 23,
+          "id_pagina": 23,
           "tag": "Miniaturas de sabor",
           "titulo": "Provoletitas gourmet",
           "entradilla": "La provoleta zafa de su destino de parrilla para postularse como un invitado no menor a nuestras mesas y nuestros corazones",
@@ -5601,7 +5601,7 @@
         {
           "id": "90",
           "id_nota": 29,
-          "id_Pagina": 24,
+          "id_pagina": 24,
           "tag": "Combatir el invierno (y los vampiros)",
           "titulo": "Sopa de ajo",
           "entradilla": "El ajo no es solo una cuestión de aliento o supersticiones: también se alza como el componente esencial de una sopa que no sabe de lucha de clases",
@@ -5613,7 +5613,7 @@
         {
           "id": "91",
           "id_nota": 30,
-          "id_Pagina": 25,
+          "id_pagina": 25,
           "tag": "Chocolate negro",
           "titulo": "Los chocolates de Hugo Sosa",
           "entradilla": "No importa si hace frío o hace calor: el universo chocolatero de Don Hugo Sosa le da una dulce perspectiva a la visita a la costa atlántica",
@@ -5625,7 +5625,7 @@
         {
           "id": "92",
           "id_nota": 31,
-          "id_Pagina": 26,
+          "id_pagina": 26,
           "tag": "Oro por baratijas",
           "titulo": "OxB: El frío antes de tiempo",
           "entradilla": "El hombre cauto se sirve ahora del frío para perpetuar su inacción (a pesar de que los coches le pasan raspando)",
@@ -5637,7 +5637,7 @@
         {
           "id": "93",
           "id_nota": 32,
-          "id_Pagina": 27,
+          "id_pagina": 27,
           "tag": "¿Dudar o no dudar?",
           "titulo": "La hermana boba",
           "entradilla": "Un cumpleaños no deseado convierte una tarde cualquiera en un tratado de reflexiones sobre la bondad del ser humano y sus provincias limítrofes",
@@ -5649,7 +5649,7 @@
         {
           "id": "94",
           "id_nota": 33,
-          "id_Pagina": 28,
+          "id_pagina": 28,
           "tag": "Un cuento",
           "titulo": "aDios, hombre",
           "entradilla": "Hecatombe y eternidad se entremezclan en este relato en el que un hombre se enfrenta a solas al escenario de su finitud",
