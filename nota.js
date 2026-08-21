@@ -381,18 +381,24 @@ async function mostrarNota(
 
     let contenidoHTML = await respuestaContenido.text();
 
-    console.log("contenidoHTML original: "+contenidoHTML);
-
-   contenidoHTML = contenidoHTML.replace(
+    contenidoHTML = contenidoHTML.replace(
                     /src="musica\//g,
                     `src="${urlMusica}`
                     );
-
-    console.log("contenidoHTML música: "+contenidoHTML);
     
     document.getElementById(
         'nota-contenido'
     ).innerHTML = contenidoHTML;
+
+    // Eliminar imagen si no existe
+    const contenedorImagen = document.getElementById('nota-imagen');
+    const imagen = contenedorImagen?.querySelector('img');
+    
+    if (imagen) {
+        imagen.addEventListener('error', function () {
+            contenedorImagen.remove();
+        });
+    }
 
     document.querySelectorAll('.imagen-interior').forEach(img => {
     if (img.complete) {
