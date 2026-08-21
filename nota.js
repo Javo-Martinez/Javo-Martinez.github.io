@@ -372,6 +372,20 @@ async function mostrarNota(
         'nota-contenido'
     ).innerHTML = contenidoHTML;
 
+    document.querySelectorAll('.imagen-interior').forEach(img => {
+    if (img.complete) {
+        if (img.naturalWidth < 400) {
+            img.classList.add('reducir');
+        }
+    } else {
+        img.addEventListener('load', function () {
+            if (this.naturalWidth < 400) {
+                this.classList.add('reducir');
+            }
+        });
+    }
+});
+
 
     // ============================================================
     // NAVEGACIÓN
