@@ -263,7 +263,9 @@ async function mostrarNota(
     // URL DEL CONTENIDO PHP
     // ============================================================
 
+    let urlEdicion = '';
     let urlContenido = '';
+    let urlMusica = '';
 
 
     if (
@@ -271,8 +273,8 @@ async function mostrarNota(
         numeroEdicion <= 40
     ) {
 
-        urlContenido =
-            `/eneur-27-40/revista${numFormateado}/content/`;
+        urlEdicion =
+            `/eneur-27-40/revista${numFormateado}/`;
 
     }
 
@@ -281,8 +283,8 @@ async function mostrarNota(
         numeroEdicion <= 60
     ) {
 
-        urlContenido =
-            `/eneur-41-60/revista${numFormateado}/content/`;
+        urlEdicion =
+            `/eneur-41-60/revista${numFormateado}/`;
 
     }
 
@@ -291,8 +293,8 @@ async function mostrarNota(
         numeroEdicion <= 70
     ) {
 
-        urlContenido =
-            `/eneur-61-70/revista${numFormateado}/content/`;
+        urlEdicion =
+            `/eneur-61-70/revista${numFormateado}/`;
 
     }
 
@@ -301,8 +303,8 @@ async function mostrarNota(
         numeroEdicion <= 80
     ) {
 
-        urlContenido =
-            `/eneur-71-80/revista${numFormateado}/content/`;
+        urlEdicion =
+            `/eneur-71-80/revista${numFormateado}/`;
 
     }
 
@@ -311,8 +313,8 @@ async function mostrarNota(
         numeroEdicion <= 90
     ) {
 
-        urlContenido =
-            `/eneur-81-90/revista${numFormateado}/content/`;
+        urlEdicion =
+            `/eneur-81-90/revista${numFormateado}/`;
 
     }
 
@@ -321,10 +323,13 @@ async function mostrarNota(
         numeroEdicion <= 99
     ) {
 
-        urlContenido =
-            `/eneur-91-00/revista${numFormateado}/content/`;
+        urlEdicion =
+            `/eneur-91-00/revista${numFormateado}/`;
     }
 
+    urlContenido = `${urlEdicion}content/`;
+    urlMusica = `${urlEdicion}musica/`;
+    
     const urlNota = `${urlContenido}${nota.id_pagina}.php`;
 
 
@@ -368,10 +373,15 @@ async function mostrarNota(
 
     let contenidoHTML = await respuestaContenido.text();
 
+    console.log("contenidoHTML original: "+contenidoHTML);
+
     contenidoHTML = contenidoHTML.replace(
                         /src=(["'])musica\//g,
                         `$1${urlContenido}musica/`
                     );
+    
+
+    console.log("contenidoHTML música: "+contenidoHTML);
     
     document.getElementById(
         'nota-contenido'
