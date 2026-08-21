@@ -370,7 +370,7 @@ async function mostrarNota(
 
     contenidoHTML = contenidoHTML.replace(
                         /src=(["'])musica\//g,
-                        `$1${urlRevista}musica/`
+                        `$1${urlContenido}musica/`
                     );
     
     document.getElementById(
