@@ -120,7 +120,7 @@ async function mostrarNota(
 
 
     document.title =
-        `${nota.titulo || 'Nota'} - Revista`;
+        `${nota.titulo || 'Nota'} - ENEUR`;
 
 
     // ============================================================
@@ -385,7 +385,7 @@ async function mostrarNota(
 
     contenidoHTML = contenidoHTML.replace(
                         /src=(["'])musica\//g,
-                        `$1${urlMusica}musica/`
+                        `$1${urlMusica}`
                     );
     
 
