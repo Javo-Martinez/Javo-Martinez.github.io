@@ -336,7 +336,7 @@ async function mostrarNota(
     }
 
     urlContenido = `${urlEdicion}content/`;
-    urlMusica = `${urlEdicion}musica/`;
+    urlMusica = `${urlEdicion}music/`;
     
     const urlNota = `${urlContenido}${nota.id_pagina}.php`;
 
@@ -382,7 +382,7 @@ async function mostrarNota(
     let contenidoHTML = await respuestaContenido.text();
 
     contenidoHTML = contenidoHTML.replace(
-                    /src="musica\//g,
+                    /src="music\//g,
                     `src="${urlMusica}`
                     );
     
