@@ -366,10 +366,13 @@ async function mostrarNota(
     // INSERTAR HTML
     // ============================================================
 
-    const contenidoHTML =
-        await respuestaContenido.text();
+    let contenidoHTML = await respuestaContenido.text();
 
-
+    contenidoHTML = contenidoHTML.replace(
+                        /src=(["'])musica\//g,
+                        `$1${urlRevista}musica/`
+                    );
+    
     document.getElementById(
         'nota-contenido'
     ).innerHTML = contenidoHTML;
