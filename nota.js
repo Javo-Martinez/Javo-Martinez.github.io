@@ -272,7 +272,7 @@ async function mostrarNota(
     ) {
 
         urlContenido =
-            `/eneur-27-40/revista${numFormateado}/content/${nota.id_pagina}.php`;
+            `/eneur-27-40/revista${numFormateado}/content/`;
 
     }
 
@@ -282,7 +282,7 @@ async function mostrarNota(
     ) {
 
         urlContenido =
-            `/eneur-41-60/revista${numFormateado}/content/${nota.id_pagina}.php`;
+            `/eneur-41-60/revista${numFormateado}/content/`;
 
     }
 
@@ -292,7 +292,7 @@ async function mostrarNota(
     ) {
 
         urlContenido =
-            `/eneur-61-70/revista${numFormateado}/content/${nota.id_pagina}.php`;
+            `/eneur-61-70/revista${numFormateado}/content/`;
 
     }
 
@@ -302,7 +302,7 @@ async function mostrarNota(
     ) {
 
         urlContenido =
-            `/eneur-71-80/revista${numFormateado}/content/${nota.id_pagina}.php`;
+            `/eneur-71-80/revista${numFormateado}/content/`;
 
     }
 
@@ -312,7 +312,7 @@ async function mostrarNota(
     ) {
 
         urlContenido =
-            `/eneur-81-90/revista${numFormateado}/content/${nota.id_pagina}.php`;
+            `/eneur-81-90/revista${numFormateado}/content/`;
 
     }
 
@@ -322,15 +322,17 @@ async function mostrarNota(
     ) {
 
         urlContenido =
-            `/eneur-91-00/revista${numFormateado}/content/${nota.id_pagina}.php`;
+            `/eneur-91-00/revista${numFormateado}/content/`;
     }
+
+    const urlNota = `${urlContenido}${nota.id_pagina}.php`;
 
 
     // ============================================================
     // VALIDAR URL
     // ============================================================
 
-    if (!urlContenido) {
+    if (!urlNota) {
 
         throw new Error(
             `No se encontró una ruta de contenido para la edición ${numeroEdicion}.`
@@ -344,18 +346,18 @@ async function mostrarNota(
 
     console.log(
         'Cargando contenido:',
-        urlContenido
+        urlNota
     );
 
 
     const respuestaContenido =
-        await fetch(urlContenido);
+        await fetch(urlNota);
 
 
     if (!respuestaContenido.ok) {
 
         throw new Error(
-            `No se pudo cargar el contenido de ${urlContenido}: HTTP ${respuestaContenido.status}`
+            `No se pudo cargar el contenido de ${urlNota}: HTTP ${respuestaContenido.status}`
         );
     }
 
