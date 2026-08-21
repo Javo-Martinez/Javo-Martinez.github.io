@@ -337,7 +337,7 @@ async function mostrarNota(
 
     urlContenido = `${urlEdicion}content/`;
     urlMusica = `${urlEdicion}music/`;
-    urlMusica = `${urlEdicion}music/`;
+    urlImagen = `${urlEdicion}images/`;
     
     const urlNota = `${urlContenido}${nota.id_pagina}.php`;
 
