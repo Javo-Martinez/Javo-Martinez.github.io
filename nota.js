@@ -277,9 +277,17 @@ async function mostrarNota(
             `/eneur-27-40/revista${numFormateado}/`;
 
     }
-
     else if (
         numeroEdicion >= 41 &&
+        numeroEdicion <= 50
+    ) {
+
+        urlEdicion =
+            `/eneur-41-60/revista${numFormateado}/`;
+
+    }
+    else if (
+        numeroEdicion >= 51 &&
         numeroEdicion <= 60
     ) {
 
