@@ -210,54 +210,38 @@ async function mostrarNota(
         document.getElementById('nota-imagen');
     
     if (nota.imagen_destacada) {
-    
-        let urlImagen = '';
         let urlImagenDestacada = '';
     
         if (numeroEdicion >= 27 && numeroEdicion <= 40) {
             urlImagenDestacada =
                 `/eneur-27-40/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
-            urlImagen =
-                `/eneur-27-40/revista${numFormateado}/images/`;
         }
         else if (numeroEdicion >= 41 && numeroEdicion <= 50) {
             urlImagenDestacada =
                 `/eneur-41-50/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
-            urlImagen =
-                `/eneur-41-50/revista${numFormateado}/images/`;
         }
         else if (numeroEdicion >= 51 && numeroEdicion <= 60) {
             urlImagenDestacada =
                 `/eneur-51-60/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
-            urlImagen =
-                `/eneur-51-60/revista${numFormateado}/images/`;
         }
         else if (numeroEdicion >= 61 && numeroEdicion <= 70) {
             urlImagenDestacada =
                 `/eneur-61-70/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
-            urlImagen =
-                `/eneur-61-70/revista${numFormateado}/images/`;
         }
         else if (numeroEdicion >= 71 && numeroEdicion <= 80) {
             urlImagenDestacada =
                 `/eneur-71-80/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
-            urlImagen =
-                `/eneur-71-80/revista${numFormateado}/images/`;
         }
         else if (numeroEdicion >= 81 && numeroEdicion <= 90) {
             urlImagenDestacada =
                 `/eneur-81-90/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
-            urlImagen =
-                `/eneur-81-90/revista${numFormateado}/images/`;
         }
         else if (numeroEdicion >= 91 && numeroEdicion <= 99) {
             urlImagenDestacada =
                 `/eneur-91-00/revista${numFormateado}/images/${nota.imagen_destacada}.jpg`;
-            urlImagen =
-                `/eneur-91-00/revista${numFormateado}/images/`;
         }
     
-        if (urlImagen) {
+        if (urlImagenDestacada) {
             elementoImagen.innerHTML = `
                 <img
                     src="${urlImagenDestacada}"
@@ -281,6 +265,7 @@ async function mostrarNota(
     let urlEdicion = '';
     let urlContenido = '';
     let urlMusica = '';
+    let urlImagen = '';
 
 
     if (
@@ -351,6 +336,7 @@ async function mostrarNota(
     }
 
     urlContenido = `${urlEdicion}content/`;
+    urlMusica = `${urlEdicion}music/`;
     urlMusica = `${urlEdicion}music/`;
     
     const urlNota = `${urlContenido}${nota.id_pagina}.php`;
