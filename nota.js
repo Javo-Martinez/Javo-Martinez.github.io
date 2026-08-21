@@ -410,6 +410,16 @@ async function mostrarNota(
         'nota-contenido'
     ).innerHTML = contenidoHTML;
 
+    // Buscar si esta nota tiene galería
+    const galeria = document.getElementById('gallery');
+    
+    if (galeria) {
+        const nombreGaleria = galeria.dataset.gallery;
+        const urlGaleria = `${urlEdicion}galleries/${nombreGaleria}/`;
+    
+        console.log(`URL galería: ${urlGaleria}`);
+    }
+
     // Eliminar imagen si no existe
     const contenedorImagen = document.getElementById('nota-imagen');
     const imagen = contenedorImagen?.querySelector('img');
