@@ -383,11 +383,10 @@ async function mostrarNota(
 
     console.log("contenidoHTML original: "+contenidoHTML);
 
-    contenidoHTML = contenidoHTML.replace(
-                        /src=(["'])musica\//g,
-                        `$1${urlMusica}`
+   contenidoHTML = contenidoHTML.replace(
+                    /src="musica\//g,
+                    `src="${urlMusica}`
                     );
-    
 
     console.log("contenidoHTML música: "+contenidoHTML);
     
