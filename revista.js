@@ -42,7 +42,78 @@ function mostrarEditorial(editorial)  {
   if (!contenedor)  {
     return;
   }
-  contenedor.innerHTML = ` <h2>Editorial</h2> <div class="editorial-contenido"> ${editorial || ''} </div> `;
+
+  
+    // ============================================================
+    // URL DEL CONTENIDO PHP
+    // ============================================================
+
+    let urlEditorial = '';
+      if (numeroEdicion >= 27 && numeroEdicion <= 40) {
+         urlEditorial = `/eneur-27-40/revista${numFormateado}/content/editorial.php`;
+      }
+      else if (numeroEdicion >= 41 && numeroEdicion <= 50) {
+         urlEditorial = `/eneur-41-50/revista${numFormateado}/content/editorial.php`;
+      }
+      else if (numeroEdicion >= 51 && numeroEdicion <= 60) {
+         urlEditorial = `/eneur-51-60/revista${numFormateado}/content/editorial.php`;
+      }
+      else if (numeroEdicion >= 61 && numeroEdicion <= 70) {
+         urlEditorial = `/eneur-61-70/revista${numFormateado}/content/editorial.php`;
+      }
+      else if (numeroEdicion >= 71 && numeroEdicion <= 80) {
+         urlEditorial = `/eneur-71-80/revista${numFormateado}/content/editorial.php`;
+      }
+      else if (numeroEdicion >= 81 && numeroEdicion <= 90) {
+         urlEditorial = `/eneur-81-90/revista${numFormateado}/content/editorial.php`;
+      }
+      else if (numeroEdicion >= 91 && numeroEdicion <= 100) {
+         urlEditorial = `/eneur-91-00/revista${numFormateado}/content/editorial.php`;
+      }
+    // ============================================================
+    // VALIDAR URL
+    // ============================================================
+
+    if (!urlEditorial) {
+
+        throw new Error(
+            `No se encontró una ruta de la editorial para la edición ${numeroEdicion}.`
+        );
+    }
+
+
+    // ============================================================
+    // CARGAR PHP
+    // ============================================================
+
+    console.log(
+        'Cargando contenido:',
+        urlEditorial
+    );
+
+
+    const respuestaEditorial =
+        await fetch(urlEditorial);
+
+
+    if (!respuestaEditorial.ok) {
+
+        throw new Error(
+            `No se pudo cargar el contenido de ${respuestaEditorial}: HTTP ${respuestaEditorial.status}`
+        );
+    }
+
+    // ============================================================
+    // INSERTAR PHP
+    // ============================================================
+
+    let contenidoEditorial = await respuestaEditorial.text();
+
+      document.getElementById(
+                    'editorial'
+                ).innerHTML = contenidoEditorial;
+
+ 
 }
 /* * Grilla de notas */
 function mostrarNotas( notas, numeroEdicion )  {
