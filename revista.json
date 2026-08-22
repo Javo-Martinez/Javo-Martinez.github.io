@@ -1610,18 +1610,7 @@
           "contenido_html": "",
           "imagen_destacada": 1
         },
-        {
-          "id": "483",
-          "id_nota": 2,
-          "id_pagina": 1,
-          "tag": "Tan (sub) maravillosa",
-          "titulo": "Sub rosa, de Juan Benet",
-          "entradilla": "¿Podemos leer a Juan Benet sin estar poseídos por el demonio de la literatura, sin hallarnos sumergidos en el campo minado del escribir?",
-          "autor": "Jota G. Fisac",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 1
-        },
+       
         {
           "id": "484",
           "id_nota": 3,
@@ -1634,33 +1623,10 @@
           "contenido_html": "",
           "imagen_destacada": 2
         },
-        {
-          "id": "484",
-          "id_nota": 4,
-          "id_pagina": 2,
-          "tag": "Blue, white, red",
-          "titulo": "Gentlemen. Los mejores escritos del dandismo inglés. ",
-          "entradilla": "Una compilación de textos sobre el dandismo se convierte en una galería de premisas que también remiten a tiempos actuales.",
-          "autor": "Javier Martínez",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 2
-        },
+        
         {
           "id": "485",
           "id_nota": 5,
-          "id_pagina": 3,
-          "tag": "Chomsky en Buenos Aires",
-          "titulo": "El efecto Chomsky",
-          "entradilla": "El Foro Internacional por la Emancipación y la Igualdad, realizado en Buenos Aires, tuvo como uno de sus invitados de lujo al filoso filósofo estadounidense.",
-          "autor": "Diego Singer",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 3
-        },
-        {
-          "id": "485",
-          "id_nota": 6,
           "id_pagina": 3,
           "tag": "Chomsky en Buenos Aires",
           "titulo": "El efecto Chomsky",
@@ -1683,32 +1649,8 @@
           "imagen_destacada": 4
         },
         {
-          "id": "486",
-          "id_nota": 8,
-          "id_pagina": 4,
-          "tag": "Reeditar es novedoso",
-          "titulo": "Más allá del principio de placer",
-          "entradilla": "La edición de Mármol Izquierdo constituye una gran oportunidad para quien pretenda estudiar con seriedad la obra de Freud y sus formulaciones en estado naciente.",
-          "autor": "Lionel Klimkiewicz",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 4
-        },
-        {
           "id": "487",
           "id_nota": 10,
-          "id_pagina": 5,
-          "tag": "O poeta mais grande",
-          "titulo": "Mário de Andrade, el más brasileño de los poetas brasileños",
-          "entradilla": "La traducción de unos poemas de Mário de Andrade nos permite apreciar la composición de este organismo vivo del lenguaje.",
-          "autor": "Rodolfo Alonso",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 5
-        },
-        {
-          "id": "487",
-          "id_nota": 11,
           "id_pagina": 5,
           "tag": "O poeta mais grande",
           "titulo": "Mário de Andrade, el más brasileño de los poetas brasileños",
@@ -1731,32 +1673,8 @@
           "imagen_destacada": 6
         },
         {
-          "id": "488",
-          "id_nota": 13,
-          "id_pagina": 6,
-          "tag": "Dulce infancia",
-          "titulo": "Golosinas literarias: hay surtido",
-          "entradilla": "Lo que tienen en común los cuentos de Kipling, las distintas formas de lo familiar y Alicia es que pasaron por los ojitos lectores de la menor de nuestras colaboradoras.",
-          "autor": "Olivia MB",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 6
-        },
-        {
           "id": "489",
           "id_nota": 14,
-          "id_pagina": 7,
-          "tag": "La escatología al poder",
-          "titulo": "O. Lamborghini: escritor fragmentario y el principio del fin",
-          "entradilla": "Con Osvaldo Lamborghini empieza a terminar lo que Borges se empeñó en refundar desde las tinieblas del todo.",
-          "autor": "Nahuel Sánchez",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 7
-        },
-        {
-          "id": "489",
-          "id_nota": 15,
           "id_pagina": 7,
           "tag": "La escatología al poder",
           "titulo": "O. Lamborghini: escritor fragmentario y el principio del fin",
@@ -1779,32 +1697,8 @@
           "imagen_destacada": 8
         },
         {
-          "id": "490",
-          "id_nota": 17,
-          "id_pagina": 8,
-          "tag": "Cien años de soledad",
-          "titulo": "14, de Jean Echenoz",
-          "entradilla": "128 páginas le bastan al escritor francés para recorrer muchos de los lugares geográficos y simbólicos que devastó la Gran Guerra.",
-          "autor": "Javier Martínez",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 8
-        },
-        {
           "id": "491",
           "id_nota": 19,
-          "id_pagina": 9,
-          "tag": "Mucho más que cri... cri...",
-          "titulo": "Los grillos del Monte",
-          "entradilla": "Sietún, Flores, Reznik y Lebrero se reunen a tocar y cantar en busca de la fluidez y la sonoridad que los ha vuelto grillos.",
-          "autor": "Alice M. Pollina",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 9
-        },
-        {
-          "id": "491",
-          "id_nota": 20,
           "id_pagina": 9,
           "tag": "Mucho más que cri... cri...",
           "titulo": "Los grillos del Monte",
@@ -1827,32 +1721,8 @@
           "imagen_destacada": 10
         },
         {
-          "id": "492",
-          "id_nota": 22,
-          "id_pagina": 10,
-          "tag": "Honrarás a tu madre",
-          "titulo": "Carrie & Lowell, de Sufjan Stevens",
-          "entradilla": "Sufjan Stevens dedica a su madre un disco melodioso y susurrante que se inscribe  sin estridencias en su larga y nutrida discografía.",
-          "autor": "Javier Martínez",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 10
-        },
-        {
           "id": "493",
           "id_nota": 23,
-          "id_pagina": 11,
-          "tag": "El rey ha muerto",
-          "titulo": "RIP: B. B. King",
-          "entradilla": "Si alguien es el faro musical y guitarrero del blues, ese es B. B. un inmortal en el alma de su pueblo global.",
-          "autor": "",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 11
-        },
-        {
-          "id": "493",
-          "id_nota": 24,
           "id_pagina": 11,
           "tag": "El rey ha muerto",
           "titulo": "RIP: B. B. King",
@@ -1875,30 +1745,6 @@
           "imagen_destacada": 12
         },
         {
-          "id": "494",
-          "id_nota": 26,
-          "id_pagina": 12,
-          "tag": "De diez en diez",
-          "titulo": "Breves: Tirando manteca al techo",
-          "entradilla": "Jugamos la carta fuerte mantequero-musical en otra sección, así que decidimos recorrer álbumes insignia, saltando de década en década...",
-          "autor": "",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 12
-        },
-        {
-          "id": "495",
-          "id_nota": 27,
-          "id_pagina": 13,
-          "tag": "Eramos tan Hutchinson...",
-          "titulo": "Los inconfesables: Dama de plata",
-          "entradilla": "El mundo se detuvo y las chicas se agitaron cuando el rubio de Starsky & Hutch se bajó del Torino y se puso delante de un micrófono.",
-          "autor": "",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 13
-        },
-        {
           "id": "495",
           "id_nota": 28,
           "id_pagina": 13,
@@ -1909,18 +1755,6 @@
           "seccion": "sonoridades",
           "contenido_html": "",
           "imagen_destacada": 13
-        },
-        {
-          "id": "496",
-          "id_nota": 29,
-          "id_pagina": 14,
-          "tag": "La forma del jazz",
-          "titulo": "RIP: Ornette Coleman",
-          "entradilla": "El artífice de que la gramática jazzera llegara a su disolución ha partido de este mundo. !Trompetas celestiales, temblad!",
-          "autor": "",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 14
         },
         {
           "id": "496",
@@ -1936,18 +1770,6 @@
         },
         {
           "id": "497",
-          "id_nota": 31,
-          "id_pagina": 15,
-          "tag": "Pasame la Manteca",
-          "titulo": "Video Sorpresa",
-          "entradilla": "Pocos atrevidos le hicieron honor al derviado lácteo en sus composiciones. Sin embargo hubo alguien que logró llevarla al status de estándar.",
-          "autor": "",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 15
-        },
-        {
-          "id": "497",
           "id_nota": 32,
           "id_pagina": 15,
           "tag": "Pasame la Manteca",
@@ -1957,18 +1779,6 @@
           "seccion": "sonoridades",
           "contenido_html": "",
           "imagen_destacada": 15
-        },
-        {
-          "id": "498",
-          "id_nota": 33,
-          "id_pagina": 16,
-          "tag": "El mundo posnuclear",
-          "titulo": "Fotografías: Shomei Tomatsu",
-          "entradilla": "Nacido y criado en Japón, Shomei Tomatsu dejó las lides de la economía para retratar la trama del tejido social japonés.",
-          "autor": "",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 16
         },
         {
           "id": "498",
@@ -1984,18 +1794,6 @@
         },
         {
           "id": "499",
-          "id_nota": 35,
-          "id_pagina": 17,
-          "tag": "Ser y no ser surrealista",
-          "titulo": "Plástica: Paul Delvaux",
-          "entradilla": "Aunque nunca adscrito formalmente al surrealismo, la obra de Paul Delvaux se nutre de resabios oníricos y una poética cercana a aquel movimiento.",
-          "autor": "",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 17
-        },
-        {
-          "id": "499",
           "id_nota": 36,
           "id_pagina": 17,
           "tag": "Ser y no ser surrealista",
@@ -2005,18 +1803,6 @@
           "seccion": "miradas",
           "contenido_html": "",
           "imagen_destacada": 17
-        },
-        {
-          "id": "500",
-          "id_nota": 37,
-          "id_pagina": 18,
-          "tag": "La gomorrización de la cultura",
-          "titulo": "Gomorra",
-          "entradilla": "El mundo de las mafias napolitanas traduce en violencia años de olvido, marginación, pobreza y despojo.",
-          "autor": "Alejandro Feijóo",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 18
         },
         {
           "id": "500",
@@ -2032,18 +1818,6 @@
         },
         {
           "id": "501",
-          "id_nota": 39,
-          "id_pagina": 19,
-          "tag": "Take a Walk on the Wild Side",
-          "titulo": "Viaje hacia el corazón salvaje",
-          "entradilla": "El diario de la filmación de Fitzcarraldo se convierte en un alegato a favor de las apelaciones instintivas que acaban resolviendo casi cualquier entuerto artístico.",
-          "autor": "Martín Jali",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 19
-        },
-        {
-          "id": "501",
           "id_nota": 40,
           "id_pagina": 19,
           "tag": "Take a Walk on the Wild Side",
@@ -2053,18 +1827,6 @@
           "seccion": "miradas",
           "contenido_html": "",
           "imagen_destacada": 19
-        },
-        {
-          "id": "502",
-          "id_nota": 41,
-          "id_pagina": 20,
-          "tag": "Todos los vampiros van al cielo",
-          "titulo": "RIP: Cristopher Lee",
-          "entradilla": "\"Todos somos Drácula\" en la hora del adiós al inigualable actor de dientes largos.",
-          "autor": "",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 20
         },
         {
           "id": "502",
@@ -2080,18 +1842,6 @@
         },
         {
           "id": "503",
-          "id_nota": 43,
-          "id_pagina": 21,
-          "tag": "Modelo para armar",
-          "titulo": "Muñeca",
-          "entradilla": "La dramaturgia de Armando Discépolo y la poesía de Marosa di Giorgio son los elementos con los que Pompeyo Audivert modela una imperdible versión de \"Muñeca\".",
-          "autor": "Javier Martínez",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 21
-        },
-        {
-          "id": "503",
           "id_nota": 44,
           "id_pagina": 21,
           "tag": "Modelo para armar",
@@ -2101,18 +1851,6 @@
           "seccion": "miradas",
           "contenido_html": "",
           "imagen_destacada": 21
-        },
-        {
-          "id": "504",
-          "id_nota": 46,
-          "id_pagina": 22,
-          "tag": "Los intestinos del cosmos",
-          "titulo": "Mundo bipolar",
-          "entradilla": "Stanley Kubrick y Andréi Tarkovski firman, respectivamente, dos obras que, por inquietantes, resultan un manjar para el análisis cinematográfico.",
-          "autor": "León Romero",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 22
         },
         {
           "id": "504",
@@ -2128,18 +1866,6 @@
         },
         {
           "id": "505",
-          "id_nota": 48,
-          "id_pagina": 23,
-          "tag": "Superficies y colores",
-          "titulo": "Muestra: Eugenio Cuttica en el MNBA",
-          "entradilla": "La muestra reciente de Eugenio Cuttica nos invita a sumergirnos en las fusiones coloridas del pintor argentino.",
-          "autor": "",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 23
-        },
-        {
-          "id": "505",
           "id_nota": 49,
           "id_pagina": 23,
           "tag": "Superficies y colores",
@@ -2149,18 +1875,6 @@
           "seccion": "miradas",
           "contenido_html": "",
           "imagen_destacada": 23
-        },
-        {
-          "id": "506",
-          "id_nota": 50,
-          "id_pagina": 24,
-          "tag": "Apretaditos todos",
-          "titulo": "Fotografías: Michael Wolf",
-          "entradilla": "El ojo del fotógrafo alemán captura las formas del apiñamiento humano sobre y bajo la tierra.",
-          "autor": "",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 24
         },
         {
           "id": "506",
@@ -2176,18 +1890,6 @@
         },
         {
           "id": "507",
-          "id_nota": 52,
-          "id_pagina": 25,
-          "tag": "Días y flores",
-          "titulo": "OxB: Fragmentos de un diario vivido",
-          "entradilla": "Aquel que fuimos no solo no volverá, tampoco puede defenderse del ataque de un futuro que se consolida.",
-          "autor": "Alejandro Feijóo",
-          "seccion": "blablabla",
-          "contenido_html": "",
-          "imagen_destacada": 25
-        },
-        {
-          "id": "507",
           "id_nota": 53,
           "id_pagina": 25,
           "tag": "Días y flores",
@@ -2197,18 +1899,6 @@
           "seccion": "blablabla",
           "contenido_html": "",
           "imagen_destacada": 25
-        },
-        {
-          "id": "508",
-          "id_nota": 54,
-          "id_pagina": 26,
-          "tag": "Apocalipsis sexy",
-          "titulo": "Nancy Dossier (6/7)",
-          "entradilla": "Este es el mundo. El que se va a la mierda. El que siempre está por irse a la mierda y, como venganza (¿divina?), sólo dobla la esquina y se expande, se amplía, intoxica.",
-          "autor": "Marina Burana",
-          "seccion": "blablabla",
-          "contenido_html": "",
-          "imagen_destacada": 26
         },
         {
           "id": "508",
@@ -2224,18 +1914,6 @@
         },
         {
           "id": "509",
-          "id_nota": 57,
-          "id_pagina": 27,
-          "tag": "Había una vez...",
-          "titulo": "El religioso que vertió la miel y la manteca sobre su cabeza",
-          "entradilla": "Desde su origen en el Panchatantra hindú del s. VII, \"Calila y Dimna\" es algo más que una colección de parábolas sobre el mundo.",
-          "autor": "",
-          "seccion": "blablabla",
-          "contenido_html": "",
-          "imagen_destacada": 27
-        },
-        {
-          "id": "509",
           "id_nota": 58,
           "id_pagina": 27,
           "tag": "Había una vez...",
@@ -2245,18 +1923,6 @@
           "seccion": "blablabla",
           "contenido_html": "",
           "imagen_destacada": 27
-        },
-        {
-          "id": "510",
-          "id_nota": 59,
-          "id_pagina": 28,
-          "tag": "Diga 36",
-          "titulo": "Manteca: un santo remedio",
-          "entradilla": "Al canon del colesterol no hay nada mejor que enfrentarle la inmensa variedad de mantecas de los más diversos seres vivos.",
-          "autor": "El Conejo Editor",
-          "seccion": "blablabla",
-          "contenido_html": "",
-          "imagen_destacada": 28
         },
         {
           "id": "510",
@@ -2281,19 +1947,7 @@
           "seccion": "sabores",
           "contenido_html": "",
           "imagen_destacada": 29
-        },
-        {
-          "id": "511",
-          "id_nota": 62,
-          "id_pagina": 29,
-          "tag": "Y también la colorá",
-          "titulo": "El discreto encanto de la manteca",
-          "entradilla": "Contra toda impostura de \"Lo Saludable\", le ponemos fichas a la manteca en cualquiera de sus versiones y derviados.",
-          "autor": "Jota G. Fisac",
-          "seccion": "sabores",
-          "contenido_html": "",
-          "imagen_destacada": 29
-        },
+        },        
         {
           "id": "512",
           "id_nota": 63,
@@ -2307,32 +1961,8 @@
           "imagen_destacada": 30
         },
         {
-          "id": "512",
-          "id_nota": 64,
-          "id_pagina": 30,
-          "tag": "Sabor a paraíso",
-          "titulo": "Comer en Tinharé",
-          "entradilla": "Tres lugares tres para disfrutar de la buena mesa a pocos metros de uno de los mares más bonitos de la costa nordestina de Brasil.",
-          "autor": "Javier Martínez",
-          "seccion": "sabores",
-          "contenido_html": "",
-          "imagen_destacada": 30
-        },
-        {
           "id": "513",
           "id_nota": 65,
-          "id_pagina": 31,
-          "tag": "El orgullo de la nona",
-          "titulo": "Fatto in casa",
-          "entradilla": "La tradición familiar nos deja una exquisita receta de canelones más que aptos para resistir los fríos australes.",
-          "autor": "",
-          "seccion": "sabores",
-          "contenido_html": "",
-          "imagen_destacada": 31
-        },
-        {
-          "id": "513",
-          "id_nota": 66,
           "id_pagina": 31,
           "tag": "El orgullo de la nona",
           "titulo": "Fatto in casa",
@@ -2387,30 +2017,6 @@
           "imagen_destacada": 1
         },
         {
-          "id": "474",
-          "id_nota": 2,
-          "id_pagina": 1,
-          "tag": "Poco es mucho",
-          "titulo": "Poco hombre, de Pedro Lemebel",
-          "entradilla": "Pedro Lemebel sabía que cada uno de sus interminables giros y redobles proliferantes eran las formas de tender una trampa a todas las teorías de la correspondencia. ",
-          "autor": "Diego Singer",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 1
-        },
-        {
-          "id": "473",
-          "id_nota": 3,
-          "id_pagina": 2,
-          "tag": "Cría cuervos",
-          "titulo": "Cuervo blanco, nevermore...",
-          "entradilla": "El ser humano sigue culpando a un pájaro por enterarse tarde de lo que ya sabía hace tiempo, y haciendo de lo negro una desgracia o algo de lo que desconfiar.",
-          "autor": "Lionel Klimkiewicz",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 2
-        },
-        {
           "id": "473",
           "id_nota": 4,
           "id_pagina": 2,
@@ -2421,18 +2027,6 @@
           "seccion": "escritos",
           "contenido_html": "",
           "imagen_destacada": 2
-        },
-        {
-          "id": "472",
-          "id_nota": 7,
-          "id_pagina": 3,
-          "tag": "Georgie al desnudo",
-          "titulo": "Borges: caos aparente o totalidad revelada",
-          "entradilla": "Los preceptos borgeanos se someten a la precisión del autor de esta nota, legítimamente empeñado en gambetear los tópicos que se derraman sobre dobles y laberintos.",
-          "autor": "Nahuel Sánchez",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 3
         },
         {
           "id": "472",
@@ -2448,18 +2042,6 @@
         },
         {
           "id": "470",
-          "id_nota": 9,
-          "id_pagina": 4,
-          "tag": "Mamá, quiero ser negro",
-          "titulo": "Black Music, de LeRoi Jones",
-          "entradilla": "La historia del jazz y la de la población afroamericana se encuentran tan unidas que algunos se empeñan en desvincularlas.",
-          "autor": "Javier Martínez",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 4
-        },
-        {
-          "id": "470",
           "id_nota": 10,
           "id_pagina": 4,
           "tag": "Mamá, quiero ser negro",
@@ -2469,18 +2051,6 @@
           "seccion": "escritos",
           "contenido_html": "",
           "imagen_destacada": 4
-        },
-        {
-          "id": "471",
-          "id_nota": 11,
-          "id_pagina": 5,
-          "tag": "Queremos tanto a Olivia",
-          "titulo": "Golosinas literarias",
-          "entradilla": "La dupla artística Olivia & Martínez vuelve a regalarnos recomendaciones literarias envueltas en papel de golosina. Un caramelo.",
-          "autor": "Olivia MB",
-          "seccion": "escritos",
-          "contenido_html": "",
-          "imagen_destacada": 5
         },
         {
           "id": "471",
@@ -2496,18 +2066,6 @@
         },
         {
           "id": "469",
-          "id_nota": 13,
-          "id_pagina": 6,
-          "tag": "Ave canora (y violinista)",
-          "titulo": "Andrew Bird",
-          "entradilla": "Una entrevista a distancia con el músico estadounidense Andrew Bird nos abre las puertas de sus influencias y sus proyectos futuros, marcados por el eclecticismo.",
-          "autor": "Javier Martínez",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 6
-        },
-        {
-          "id": "469",
           "id_nota": 14,
           "id_pagina": 6,
           "tag": "Ave canora (y violinista)",
@@ -2517,18 +2075,6 @@
           "seccion": "sonoridades",
           "contenido_html": "",
           "imagen_destacada": 6
-        },
-        {
-          "id": "468",
-          "id_nota": 15,
-          "id_pagina": 7,
-          "tag": "Escuchá la metáfora",
-          "titulo": "Sami Abadi: El poeta del sonido",
-          "entradilla": "La charla con el multiinstrumentista Sami Abadi nos deja lleva hasta las orillas de la experimentación y el riesgo aplicados a un universo sonoro emparentado con la poesía oriental.",
-          "autor": "Alice M. Pollina",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 7
         },
         {
           "id": "468",
@@ -2544,18 +2090,6 @@
         },
         {
           "id": "477",
-          "id_nota": 17,
-          "id_pagina": 8,
-          "tag": "Prohibido copiar",
-          "titulo": "With a Little Help from My Fwends, de The Flaming Lips",
-          "entradilla": "The Flaming Lips vuelven a hacerlo con un disco que parece el Sgt. Pepper's de los Beatles sin que lo nuevo se parezca necesariamente a las viejas canciones que todos sabemos tararear.",
-          "autor": "Alejandro Feijóo",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 8
-        },
-        {
-          "id": "477",
           "id_nota": 18,
           "id_pagina": 8,
           "tag": "Prohibido copiar",
@@ -2565,18 +2099,6 @@
           "seccion": "sonoridades",
           "contenido_html": "",
           "imagen_destacada": 8
-        },
-        {
-          "id": "467",
-          "id_nota": 21,
-          "id_pagina": 9,
-          "tag": "Rapeame la tribu",
-          "titulo": "A Tribe Called Quest",
-          "entradilla": "Un repaso por el hip hop de los neoyorquinos A Tribe Called Quest nos revela un legado que aún perdura entre los cultores actuales del género.",
-          "autor": "Tadeo Martínez Dessaner",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 9
         },
         {
           "id": "467",
@@ -2592,18 +2114,6 @@
         },
         {
           "id": "466",
-          "id_nota": 23,
-          "id_pagina": 10,
-          "tag": "Estaba en llamas cuando volé",
-          "titulo": "Pájaro de fuego: La rueda de la fortuna + Be Bop Club",
-          "entradilla": "El pianista Esteban Sehinkman hace de su banda Pájaro de Fuego una experiencia que tuerce géneros musicales hasta colmar las expectativas de los escuchas más exigentes. ",
-          "autor": "Javier Martínez",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 10
-        },
-        {
-          "id": "466",
           "id_nota": 24,
           "id_pagina": 10,
           "tag": "Estaba en llamas cuando volé",
@@ -2613,18 +2123,6 @@
           "seccion": "sonoridades",
           "contenido_html": "",
           "imagen_destacada": 10
-        },
-        {
-          "id": "464",
-          "id_nota": 25,
-          "id_pagina": 11,
-          "tag": "De todos los tamaños",
-          "titulo": "Breves: pajaritos, pajarones y pajarracos",
-          "entradilla": "Aves de todos los tamaños adornan los breves musicales que abarcan desde grandes pájaros al saxofón hasta una fábrica de maravillas con alas.",
-          "autor": "",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 11
         },
         {
           "id": "464",
@@ -2640,18 +2138,6 @@
         },
         {
           "id": "465",
-          "id_nota": 27,
-          "id_pagina": 12,
-          "tag": "(No) todos los mirlos son blancos",
-          "titulo": "Video Sorpresa",
-          "entradilla": "Intenso como pocos, el protagonista de nuestro video sorpresa recrea las aventuras de uno de los mirlos más versionados de la historia de la música reciente. ",
-          "autor": "",
-          "seccion": "sonoridades",
-          "contenido_html": "",
-          "imagen_destacada": 12
-        },
-        {
-          "id": "465",
           "id_nota": 28,
           "id_pagina": 12,
           "tag": "(No) todos los mirlos son blancos",
@@ -2661,18 +2147,6 @@
           "seccion": "sonoridades",
           "contenido_html": "",
           "imagen_destacada": 12
-        },
-        {
-          "id": "463",
-          "id_nota": 29,
-          "id_pagina": 13,
-          "tag": "Todo sobre mi musa",
-          "titulo": "Fotografías: Emmet Gowin",
-          "entradilla": "Un padre, una cámara, una musa: poco más necesita el fotógrafo estadounidense Emmet Gowin para componer sus retratos profundos y silenciosamente elocuentes.",
-          "autor": "",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 13
         },
         {
           "id": "463",
@@ -2688,18 +2162,6 @@
         },
         {
           "id": "462",
-          "id_nota": 31,
-          "id_pagina": 14,
-          "tag": "Del ombligo al pajarito",
-          "titulo": "Mirando mi propio pajarito",
-          "entradilla": "En la época del imperio del selfie alardeamos de nuestro espíritu vintage para rescatar a fotógrafos inmortalizados mirando su propio pajarito.",
-          "autor": "Alejandro Feijóo",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 14
-        },
-        {
-          "id": "462",
           "id_nota": 32,
           "id_pagina": 14,
           "tag": "Del ombligo al pajarito",
@@ -2709,18 +2171,6 @@
           "seccion": "miradas",
           "contenido_html": "",
           "imagen_destacada": 14
-        },
-        {
-          "id": "461",
-          "id_nota": 33,
-          "id_pagina": 15,
-          "tag": "Ojo con la foto",
-          "titulo": "Blow-Up",
-          "entradilla": "¿Es posible capturar la realidad a través de un instante fotográfico? El autor de esta nota bucea en sus recuerdos y, por fortuna, no encuentra una respuesta a pregunta tan irreal. ",
-          "autor": "Pablo Cerezal",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 15
         },
         {
           "id": "461",
@@ -2736,18 +2186,6 @@
         },
         {
           "id": "460",
-          "id_nota": 37,
-          "id_pagina": 16,
-          "tag": "Cara de Víctor",
-          "titulo": "Plástica: Víctor Brauner",
-          "entradilla": "Los cuadros del rumano Víctor Brauner exponen una forma de crear en la que la realidad tal cual la apreciamos deja paso a registros de alto significado simbólico.",
-          "autor": "",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 16
-        },
-        {
-          "id": "460",
           "id_nota": 38,
           "id_pagina": 16,
           "tag": "Cara de Víctor",
@@ -2757,18 +2195,6 @@
           "seccion": "miradas",
           "contenido_html": "",
           "imagen_destacada": 16
-        },
-        {
-          "id": "459",
-          "id_nota": 39,
-          "id_pagina": 17,
-          "tag": "Tag 17",
-          "titulo": "20,000 días en la Tierra",
-          "entradilla": "Falso documental o viaje a la mente del creador, en 20.000 días en la Tierra acompañamos a Nick Cave en esa detestada salida diaria al mundo real desde su torre de marfil ",
-          "autor": "Federico Delgado",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 17
         },
         {
           "id": "459",
@@ -2784,18 +2210,6 @@
         },
         {
           "id": "458",
-          "id_nota": 43,
-          "id_pagina": 18,
-          "tag": "Un museo calcado",
-          "titulo": "Un lugar donde reina la escultura",
-          "entradilla": "El Museo de Calcos, en la Costanera Sur, brinda la oportunidad de abstraerse del bullicio urbano entre esculturas y piezas que abarcan distintos períodos artísticos.",
-          "autor": "Ma. Inés Barone",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 18
-        },
-        {
-          "id": "458",
           "id_nota": 44,
           "id_pagina": 18,
           "tag": "Un museo calcado",
@@ -2805,18 +2219,6 @@
           "seccion": "miradas",
           "contenido_html": "",
           "imagen_destacada": 18
-        },
-        {
-          "id": "456",
-          "id_nota": 45,
-          "id_pagina": 19,
-          "tag": "Al infinito y más allá",
-          "titulo": "RIP: Leonard Nimoy",
-          "entradilla": "El señor Spock partió rumbo al infinito dejándonos tras de sí muchas tardes de sueños interestelares.",
-          "autor": "",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 19
         },
         {
           "id": "456",
@@ -2832,18 +2234,6 @@
         },
         {
           "id": "457",
-          "id_nota": 47,
-          "id_pagina": 20,
-          "tag": "La naturaleza del artificio",
-          "titulo": "Cai Guo Qiang en La Boca",
-          "entradilla": "Paradigma de lo efímero, los fuegos artificiales se convierten en una experiencia no perecedera cuando proceden del universo cromático del artista chino Cai Guo Qiang.",
-          "autor": "Javier Martínez",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 20
-        },
-        {
-          "id": "457",
           "id_nota": 48,
           "id_pagina": 20,
           "tag": "La naturaleza del artificio",
@@ -2853,18 +2243,6 @@
           "seccion": "miradas",
           "contenido_html": "",
           "imagen_destacada": 20
-        },
-        {
-          "id": "455",
-          "id_nota": 49,
-          "id_pagina": 21,
-          "tag": "Los pájaros ya no pían",
-          "titulo": "RIP: Rod Taylor",
-          "entradilla": "La muerte de Rod Taylor deja en la orfandad a los pájaros más inquietantes de la cinematografía universal.",
-          "autor": "",
-          "seccion": "miradas",
-          "contenido_html": "",
-          "imagen_destacada": 21
         },
         {
           "id": "455",
@@ -2880,18 +2258,6 @@
         },
         {
           "id": "454",
-          "id_nota": 51,
-          "id_pagina": 22,
-          "tag": "Navegar es preciso",
-          "titulo": "OxB: Las cosas de la esencia",
-          "entradilla": "El hombre vuelve del viaje sin que las coordenadas se hayan asentado, lo cual no significa que los polos quieran ser antípodas.",
-          "autor": "Alejandro Feijóo",
-          "seccion": "blablabla",
-          "contenido_html": "",
-          "imagen_destacada": 22
-        },
-        {
-          "id": "454",
           "id_nota": 52,
           "id_pagina": 22,
           "tag": "Navegar es preciso",
@@ -2901,18 +2267,6 @@
           "seccion": "blablabla",
           "contenido_html": "",
           "imagen_destacada": 22
-        },
-        {
-          "id": "453",
-          "id_nota": 53,
-          "id_pagina": 23,
-          "tag": "Raros pájaros viejos",
-          "titulo": "Pájaros que huyen de nuestro interior",
-          "entradilla": "Los viejos pájaros marcan el ritmo interior de un texto nocturno, silencioso, insinuante.",
-          "autor": "Emilio Fatuzzo",
-          "seccion": "blablabla",
-          "contenido_html": "",
-          "imagen_destacada": 23
         },
         {
           "id": "453",
@@ -2928,18 +2282,6 @@
         },
         {
           "id": "451",
-          "id_nota": 55,
-          "id_pagina": 24,
-          "tag": "Encuentros cercanos",
-          "titulo": "Qué par de pájaros: Allen vs Borges",
-          "entradilla": "Un matrimonio imposible (pero no tanto) que acaba encontrándose bajo las alas de un mismos pájaro que vuela por los siglos de los siglos.",
-          "autor": "",
-          "seccion": "blablabla",
-          "contenido_html": "",
-          "imagen_destacada": 24
-        },
-        {
-          "id": "451",
           "id_nota": 56,
           "id_pagina": 24,
           "tag": "Encuentros cercanos",
@@ -2949,18 +2291,6 @@
           "seccion": "blablabla",
           "contenido_html": "",
           "imagen_destacada": 24
-        },
-        {
-          "id": "452",
-          "id_nota": 59,
-          "id_pagina": 25,
-          "tag": "Escalera al cielo",
-          "titulo": "Nancy Dossier (5/7)",
-          "entradilla": "La imprevisibilidad del alma humana resulta el único elemento perturbador para una mujer acostumbrada a conocer los escalones más bajos de la existencia.",
-          "autor": "Marina Burana",
-          "seccion": "blablabla",
-          "contenido_html": "",
-          "imagen_destacada": 25
         },
         {
           "id": "452",
@@ -2976,18 +2306,6 @@
         },
         {
           "id": "450",
-          "id_nota": 61,
-          "id_pagina": 26,
-          "tag": "Blue canary",
-          "titulo": "Canarios",
-          "entradilla": "El protagonismo de una pareja de canarios se despliega como una potente metáfora sobre el amor y la ausencia en esta perturbadora carta. ",
-          "autor": "Yasunari Kawabata",
-          "seccion": "blablabla",
-          "contenido_html": "",
-          "imagen_destacada": 26
-        },
-        {
-          "id": "450",
           "id_nota": 62,
           "id_pagina": 26,
           "tag": "Blue canary",
@@ -2997,18 +2315,6 @@
           "seccion": "blablabla",
           "contenido_html": "",
           "imagen_destacada": 26
-        },
-        {
-          "id": "449",
-          "id_nota": 63,
-          "id_pagina": 27,
-          "tag": "Cazando codornices",
-          "titulo": "Codornices estofadas",
-          "entradilla": "De las aves que vuelan nos gusta el chancho, y también, cómo no, las codornices estofadas que nos propone nuestro colaborador más culinario en esta receta apta para paladares exigentes.",
-          "autor": "Jota G. Fisac",
-          "seccion": "sabores",
-          "contenido_html": "",
-          "imagen_destacada": 27
         },
         {
           "id": "449",
@@ -3024,18 +2330,6 @@
         },
         {
           "id": "475",
-          "id_nota": 65,
-          "id_pagina": 28,
-          "tag": "Un disco de sui generis",
-          "titulo": "Fatto in casa: pollo y cerdo sui generis",
-          "entradilla": "Sui Generis no solo fue la banda que marcó el arranque del rock nacional. También es la forma de encarar la cocción de cerdo y pollo al disco de hierro.",
-          "autor": "",
-          "seccion": "sabores",
-          "contenido_html": "",
-          "imagen_destacada": 28
-        },
-        {
-          "id": "475",
           "id_nota": 66,
           "id_pagina": 28,
           "tag": "Un disco de sui generis",
@@ -3045,18 +2339,6 @@
           "seccion": "sabores",
           "contenido_html": "",
           "imagen_destacada": 28
-        },
-        {
-          "id": "476",
-          "id_nota": 67,
-          "id_pagina": 29,
-          "tag": "Bien pulenta",
-          "titulo": "Polenta con pajarito",
-          "entradilla": "Más allá del mito, la polenta con pajarito se alza como un plato versátil que admite tanto una preparación sencilla como una presentación de las más sofisticadas.",
-          "autor": "",
-          "seccion": "sabores",
-          "contenido_html": "",
-          "imagen_destacada": 29
         },
         {
           "id": "476",
