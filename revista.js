@@ -29,7 +29,7 @@ async function cargarIndice()  {
     const notasOrdenadas = [...(edicion.notas || [])].sort(
     (a, b) => Number(a.id_nota) - Number(b.id_nota)
     );
-    mostrarEditorial(edicion.editorial);
+    mostrarEditorial(edicion.editorial, numeroEdicion);
     mostrarNotas(notasOrdenadas, numeroEdicion);
     //mostrarNotas( edicion.notas || [], numeroEdicion );
   } catch (error)  {
@@ -37,7 +37,7 @@ async function cargarIndice()  {
   }
 }
 /* * Editorial */
-function mostrarEditorial(editorial)  {
+async function mostrarEditorial(editorial, numeroEdicion)   {
   const contenedor = document.getElementById( 'editorial' );
   if (!contenedor)  {
     return;
