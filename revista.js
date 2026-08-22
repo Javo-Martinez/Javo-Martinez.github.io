@@ -38,11 +38,11 @@ async function cargarIndice()  {
 }
 /* * Editorial */
 async function mostrarEditorial(editorial, numeroEdicion)   {
+  const numFormateado = String(numeroEdicion).padStart(2, '0');
   const contenedor = document.getElementById( 'editorial' );
   if (!contenedor)  {
     return;
   }
-
   
     // ============================================================
     // URL DEL CONTENIDO PHP
