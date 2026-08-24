@@ -46,6 +46,7 @@
 
         let urlDestino = "";
         let urlPortada = "";
+        let UrlIndex = "";
 
 
         // ============================================================
@@ -121,42 +122,49 @@
                 EDICION_VIGENTE <= 40
             ){
                 urlPortada = `/eneur-27-40/revista${numFormateado}/images/portada.jpg`;
+                UrlIndex = `/eneur-27-40/revista${numFormateado}/content/index.php`;
             }
             else if (
                 EDICION_VIGENTE >= 41 &&
                 EDICION_VIGENTE <= 50
             ){
                 urlPortada = `/eneur-41-50/revista${numFormateado}/portada.jpg`;
+                UrlIndex = `/eneur-41-50/revista${numFormateado}/content/index.php`;
             }
             else if (
                 EDICION_VIGENTE >= 51 &&
                 EDICION_VIGENTE <= 60
             ){
                 urlPortada = `/eneur-51-60/revista${numFormateado}/portada.jpg`;
+                UrlIndex = `/eneur-51-60/revista${numFormateado}/content/index.php`;
             }
             else if (
                 EDICION_VIGENTE >= 61 &&
                 EDICION_VIGENTE <= 70
             ){
                 urlPortada = `/eneur-61-70/revista${numFormateado}/portada.jpg`;
+                UrlIndex = `/eneur-61-70/revista${numFormateado}/content/index.php`;
             }
             else if (
                 EDICION_VIGENTE >= 71 &&
                 EDICION_VIGENTE <= 80
             ){
                 urlPortada = `/eneur-71-80/revista${numFormateado}/portada.jpg`;
+                UrlIndex = `/eneur-71-80/revista${numFormateado}/content/index.php`;
             }
             else if (
                 EDICION_VIGENTE >= 81 &&
                 EDICION_VIGENTE <= 90
             ){
                 urlPortada = `/eneur-81-90/revista${numFormateado}/portada.jpg`;
+                UrlIndex = `/eneur-81-90/revista${numFormateado}/content/index.php`;
             }
             else if (
                 EDICION_VIGENTE >= 91 &&
                 EDICION_VIGENTE <= 100
             ){
                 urlPortada = `/eneur-91-00/revista${numFormateado}/portada.jpg`;
+                UrlIndex = `/eneur-91-00/revista${numFormateado}/content/index.php`;
             }
 
             urlDestino =
@@ -202,7 +210,23 @@
             }
         );
 
+         // ============================================================
+        // POEMA INDEX
+        // ============================================================
 
+      
+        const respuesta = await fetch(UrlIndex);
+        const html = await respuesta.text();
+        
+        const parser = new DOMParser();
+        const documento = parser.parseFromString(html, 'text/html');
+        
+        const poema = documento.getElementById('poemaIndex');
+        
+        if (poema) {
+            console.log(poema.innerHTML);
+        }
+        
         // ============================================================
         // REDIRECCIÓN CON FADE OUT
         // ============================================================
