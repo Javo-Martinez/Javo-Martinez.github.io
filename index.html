@@ -210,22 +210,35 @@
             }
         );
 
+        
          // ============================================================
         // POEMA INDEX
         // ============================================================
 
       
-        const respuesta = await fetch(UrlIndex);
-        const html = await respuesta.text();
+        async function cargarPoema() {
+           
+            const respuesta = await fetch(UrlIndex);
+            const html = await respuesta.text();
         
-        const parser = new DOMParser();
-        const documento = parser.parseFromString(html, 'text/html');
+            const parser = new DOMParser();
+            const documento = parser.parseFromString(html, 'text/html');
         
-        const poema = documento.getElementById('poemaIndex');
+            const poema = documento.getElementById('poemaIndex');
         
-        if (poema) {
-            console.log(poema.innerHTML);
+            if (poema) {
+                console.log(poema.innerHTML);
+            }
         }
+
+        cargarPoema();
+
+        // ============================================================
+        // MOSTRAR POEMA
+        // ============================================================
+
+
+
         
         // ============================================================
         // REDIRECCIÓN CON FADE OUT
