@@ -219,19 +219,37 @@
 
       
         async function cargarPoema() {
-
+        
             console.log('URL poema: ' + UrlIndex);
-            
+        
             const respuesta = await fetch(UrlIndex);
+        
+            console.log('Status:', respuesta.status);
+            console.log('OK:', respuesta.ok);
+        
             const html = await respuesta.text();
         
-            const parser = new DOMParser();
-            const documento = parser.parseFromString(html, 'text/html');
+            console.log('HTML recibido:', html);
         
-            const poema = documento.getElementById('poemaIndex');
+            const parser = new DOMParser();
+        
+            const documento =
+                parser.parseFromString(
+                    html,
+                    'text/html'
+                );
+        
+            const poema =
+                documento.getElementById('poemaIndex');
+        
+            console.log('Poema encontrado:', poema);
         
             if (poema) {
-                document.getElementById('poemaIndex').innerHTML = poema.innerHTML;
+        
+                document.getElementById('poemaIndex').innerHTML =
+                    poema.innerHTML;
+        
+                console.log('Poema inyectado');
             }
         }
 
@@ -308,7 +326,7 @@
 
         setTimeout(
             irAlIndice,
-            30000
+            300000
         );
 
     </script>
