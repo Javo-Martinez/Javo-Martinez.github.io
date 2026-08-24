@@ -217,7 +217,8 @@
 
       
         async function cargarPoema() {
-           
+
+            console.log('URL poema: ' + UrlIndex);
             const respuesta = await fetch(UrlIndex);
             const html = await respuesta.text();
         
@@ -227,7 +228,7 @@
             const poema = documento.getElementById('poemaIndex');
         
             if (poema) {
-                console.log(poema.innerHTML);
+                console.log(poema);
             }
         }
 
