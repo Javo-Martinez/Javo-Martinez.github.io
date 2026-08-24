@@ -25,6 +25,8 @@
         alt="Esto No Es Una Revista"
     >
 
+    <div id="poemaIndex"></div>
+
 
     <script>
 
@@ -219,6 +221,7 @@
         async function cargarPoema() {
 
             console.log('URL poema: ' + UrlIndex);
+            
             const respuesta = await fetch(UrlIndex);
             const html = await respuesta.text();
         
@@ -228,18 +231,11 @@
             const poema = documento.getElementById('poemaIndex');
         
             if (poema) {
-                console.log(poema);
+                document.getElementById('poemaIndex').innerHTML = poema.innerHTML;
             }
         }
 
         cargarPoema();
-
-        // ============================================================
-        // MOSTRAR POEMA
-        // ============================================================
-
-
-
         
         // ============================================================
         // REDIRECCIÓN CON FADE OUT
