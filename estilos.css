@@ -58,6 +58,23 @@ body.portada-inicial {
     /*overflow: hidden;*/
 }
 
+.contenedor-index {
+  display: flex;
+  flex-direction: row; /* Coloca los elementos uno al lado del otro */
+  align-items: center;  /* Centra el div verticalmente respecto a la imagen */
+  gap: 20px;            /* Opcional: añade espacio entre la imagen y el div */
+}
+
+.portada {
+  width: 300px;         /* Tus medidas fijas */
+  height: 400px;
+  flex-shrink: 0;       /* Evita que la imagen se deforme o achique */
+}
+
+.poemaIndex {
+  /* El ancho puede ser fijo (ej: 200px) o fluido (ej: width: 100%) */
+  width: 250px;         
+}
 
 #portada {
     display: block;
