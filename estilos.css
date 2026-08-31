@@ -86,12 +86,16 @@ body.portada-inicial {
 }
 
 
-#portada.visible {
+.contenedor-index {
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.contenedor-index.visible {
     opacity: 1;
 }
 
-
-#portada.saliendo {
+.contenedor-index.saliendo {
     opacity: 0;
 }
 
