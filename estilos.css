@@ -362,4 +362,9 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     .imagen-interior.reducir {
         max-width: 163px;
     }
+    .contenedor-index {
+    display: flow;
+    overflow: hidden;
+    text-align: center;
+    }
 }
