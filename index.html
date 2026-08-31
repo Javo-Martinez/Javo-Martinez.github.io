@@ -171,18 +171,17 @@
 
         }
 
-
         // ============================================================
         // ELEMENTO PORTADA
         // ============================================================
 
         const portada =
             document.getElementById('portada');
-
+        const contenedorIndex =
+            document.querySelector('.contenedor-index');
 
         portada.src =
             urlPortada;
-
 
         // ============================================================
         // MOSTRAR PORTADA
@@ -197,15 +196,15 @@
         portada.addEventListener(
             'load',
             () => {
-
+        
                 requestAnimationFrame(() => {
-
-                    portada.classList.add(
+        
+                    contenedorIndex.classList.add(
                         'visible'
                     );
-
+        
                 });
-
+        
             }
         );
 
@@ -277,12 +276,11 @@
              * Comenzar fade out
              */
 
-            portada.classList.remove(
+            contenedorIndex.classList.remove(
                 'visible'
             );
-
-
-            portada.classList.add(
+            
+            contenedorIndex.classList.add(
                 'saliendo'
             );
 
@@ -310,11 +308,10 @@
         // CLICK EN LA PORTADA
         // ============================================================
 
-        portada.addEventListener(
+        contenedorIndex.addEventListener(
             'click',
             irAlIndice
         );
-
 
         // ============================================================
         // REDIRECCIÓN AUTOMÁTICA
