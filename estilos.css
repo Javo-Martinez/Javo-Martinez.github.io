@@ -233,6 +233,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     display: block;
     width: 100%;
     height: auto;
+    margin-top: 20px;
 }
 
 .imagen-interior {
@@ -247,7 +248,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 }
 
 .nota-contenido {
-    padding: 15px;
+    /* padding: 15px; */
 }
 
 .nota-seccion {
@@ -257,16 +258,19 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     font-size: 12px;
     font-weight: bold;
     margin-bottom: 10px;
+    /* margin-top: -54px; */
 }
 
 .nota-tag {
     font-size: 16px;
     opacity: 0.99;
     margin-bottom: -20px;
-    background-color: #021183;
+    background-color: #070707;
     color: white;
     font-weight: bold;
     padding-left: 10px;
+    height: 23px;
+    padding: 5px 0 5px 5px;
 }
 
 .nota-titulo {
