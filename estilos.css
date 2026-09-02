@@ -59,10 +59,10 @@ body.portada-inicial {
 }
 
 .contenedor-index {
-  display: flex;
-  flex-direction: row; /* Coloca los elementos uno al lado del otro */
-  align-items: center;  /* Centra el div verticalmente respecto a la imagen */
-  gap: 20px;            /* Opcional: añade espacio entre la imagen y el div */
+  /* display: flex; */
+  /* flex-direction: row; */ /* Coloca los elementos uno al lado del otro */
+  /* align-items: center; */  /* Centra el div verticalmente respecto a la imagen */
+  /* gap: 20px; */            /* Opcional: añade espacio entre la imagen y el div */
 }
 
 .portada {
@@ -71,7 +71,8 @@ body.portada-inicial {
 
 .poemaIndex {
   /* El ancho puede ser fijo (ej: 200px) o fluido (ej: width: 100%) */
-  width: 100%;         
+  width: 100%;
+  padding-top: 31px;
 }
 
 #portada {
@@ -87,6 +88,7 @@ body.portada-inicial {
 .contenedor-index {
     opacity: 0;
     transition: opacity 1s ease;
+    text-align: center;
 }
 
 .contenedor-index.visible {
