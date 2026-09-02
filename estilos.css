@@ -1,4 +1,4 @@
-body { font-family: "Segoe UI", Roboto, sans-serif; color: #2d3748; background: #fcfcfc; margin: 0; padding: 0; }
+body {font-family: "Segoe UI", Roboto, sans-serif;color: #2d3748;background: #fafafa;margin: 0;padding: 0;}
 #notas-grilla { display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); gap: 30px; padding: 20px; max-width: 1200px; margin: 0 auto; }
 .elemento-compuesto { background: #ffffff; border-radius: 8px; overflow: hidden; box-shadow: 0 4px 6px rgba(0,0,0,0.05); }
 .link-completo { text-decoration: none; color: inherit; display: block; padding: 20px; }
@@ -9,7 +9,7 @@ body { font-family: "Segoe UI", Roboto, sans-serif; color: #2d3748; background: 
 .copete-nota { font-size: 15px; color: #4a5568; margin: 0 0 15px 0; }
 .frase-corta { font-size: 13px; font-weight: 500; display: block; padding-top: 10px; }
 
-.menu-secciones {display: flex;gap: 20px;flex-wrap: wrap;margin-bottom: 30px;border-bottom: 1px solid #e2e8f0;padding-bottom: 15px;font-weight: bold;font-size: 14px;text-transform: uppercase;width: 1200px;max-width: 100%;margin-left: auto;margin-right: auto;}
+.menu-secciones {display: flex;gap: 20px;flex-wrap: wrap;margin-bottom: 30px;border-bottom: 1px solid #e2e8f0;padding-bottom: 15px;font-weight: bold;font-size: 14px;text-transform: uppercase;width: 1200px;max-width: 100%;margin-left: 20%;margin-right: auto;}
 .menu-secciones a { text-decoration: none; color: #718096; transition: color 0.2s ease; }
 .menu-secciones a:hover { color: #1a202c; }
 
@@ -142,7 +142,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 /* Ajustes generales para que todos los botones tengan cuerpo y espacio */
 .menu-secciones a {
     padding: 6px 12px;
-    border-radius: 4px;
+    /* border-radius: 4px; */
     transition: all 0.2s ease;
     border-bottom: 2px solid transparent;
 }
@@ -163,7 +163,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     color: #1a365d !important;
 }
 .menu-secciones a[href*="seccion=Miradas"]:hover {
-    background: #ebf8ff;
+    /* background: #ebf8ff; */
     border-bottom-color: #1a365d;
 }
 
@@ -172,7 +172,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     color: #6b46c1 !important;
 }
 .menu-secciones a[href*="seccion=Sonoridades"]:hover {
-    background: #faf5ff;
+    /* background: #faf5ff; */
     border-bottom-color: #6b46c1;
 }
 
@@ -180,21 +180,21 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 .menu-secciones a[href*="seccion=Blablablá"],
 .menu-secciones a[href*="seccion=Blablabla"] {
     color: #c05621 !important;
-    font-family: 'Georgia', serif;
+    /* font-family: 'Georgia', serif; */
 }
 .menu-secciones a[href*="seccion=Blablablá"]:hover,
 .menu-secciones a[href*="seccion=Blablabla"]:hover {
-    background: #fffaf0;
+    /* background: #fffaf0; */
     border-bottom-color: #c05621;
 }
 
 /* 5. Botón ESCRITOS -> Naranja / Terracota Cálido */
 .menu-secciones a[href*="seccion=Escritos"] {
     color: #dd6b20 !important;
-    font-family: 'Georgia', serif;
+    /* font-family: 'Georgia', serif; */
 }
 .menu-secciones a[href*="seccion=Escritos"]:hover {
-    background: #fffaf0;
+    /* background: #fffaf0; */
     border-bottom-color: #dd6b20;
 }
 
@@ -203,10 +203,13 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     color: #2f855a !important;
 }
 .menu-secciones a[href*="seccion=Sabores"]:hover {
-    background: #f0fff4;
+    /* background: #f0fff4; */
     border-bottom-color: #2f855a;
 }
 
+#editorial{
+    font-size: 18px;
+}
 
 .indice-notas {
     display: grid;
@@ -257,9 +260,13 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 }
 
 .nota-tag {
-    font-size: 12px;
-    opacity: 0.7;
-    margin-bottom: 5px;
+    font-size: 16px;
+    opacity: 0.99;
+    margin-bottom: -20px;
+    background-color: #021183;
+    color: white;
+    font-weight: bold;
+    padding-left: 10px;
 }
 
 .nota-titulo {
