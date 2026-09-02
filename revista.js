@@ -159,6 +159,13 @@ function mostrarNotas( notas, numeroEdicion )  {
     tarjeta.className = 'nota-card';
     tarjeta.innerHTML = `
 
+    ${nota.tag ? `
+          <div class="nota-tag">
+              ${nota.tag}
+          </div>
+      ` : ''}
+
+
     <a
         href="nota.html?edicion=${numeroEdicion}&id=${encodeURIComponent(nota.id)}"
         class="nota-link"
@@ -176,17 +183,9 @@ function mostrarNotas( notas, numeroEdicion )  {
 
 
         <div class="nota-contenido">
-
             <div class="nota-seccion ${claseSeccion}">
                 ${nota.seccion || ''}
             </div>
-
-
-            ${nota.tag ? `
-                <div class="nota-tag">
-                    ${nota.tag}
-                </div>
-            ` : ''}
 
 
             <h3 class="nota-titulo">
