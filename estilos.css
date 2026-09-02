@@ -247,6 +247,12 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     display: block;
 }
 
+.image_cen1 {
+    float: left;
+    padding-right: 20px; 
+}
+
+
 .nota-contenido {
     /* padding: 15px; */
 }
