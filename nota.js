@@ -396,14 +396,88 @@ async function mostrarNota(
         'nota-contenido'
     ).innerHTML = contenidoHTML;
 
-    // Buscar si esta nota tiene galería
+    // ============================================================
+    // GALERÍA
+    // ============================================================
+    
     const galeria = document.getElementById('gallery');
     
     if (galeria) {
-        const nombreGaleria = galeria.dataset.gallery;
-        const urlGaleria = `${urlEdicion}galleries/${nombreGaleria}/`;
     
-        console.log(`URL galería: ${urlGaleria}`);
+        const nombreGaleria = galeria.dataset.gallery;
+    
+        console.log(
+            'Galería:',
+            nombreGaleria
+        );
+    
+        // URL del galleries.json de esta edición
+        const urlGalleriesJSON =
+            `${urlEdicion}galleries.json`;
+    
+        try {
+    
+            const respuestaGalerias =
+                await fetch(urlGalleriesJSON);
+    
+            if (!respuestaGalerias.ok) {
+    
+                throw new Error(
+                    `No se pudo cargar ${urlGalleriesJSON}: HTTP ${respuestaGalerias.status}`
+                );
+            }
+    
+            const galleries =
+                await respuestaGalerias.json();
+    
+            const imagenes =
+                galleries[nombreGaleria];
+    
+            if (!imagenes || imagenes.length === 0) {
+    
+                console.warn(
+                    `No se encontraron imágenes para la galería "${nombreGaleria}".`
+                );
+    
+                galeria.remove();
+    
+            } else {
+    
+                const urlGaleria =
+                    `${urlEdicion}galleries/${nombreGaleria}/`;
+    
+                galeria.innerHTML = '';
+    
+                imagenes.forEach((archivo, indice) => {
+    
+                    const img = document.createElement('img');
+    
+                    img.src =
+                        `${urlGaleria}${archivo}`;
+    
+                    img.alt =
+                        `Imagen ${indice + 1}`;
+    
+                    img.loading = 'lazy';
+    
+                    galeria.appendChild(img);
+    
+                });
+    
+                console.log(
+                    `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
+                );
+            }
+    
+        } catch (error) {
+    
+            console.error(
+                'Error al cargar la galería:',
+                error
+            );
+    
+            galeria.remove();
+        }
     }
 
     // Eliminar imagen si no existe
