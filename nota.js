@@ -136,26 +136,6 @@ async function mostrarNota(
     elementoSeccion.style.backgroundColor =
         colorSeccion;
 
-
-    // ============================================================
-    // TAG
-    // ============================================================
-
-    const elementoTag =
-        document.getElementById('nota-tag');
-
-    if (nota.tag) {
-
-        elementoTag.textContent =
-            nota.tag;
-
-    } else {
-
-        elementoTag.style.display =
-            'none';
-    }
-
-
     // ============================================================
     // TÍTULO
     // ============================================================
