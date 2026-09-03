@@ -15,13 +15,7 @@ if ($edicion <= 0 || $gallery === '') {
 }
 
 // Determinar el repositorio según la edición
-if ($edicion >= 1 && $edicion <= 10) {
-    $repositorio = 'eneur-01-10';
-} elseif ($edicion >= 11 && $edicion <= 20) {
-    $repositorio = 'eneur-11-20';
-} elseif ($edicion >= 21 && $edicion <= 26) {
-    $repositorio = 'eneur-21-26';
-} elseif ($edicion >= 27 && $edicion <= 40) {
+if ($edicion >= 27 && $edicion <= 40) {
     $repositorio = 'eneur-27-40';
 } elseif ($edicion >= 41 && $edicion <= 50) {
     $repositorio = 'eneur-41-50';
