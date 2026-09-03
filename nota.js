@@ -1,3 +1,6 @@
+import PhotoSwipeLightbox from
+    'https://unpkg.com/photoswipe@5/dist/photoswipe-lightbox.esm.js';
+
 const JSON_URL = './revista.json';
 
 document.addEventListener('DOMContentLoaded', cargarNota);
@@ -429,20 +432,30 @@ async function mostrarNota(
                 galeria.innerHTML = '';
     
                 imagenes.forEach((archivo, indice) => {
-    
-                    const img = document.createElement('img');
-    
-                    img.src =
-                        `${urlGaleria}${archivo}`;
-    
-                    img.alt =
-                        `Imagen ${indice + 1}`;
-    
-                    img.loading = 'lazy';
-    
-                    galeria.appendChild(img);
-    
-                });
+
+                const enlace = document.createElement('a');
+            
+                enlace.href =
+                    `${urlGaleria}${archivo}`;
+            
+                enlace.dataset.pswpWidth = '1600';
+                enlace.dataset.pswpHeight = '1200';
+            
+                const img = document.createElement('img');
+            
+                img.src =
+                    `${urlGaleria}${archivo}`;
+            
+                img.alt =
+                    `Imagen ${indice + 1}`;
+            
+                img.loading = 'lazy';
+            
+                enlace.appendChild(img);
+            
+                galeria.appendChild(enlace);
+            
+            });
     
                 console.log(
                     `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
