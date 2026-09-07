@@ -84,7 +84,10 @@ document.addEventListener( 'DOMContentLoaded', cargarIndice );
           // ========================================================
           // FILTRAR POR SECCIÓN
           // ========================================================
-  
+          console.log(
+              'SECCIONES EN EDICIÓN:',
+              [...new Set(notasOrdenadas.map(nota => nota.seccion))]
+          );
           if (seccion) {
   
               notasOrdenadas =
