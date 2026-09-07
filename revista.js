@@ -19,6 +19,9 @@ document.addEventListener( 'DOMContentLoaded', cargarIndice );
   
           const seccion =
               params.get('seccion');
+
+          console.log('EDICIÓN:', numeroEdicion);
+          console.log('SECCIÓN:', seccion);
   
   
           if (!numeroEdicion) {
@@ -42,6 +45,8 @@ document.addEventListener( 'DOMContentLoaded', cargarIndice );
   
           const datos =
               await respuesta.json();
+        
+          console.log('JSON cargado:', datos);
   
   
           if (!Array.isArray(datos.ediciones)) {
@@ -126,7 +131,8 @@ document.addEventListener( 'DOMContentLoaded', cargarIndice );
           // ========================================================
           // MOSTRAR NOTAS
           // ========================================================
-  
+
+          console.log('NOTAS A MOSTRAR:', notasOrdenadas);
           mostrarNotas(
               notasOrdenadas,
               numeroEdicion
