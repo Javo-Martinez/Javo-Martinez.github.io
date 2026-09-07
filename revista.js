@@ -7,41 +7,151 @@ function obtenerClaseSeccion(seccion)  {
   return 'seccion-' + seccion .toLowerCase() .normalize('NFD') .replace(/[\u0300-\u036f]/g, '') .replace(/\s+/g, '-');
 }
 document.addEventListener( 'DOMContentLoaded', cargarIndice );
-async function cargarIndice()  {
-  try  {
-    const params = new URLSearchParams( window.location.search );
-    const numeroEdicion = Number( params.get('num') );
-    if (!numeroEdicion)  {
-      throw new Error( 'No se indicó el número de edición.' );
-    }
-    const respuesta = await fetch(JSON_URL);
-    if (!respuesta.ok)  {
-      throw new Error( `Error HTTP: ${respuesta.status}` );
-    }
-    const datos = await respuesta.json();
-    if (!Array.isArray(datos.ediciones))  {
-      throw new Error( 'La propiedad "ediciones" no es un array.' );
-    }
-    const edicion = datos.ediciones.find( ed => Number(ed.numero) === numeroEdicion );
-    if (!edicion)  {
-      throw new Error( `No se encontró la edición ${numeroEdicion}.` );
-    }
-    const notasOrdenadas = [...(edicion.notas || [])].sort(
-    (a, b) => Number(a.id_nota) - Number(b.id_nota)
-    );
-    mostrarEditorial(edicion.editorial, numeroEdicion);
-    mostrarNotas(notasOrdenadas, numeroEdicion);
-    //mostrarNotas( edicion.notas || [], numeroEdicion );
-  } catch (error)  {
-    console.error( 'Error en la revista:', error );
-  }
-}
-/* * Editorial */
-async function mostrarEditorial(editorial, numeroEdicion)   {
-  const numFormateado = String(numeroEdicion).padStart(2, '0');
-  const contenedor = document.getElementById( 'editorial' );
-  if (!contenedor)  {
-    return;
+  async function cargarIndice() {
+  
+      try {
+  
+          const params =
+              new URLSearchParams(window.location.search);
+  
+          const numeroEdicion =
+              Number(params.get('edicion'));
+  
+          const seccion =
+              params.get('seccion');
+  
+  
+          if (!numeroEdicion) {
+  
+              throw new Error(
+                  'No se indicó el número de edición.'
+              );
+          }
+  
+  
+          const respuesta =
+              await fetch(JSON_URL);
+  
+          if (!respuesta.ok) {
+  
+              throw new Error(
+                  `Error HTTP: ${respuesta.status}`
+              );
+          }
+  
+  
+          const datos =
+              await respuesta.json();
+  
+  
+          if (!Array.isArray(datos.ediciones)) {
+  
+              throw new Error(
+                  'La propiedad "ediciones" no es un array.'
+              );
+          }
+  
+  
+          const edicion =
+              datos.ediciones.find(
+                  ed =>
+                      Number(ed.numero) === numeroEdicion
+              );
+  
+  
+          if (!edicion) {
+  
+              throw new Error(
+                  `No se encontró la edición ${numeroEdicion}.`
+              );
+          }
+  
+  
+          let notasOrdenadas =
+              [...(edicion.notas || [])]
+              .sort(
+                  (a, b) =>
+                      Number(a.id_nota) -
+                      Number(b.id_nota)
+              );
+  
+  
+          // ========================================================
+          // FILTRAR POR SECCIÓN
+          // ========================================================
+  
+          if (seccion) {
+  
+              notasOrdenadas =
+                  notasOrdenadas.filter(
+                      nota =>
+                          nota.seccion === seccion
+                  );
+  
+          }
+  
+  
+          // ========================================================
+          // MOSTRAR EDITORIAL SOLO EN EL ÍNDICE
+          // ========================================================
+  
+          if (!seccion) {
+  
+              mostrarEditorial(
+                  edicion.editorial,
+                  numeroEdicion
+              );
+  
+          }
+  
+  
+          // ========================================================
+          // TÍTULO DE SECCIÓN
+          // ========================================================
+  
+          const tituloSeccion =
+              document.getElementById(
+                  'titulo-seccion'
+              );
+  
+  
+          if (tituloSeccion) {
+  
+              tituloSeccion.textContent =
+                  seccion || '';
+  
+          }
+  
+  
+          // ========================================================
+          // MOSTRAR NOTAS
+          // ========================================================
+  
+          mostrarNotas(
+              notasOrdenadas,
+              numeroEdicion
+          );
+  
+  
+          // ========================================================
+          // LINKS DE NAVEGACIÓN
+          // ========================================================
+  
+          configurarNavegacion(
+              numeroEdicion,
+              seccion
+          );
+  
+  
+      } catch (error) {
+  
+          console.error(
+              'Error en la revista:',
+              error
+          );
+  
+      }
+  
   }
   
     // ============================================================
@@ -213,4 +323,63 @@ function mostrarNotas( notas, numeroEdicion )  {
     contenedor.appendChild( tarjeta );
   }
   );
+}
+
+function configurarNavegacion(
+    numeroEdicion,
+    seccionActual
+) {
+
+    // ============================================================
+    // LINKS DE SECCIONES
+    // ============================================================
+
+    document
+        .querySelectorAll(
+            '.menu-secciones a[data-seccion]'
+        )
+        .forEach(link => {
+
+            const seccion =
+                link.dataset.seccion;
+
+            link.href =
+                `secciones.html?edicion=${numeroEdicion}&seccion=${encodeURIComponent(seccion)}`;
+
+        });
+
+
+    // ============================================================
+    // LINK AL ÍNDICE
+    // ============================================================
+
+    const linkIndice =
+        document.getElementById(
+            'link-indice'
+        );
+
+    if (linkIndice) {
+
+        linkIndice.href =
+            `indice.html?edicion=${numeroEdicion}`;
+
+    }
+
+
+    // ============================================================
+    // CONTRATAPA
+    // ============================================================
+
+    const linkContratapa =
+        document.getElementById(
+            'link-contratapa'
+        );
+
+    if (linkContratapa) {
+
+        linkContratapa.href =
+            `contratapa.html?edicion=${numeroEdicion}`;
+
+    }
+
 }
