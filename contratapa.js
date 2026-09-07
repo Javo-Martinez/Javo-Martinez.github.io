@@ -22,13 +22,87 @@ async function cargarContratapa()  {
     document.getElementById( 'contratapa' ).innerHTML = ` <p> No se pudo cargar la contratapa. </p> `;
   }
 }
-function mostrarContratapa(edicion)  {
-  const contenedor = document.getElementById( 'contratapa' );
-  const imagen = edicion.contratapa;
-  if (!imagen)  {
-    contenedor.innerHTML = ` <p> Esta edición no tiene contratapa. </p> `;
+function mostrarContratapa(edicion) {
+const contenedor =
+    document.getElementById('contratapa');
+
+const numeroEdicion =
+    Number(edicion.numero);
+
+const numFormateado =
+    String(numeroEdicion).padStart(2, '0');
+
+const imagen =
+    edicion.contratapa;
+
+if (!imagen) {
+
+    contenedor.innerHTML =
+        `<p>Esta edición no tiene contratapa.</p>`;
+
     return;
-  }
-  document.title = `Contratapa - Edición ${edicion.numero}`;
-  contenedor.innerHTML = ` <img src="${imagen}" alt="Contratapa" > `;
+}
+
+let urlImagen = '';
+
+if (numeroEdicion >= 27 && numeroEdicion <= 40) {
+
+    urlImagen =
+        `/eneur-27-40/revista${numFormateado}/images/${imagen}`;
+
+}
+else if (numeroEdicion >= 41 && numeroEdicion <= 50) {
+
+    urlImagen =
+        `/eneur-41-50/revista${numFormateado}/images/${imagen}`;
+
+}
+else if (numeroEdicion >= 51 && numeroEdicion <= 60) {
+
+    urlImagen =
+        `/eneur-51-60/revista${numFormateado}/images/${imagen}`;
+
+}
+else if (numeroEdicion >= 61 && numeroEdicion <= 70) {
+
+    urlImagen =
+        `/eneur-61-70/revista${numFormateado}/images/${imagen}`;
+
+}
+else if (numeroEdicion >= 71 && numeroEdicion <= 80) {
+
+    urlImagen =
+        `/eneur-71-80/revista${numFormateado}/images/${imagen}`;
+
+}
+else if (numeroEdicion >= 81 && numeroEdicion <= 90) {
+
+    urlImagen =
+        `/eneur-81-90/revista${numFormateado}/images/${imagen}`;
+
+}
+else if (numeroEdicion >= 91 && numeroEdicion <= 100) {
+
+    urlImagen =
+        `/eneur-91-00/revista${numFormateado}/images/${imagen}`;
+
+}
+
+if (!urlImagen) {
+
+    contenedor.innerHTML =
+        `<p>No se encontró la ruta de la contratapa.</p>`;
+
+    return;
+}
+
+document.title =
+    `Contratapa - Edición ${numeroEdicion}`;
+
+contenedor.innerHTML = `
+    <img
+        src="${urlImagen}"
+        alt="Contratapa"
+    >
+`;
 }
