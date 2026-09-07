@@ -45,96 +45,52 @@ try {
 }
 
 /*
-
-Devuelve la ruta de la miniportada
-
-según el número de edición.
+* Devuelve la ruta de la miniportadasegún el número de edición.
 */
+
 function obtenerRutaMiniportada(numero, imagen) {
 
-const numFormateado =
-String(numero).padStart(2, '0');
+    const numFormateado =
+        String(numero).padStart(2, '0');
 
-/*
+    if (numero >= 1 && numero <= 26) {
+        return `eneur-portadas/${imagen}`;
+    }
 
-Números 1 a 26
+    if (numero >= 27 && numero <= 40) {
+        return `eneur-27-40/revista${numFormateado}/images/${imagen}`;
+    }
 
-Repositorio exclusivo de portadas.
-*/
-if (numero >= 1 && numero <= 26) {
+    if (numero >= 41 && numero <= 50) {
+        return `eneur-41-50/revista${numFormateado}/images/${imagen}`;
+    }
 
-return /eneur-portadas/${imagen};
+    if (numero >= 51 && numero <= 60) {
+        return `eneur-51-60/revista${numFormateado}/images/${imagen}`;
+    }
+
+    if (numero >= 61 && numero <= 70) {
+        return `eneur-61-70/revista${numFormateado}/images/${imagen}`;
+    }
+
+    if (numero >= 71 && numero <= 80) {
+        return `eneur-71-80/revista${numFormateado}/images/${imagen}`;
+    }
+
+    if (numero >= 81 && numero <= 90) {
+        return `eneur-81-90/revista${numFormateado}/images/${imagen}`;
+    }
+
+    if (numero >= 91 && numero <= 100) {
+        return `eneur-91-100/revista${numFormateado}/images/${imagen}`;
+    }
+
+    return '';
 }
 
 /*
 
-Números 27 a 40
-*/
-if (numero >= 27 && numero <= 40) {
-
-return /eneur-27-40/revista${numFormateado}/images/${imagen};
-}
-
-/*
-
-Números 41 a 50
-*/
-if (numero >= 41 && numero <= 50) {
-
-return /eneur-41-50/revista${numFormateado}/images/${imagen};
-}
-
-/*
-
-Números 51 a 60
-*/
-if (numero >= 51 && numero <= 60) {
-
-return /eneur-51-60/revista${numFormateado}/images/${imagen};
-}
-
-/*
-
-Números 61 a 70
-*/
-if (numero >= 61 && numero <= 70) {
-
-return /eneur-61-70/revista${numFormateado}/images/${imagen};
-}
-
-/*
-
-Números 71 a 80
-*/
-if (numero >= 71 && numero <= 80) {
-
-return /eneur-71-80/revista${numFormateado}/images/${imagen};
-}
-
-/*
-
-Números 81 a 90
-*/
-if (numero >= 81 && numero <= 90) {
-
-return /eneur-81-90/revista${numFormateado}/images/${imagen};
-}
-
-/*
-
-Números 91 a 100
-*/
-if (numero >= 91 && numero <= 100) {
-
-return /eneur-91-00/revista${numFormateado}/images/${imagen};
-}
-
-return '';
-}
-
-/*
-
-Genera la grilla de números.
+* Genera la grilla de números.
 */
 function mostrarNumeros(numeros) {
 
