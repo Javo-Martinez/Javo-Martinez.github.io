@@ -158,7 +158,24 @@ document.addEventListener( 'DOMContentLoaded', cargarIndice );
     // URL DEL CONTENIDO PHP
     // ============================================================
 
-    let urlEditorial = '';
+    /* * Editorial */
+    async function mostrarEditorial(editorial, numeroEdicion) {
+    
+        const numFormateado =
+            String(numeroEdicion).padStart(2, '0');
+    
+        const contenedor =
+            document.getElementById('editorial');
+    
+        if (!contenedor) {
+            return;
+        }
+    
+        // ============================================================
+        // URL DEL CONTENIDO PHP
+        // ============================================================
+    
+      let urlEditorial = '';
       if (numeroEdicion >= 27 && numeroEdicion <= 40) {
          urlEditorial = `/eneur-27-40/revista${numFormateado}/content/editorial.php`;
       }
@@ -217,14 +234,13 @@ document.addEventListener( 'DOMContentLoaded', cargarIndice );
     // INSERTAR PHP
     // ============================================================
 
-    let contenidoEditorial = await respuestaEditorial.text();
+    const contenidoEditorial =
+      await respuestaEditorial.text();
+      
+      contenedor.innerHTML = contenidoEditorial;
+    }
 
-      document.getElementById(
-                    'editorial'
-                ).innerHTML = contenidoEditorial;
 
- 
-}
 /* * Grilla de notas */
 function mostrarNotas( notas, numeroEdicion )  {
   
@@ -237,7 +253,7 @@ function mostrarNotas( notas, numeroEdicion )  {
 
  
   if (!contenedor)  {
-    console.error( 'No existe el elemento #indice-notas en indice.html' );
+    console.error( 'No existe el elemento #indice-notas' );
     return;
   }
   contenedor.innerHTML = '';
