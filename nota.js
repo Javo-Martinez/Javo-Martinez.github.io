@@ -473,16 +473,38 @@ async function mostrarNota(
         }
     }
 
-    // Eliminar imagen si no existe
-    const contenedorImagen = document.getElementById('nota-imagen');
-    const imagen = contenedorImagen?.querySelector('img');
+    // ============================================================
+    // VALIDAR IMAGEN DESTACADA
+    // ============================================================
+    
+    const contenedorImagen =
+        document.getElementById('nota-imagen');
+    
+    const imagen =
+        contenedorImagen?.querySelector('img');
     
     if (imagen) {
-        imagen.addEventListener('error', function () {
+    
+        const eliminarImagen = () => {
             contenedorImagen.remove();
-        });
+        };
+    
+        // Captura errores que ocurran después
+        imagen.addEventListener(
+            'error',
+            eliminarImagen
+        );
+    
+        // Captura errores que ya ocurrieron
+        if (
+            imagen.complete &&
+            imagen.naturalWidth === 0
+        ) {
+            eliminarImagen();
+        }
     }
 
+    
     document.querySelectorAll('.imagen-interior').forEach(img => {
     if (img.complete) {
         if (img.naturalWidth < 400) {
