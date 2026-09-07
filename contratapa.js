@@ -35,6 +35,9 @@ const numFormateado =
 const imagen =
     edicion.contratapa;
 
+console.log('EDICIÓN:', edicion.numero);
+console.log('CONTRATAPA:', imagen);
+
 if (!imagen) {
 
     contenedor.innerHTML =
