@@ -1,0 +1,497 @@
+[
+{
+"numero": 1,
+"titulo": "El agua",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 2,
+"titulo": "El niño",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 3,
+"titulo": "San Cono",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 4,
+"titulo": "La cama",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 5,
+"titulo": "El gato",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 6,
+"titulo": "El perro",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 7,
+"titulo": "El revólver",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 8,
+"titulo": "El incendio",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 9,
+"titulo": "El arroyo",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 10,
+"titulo": "La leche",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 11,
+"titulo": "Los palitos",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 12,
+"titulo": "El soldado",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 13,
+"titulo": "La yeta",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 14,
+"titulo": "El borracho",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 15,
+"titulo": "La niña bonita",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 16,
+"titulo": "El anillo",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 17,
+"titulo": "La desgracia",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 18,
+"titulo": "La sangre",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 19,
+"titulo": "El pescado",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 20,
+"titulo": "La fiesta",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 21,
+"titulo": "La mujer",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 22,
+"titulo": "El loco",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 23,
+"titulo": "El cocinero",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 24,
+"titulo": "El caballo",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 25,
+"titulo": "La gallina",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 26,
+"titulo": "La misa",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 27,
+"titulo": "El peine",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 28,
+"titulo": "El cerro",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 30,
+"titulo": "San Pedro y  Santa Rosa",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 31,
+"titulo": "La luz",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 32,
+"titulo": "El dinero",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 33,
+"titulo": "Cristo",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 34,
+"titulo": "La cabeza",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 35,
+"titulo": "El pajarito",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 36,
+"titulo": "La manteca",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 37,
+"titulo": "El dentista",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 38,
+"titulo": "El aceite",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 39,
+"titulo": "La lluvia",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 40,
+"titulo": "El cura",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 41,
+"titulo": "El cuchillo",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 42,
+"titulo": "Las zapatillas",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 43,
+"titulo": "El balcón",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 44,
+"titulo": "La cárcel",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 45,
+"titulo": "El vino",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 46,
+"titulo": "Los tomates",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 47,
+"titulo": "El muerto",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 48,
+"titulo": "El muerto que habla",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 49,
+"titulo": "La carne",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 50,
+"titulo": "El pan",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 51,
+"titulo": "El serrucho",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 52,
+"titulo": "Madre e hijo",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 53,
+"titulo": "El barco",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 54,
+"titulo": "La vaca",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 55,
+"titulo": "La música",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 56,
+"titulo": "La caída",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 57,
+"titulo": "El cazador",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 58,
+"titulo": "El ahogado",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 59,
+"titulo": "Las plantas",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 60,
+"titulo": "La virgen",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 61,
+"titulo": "Las escopetas",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 62,
+"titulo": "La inundación",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 63,
+"titulo": "El casamiento",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 64,
+"titulo": "El llanto",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 65,
+"titulo": "El cazador",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 66,
+"titulo": "Los lombrices",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 67,
+"titulo": "La mordedura",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 68,
+"titulo": "Los sobrinos",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 69,
+"titulo": "Los vicios",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 70,
+"titulo": "Muerto de sueño",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 71,
+"titulo": "El excremento",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 72,
+"titulo": "La sorpresa",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 73,
+"titulo": "El hospital",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 74,
+"titulo": "Gente negra",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 75,
+"titulo": "El payaso",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 76,
+"titulo": "Las llamas",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 77,
+"titulo": "Las piernas",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 78,
+"titulo": "La ramera",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 79,
+"titulo": "El ladrón",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 80,
+"titulo": "La bocha",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 81,
+"titulo": "Las flores",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 82,
+"titulo": "La pelea",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 83,
+"titulo": "El mal tiempo",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 84,
+"titulo": "La iglesia",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 85,
+"titulo": "La linterna",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 86,
+"titulo": "El humo",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 87,
+"titulo": "Los piojos",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 88,
+"titulo": "El Papa",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 89,
+"titulo": "La rata",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 90,
+"titulo": "El miedo",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 91,
+"titulo": "El excusado",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 92,
+"titulo": "El médico",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 93,
+"titulo": "El enamorado",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 94,
+"titulo": "El cementerio",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 95,
+"titulo": "Los anteojos",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 96,
+"titulo": "El marido",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 97,
+"titulo": "La mesa",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 98,
+"titulo": "Lavandera",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 99,
+"titulo": "El hermano",
+"imagen": "miniportada.jpg"
+},
+{
+"numero": 100,
+"titulo": "Los huevos",
+"imagen": "miniportada.jpg"
+}
+]
