@@ -15,7 +15,7 @@ document.addEventListener( 'DOMContentLoaded', cargarIndice );
               new URLSearchParams(window.location.search);
   
           const numeroEdicion =
-              Number(params.get('edicion'));
+              Number(params.get('edicion') || params.get('num'));
   
           const seccion =
               params.get('seccion');
