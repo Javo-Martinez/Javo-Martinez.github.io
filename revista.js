@@ -88,14 +88,24 @@ document.addEventListener( 'DOMContentLoaded', cargarIndice );
               'SECCIONES EN EDICIÓN:',
               [...new Set(notasOrdenadas.map(nota => nota.seccion))]
           );
+        
           if (seccion) {
-  
-              notasOrdenadas =
-                  notasOrdenadas.filter(
-                      nota =>
-                          nota.seccion === seccion
-                  );
-  
+          
+          const seccionNormalizada =
+              seccion
+                  .toLowerCase()
+                  .normalize('NFD')
+                  .replace(/[\u0300-\u036f]/g, '');
+          
+          notasOrdenadas =
+              notasOrdenadas.filter(
+                  nota =>
+                      nota.seccion
+                          .toLowerCase()
+                          .normalize('NFD')
+                          .replace(/[\u0300-\u036f]/g, '') === seccionNormalizada
+              );
+          
           }
   
   
