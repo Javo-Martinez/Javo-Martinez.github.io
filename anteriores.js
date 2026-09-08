@@ -170,7 +170,7 @@ numeros.forEach(numero => {
   * Título.
   */
  const titulo =
-     document.createElement('p');
+     document.createElement('h3');
 
  titulo.textContent =
      numero.titulo;
