@@ -438,8 +438,8 @@ async function mostrarNota(
                     enlace.href =
                         `${urlGaleria}${archivo}`;
                 
-                    enlace.dataset.pswpWidth = '1600';
-                    enlace.dataset.pswpHeight = '1200';
+                        enlace.dataset.pswpWidth = img.naturalWidth;
+                        enlace.dataset.pswpHeight = img.naturalHeight;
                 
                     const img = document.createElement('img');
                 
