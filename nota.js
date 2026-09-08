@@ -266,7 +266,7 @@ async function mostrarNota(
     ) {
 
         urlEdicion =
-            `/eneur-41-60/revista${numFormateado}/`;
+            `/eneur-41-50/revista${numFormateado}/`;
 
     }
     else if (
@@ -474,27 +474,6 @@ async function mostrarNota(
                 lightbox.init();
                 
                 
-                console.log(
-                    `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
-                );
-
-
-const lightbox = new PhotoSwipeLightbox({
-    gallery: '#gallery',
-    children: 'a',
-    pswpModule: () =>
-        import(
-            'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js'
-        )
-});
-
-lightbox.init();
-
-
-console.log(
-    `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
-);
-    
                 console.log(
                     `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
                 );
