@@ -157,10 +157,12 @@ async function mostrarNota(
             if (numero) {
     
                 enlaceIndice.innerHTML = `
-                    <a href="indice.html?edicion=${numeroEdicion}">
-                        ESTO NO ES UNA REVISTA #${numero.numero} ${numero.titulo}
-                    </a>
-                `;
+                <a href="indice.html?edicion=${numeroEdicion}">
+                    <span class="esto-no">ESTO NO</span>
+                    <span class="es-una-revista">ES UNA REVISTA</span>
+                    #${numero.numero} ${numero.titulo}
+                </a>
+            `;
     
             }
     
