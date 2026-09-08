@@ -160,10 +160,10 @@ numeros.forEach(numero => {
   * Número de edición.
   */
  const numeroTitulo =
-     document.createElement('h2');
+     document.createElement('h3');
 
  numeroTitulo.textContent =
-     `N.º ${numeroEdicion}`;
+     `ENEUR ${numeroEdicion}`;
 
 
  /*
