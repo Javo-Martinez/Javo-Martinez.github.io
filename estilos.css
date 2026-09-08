@@ -165,17 +165,6 @@ main {
     color: black;
 }
 
-.esto-no {
-    font-weight: bold ;
-    background-color: black;
-    color: white;
-    padding: 5px
-}
-
-.es-una-revista {
-    padding-right: 12px;
-}
-
 .header-anteriores {
     text-align: center;
     margin-top: 50px;
@@ -328,7 +317,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 }
 
 .nota-contenido {
-    /* padding: 15px; */
+    margin-bottom: 100px;
 }
 
 .nota-seccion {
