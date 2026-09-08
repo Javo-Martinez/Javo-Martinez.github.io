@@ -437,6 +437,11 @@ async function mostrarNota(
                 
                     enlace.href =
                         `${urlGaleria}${archivo}`;
+
+                    img.onload = () => {
+                        enlace.dataset.pswpWidth = img.naturalWidth;
+                        enlace.dataset.pswpHeight = img.naturalHeight;
+                    };
                 /*
                         enlace.dataset.pswpWidth = img.naturalWidth;
                         enlace.dataset.pswpHeight = img.naturalHeight;
