@@ -92,6 +92,17 @@ body.portada-inicial {
     height: auto;
 }
 
+.numero-edicion{
+    font-size: 25px;
+    font-weight:500;
+    margin: 5px 0 0 0;  
+}
+
+.titulo-edicion{
+    font-size: 25px;
+    margin: 5px 0 40px 0;
+}
+
 .poemaIndex {
   /* El ancho puede ser fijo (ej: 200px) o fluido (ej: width: 100%) */
   width: 100%;
