@@ -50,42 +50,7 @@ try {
 
 function obtenerRutaMiniportada(numero, imagen) {
 
-    const numFormateado =
-        String(numero).padStart(2, '0');
-
-    if (numero >= 1 && numero <= 26) {
-        return `eneur-portadas/${imagen}`;
-    }
-
-    if (numero >= 27 && numero <= 40) {
-        return `eneur-27-40/revista${numFormateado}/images/${imagen}`;
-    }
-
-    if (numero >= 41 && numero <= 50) {
-        return `eneur-41-50/revista${numFormateado}/images/${imagen}`;
-    }
-
-    if (numero >= 51 && numero <= 60) {
-        return `eneur-51-60/revista${numFormateado}/images/${imagen}`;
-    }
-
-    if (numero >= 61 && numero <= 70) {
-        return `eneur-61-70/revista${numFormateado}/images/${imagen}`;
-    }
-
-    if (numero >= 71 && numero <= 80) {
-        return `eneur-71-80/revista${numFormateado}/images/${imagen}`;
-    }
-
-    if (numero >= 81 && numero <= 90) {
-        return `eneur-81-90/revista${numFormateado}/images/${imagen}`;
-    }
-
-    if (numero >= 91 && numero <= 100) {
-        return `eneur-91-100/revista${numFormateado}/images/${imagen}`;
-    }
-
-    return '';
+    return `eneur-portadas/${imagen}`;
 }
 
 /*
