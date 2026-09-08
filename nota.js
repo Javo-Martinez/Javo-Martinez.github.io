@@ -416,10 +416,9 @@ async function mostrarNota(
     let contenidoHTML = await respuestaContenido.text();
 
     contenidoHTML = contenidoHTML.replace(
-                    /src="\.\/musica\//g,
-                    `src="${urlMusica}`
+                        /src="(?:\.\/)?(?:musica|music)\//g,
+                        `src="${urlMusica}`
                     );
-    
     contenidoHTML = contenidoHTML.replace(
                     /src="images\//g,
                     `src="${urlImagen}`
