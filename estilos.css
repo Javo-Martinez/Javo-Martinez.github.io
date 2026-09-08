@@ -145,6 +145,12 @@ main {
     margin: 0 auto;
 }
 
+.header-anteriores {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
 /* SECCIÓN 5: SABORES (Verde Oliva) */
 .seccion-sabores .etiqueta-seccion { color: #2f855a; background: #f0fff4; padding: 2px 6px; }
 .seccion-sabores .titulo-nota { color: #276749; }
