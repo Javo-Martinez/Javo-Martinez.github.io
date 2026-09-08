@@ -89,7 +89,46 @@ function obtenerRutaMiniportada(numero, imagen) {
 }
 
 /*
+ * Devuelve la URL de destino según el número de edición.
+ */
+function obtenerUrlDestino(numero) {
 
+    const numFormateado =
+        String(numero).padStart(2, '0');
+
+    /*
+     * Ediciones 1 a 10
+     */
+    if (numero >= 1 && numero <= 10) {
+        return `/eneur-01-10/revista${numFormateado}/index.html`;
+    }
+
+    /*
+     * Ediciones 11 a 20
+     */
+    if (numero >= 11 && numero <= 20) {
+        return `/eneur-11-20/revista${numFormateado}/index.html`;
+    }
+
+    /*
+     * Ediciones 21 a 26
+     */
+    if (numero >= 21 && numero <= 26) {
+        return `/eneur-21-26/revista${numFormateado}/index.html`;
+    }
+
+    /*
+     * Ediciones 27 en adelante
+     */
+    if (numero >= 27) {
+        return `/indice.html?num=${numero}`;
+    }
+
+    return '#';
+}
+
+
+/*
 * Genera la grilla de números.
 */
 function mostrarNumeros(numeros) {
@@ -133,7 +172,7 @@ numeros.forEach(numero => {
      document.createElement('a');
 
  enlace.href =
-     `indice.html?edicion=${numeroEdicion}`;
+    obtenerUrlDestino(numeroEdicion);
 
  enlace.className =
      'numero-revista-enlace';
