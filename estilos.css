@@ -296,7 +296,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
 #gallery img {
@@ -333,7 +333,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 }
 
 .nota-titulo {
-    margin: 5px 0 10px;
+    margin: 5px 0 20px 0px;
 }
 
 #nota-entradilla {
@@ -358,9 +358,11 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 .nota-navegacion {
     display: flex;
     justify-content: space-between;
-    margin-top: 60px;
+    margin-top: 10px;
     padding-top: 20px;
-    border-top: 1px solid #ddd;
+    padding-bottom: 28px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 30px;
 }
 
 .nota-navegacion a {
