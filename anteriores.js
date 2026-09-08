@@ -156,24 +156,30 @@ numeros.forEach(numero => {
      `Edición ${numeroEdicion} - ${numero.titulo}`;
 
 
- /*
-  * Número de edición.
-  */
- const numeroTitulo =
-     document.createElement('h3');
+/*
+ * Número de edición.
+ */
+const numeroTitulo =
+    document.createElement('p');
 
- numeroTitulo.textContent =
-     `ENEUR ${numeroEdicion}`;
+numeroTitulo.className =
+    'numero-edicion';
+
+numeroTitulo.textContent =
+    `ENEUR ${numeroEdicion}`;
 
 
- /*
-  * Título.
-  */
- const titulo =
-     document.createElement('h3');
+/*
+ * Título.
+ */
+const titulo =
+    document.createElement('p');
 
- titulo.textContent =
-     numero.titulo;
+titulo.className =
+    'titulo-edicion';
+
+titulo.textContent =
+    numero.titulo;
 
 
  enlace.appendChild(imagen);
