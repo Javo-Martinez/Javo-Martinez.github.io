@@ -608,7 +608,7 @@ function mostrarNavegacion(
                         <a
                             href="nota.html?edicion=${numeroEdicion}&id=${encodeURIComponent(notaAnterior.id)}"
                         >
-                            ← Anterior
+                            Nota anterior
                         </a>
                       `
                     : ''
@@ -625,7 +625,7 @@ function mostrarNavegacion(
                         <a
                             href="nota.html?edicion=${numeroEdicion}&id=${encodeURIComponent(notaSiguiente.id)}"
                         >
-                            Siguiente →
+                            Nota siguiente
                         </a>
                       `
                     : ''
