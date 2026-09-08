@@ -69,7 +69,23 @@ body.portada-inicial {
   flex-shrink: 0;       /* Evita que la imagen se deforme o achique */
 }
 
-/* Mini portada */
+/* Nuestros números*/
+
+.numero-revista-enlace {
+    text-decoration: none;
+    color: inherit;
+}
+
+#numeros-revista {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+}
+
+.numero-revista {
+    text-align: center;
+}
+
 .numero-revista img {
     max-width: 190px;
     width: 100%;
