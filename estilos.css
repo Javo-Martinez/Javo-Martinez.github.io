@@ -164,16 +164,7 @@ main {
     text-transform: uppercase;
     color: black;
 }
-.esto-no {
-    background-color: black;
-    color: white;
-    padding: 5px;
-    font-weight: bold;
-}
 
-.es-una-revista {
-    padding-right: 15px
-}
 .header-anteriores {
     text-align: center;
     margin-top: 50px;
@@ -305,7 +296,7 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
     display: block;
 }
 
-.image_cen1 {
+.image_cen1, .image_cen2 {
     float: left;
     padding-right: 20px; 
 }
@@ -356,7 +347,9 @@ iframe[src*="spotify.com"] { margin: 25px 0; border-radius: 12px; border: none; 
 }
 
 #nota-entradilla {
-    padding: 20px 0 20px 0;
+    padding: 20px 0 30px 0;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 50px;
 }
 
 #nota-autor {
