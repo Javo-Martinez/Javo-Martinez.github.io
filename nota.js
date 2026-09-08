@@ -433,20 +433,15 @@ async function mostrarNota(
     
                 imagenes.forEach((archivo, indice) => {
 
-                    const enlace = document.createElement('a');
+                    const enlace =
+                        document.createElement('a');
                 
                     enlace.href =
                         `${urlGaleria}${archivo}`;
-
-                    img.onload = () => {
-                        enlace.dataset.pswpWidth = img.naturalWidth;
-                        enlace.dataset.pswpHeight = img.naturalHeight;
-                    };
-                /*
-                        enlace.dataset.pswpWidth = img.naturalWidth;
-                        enlace.dataset.pswpHeight = img.naturalHeight;
-                */
-                    const img = document.createElement('img');
+                
+                
+                    const img =
+                        document.createElement('img');
                 
                     img.src =
                         `${urlGaleria}${archivo}`;
@@ -454,7 +449,17 @@ async function mostrarNota(
                     img.alt =
                         `Imagen ${indice + 1}`;
                 
-                    img.loading = 'lazy';
+                
+                    img.onload = () => {
+                
+                        enlace.dataset.pswpWidth =
+                            img.naturalWidth;
+                
+                        enlace.dataset.pswpHeight =
+                            img.naturalHeight;
+                
+                    };
+                
                 
                     enlace.appendChild(img);
                 
