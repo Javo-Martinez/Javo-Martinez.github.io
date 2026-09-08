@@ -164,7 +164,16 @@ main {
     text-transform: uppercase;
     color: black;
 }
+.esto-no {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+}
 
+.es-una-revista {
+    padding-right: 15px
+}
 .header-anteriores {
     text-align: center;
     margin-top: 50px;
