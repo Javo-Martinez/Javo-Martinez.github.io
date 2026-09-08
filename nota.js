@@ -125,6 +125,54 @@ async function mostrarNota(
     document.title =
         `${nota.titulo || 'Nota'} - ENEUR`;
 
+    // ============================================================
+    // ENLACE AL ÍNDICE
+    // ============================================================
+    
+    const enlaceIndice =
+        document.getElementById('enlace-indice');
+    
+    if (enlaceIndice) {
+    
+        try {
+    
+            const respuestaNumeros =
+                await fetch('./numeros.json');
+    
+            if (!respuestaNumeros.ok) {
+    
+                throw new Error(
+                    `No se pudo cargar numeros.json: HTTP ${respuestaNumeros.status}`
+                );
+            }
+    
+            const numeros =
+                await respuestaNumeros.json();
+    
+            const numero =
+                numeros.find(
+                    n => Number(n.numero) === numeroEdicion
+                );
+    
+            if (numero) {
+    
+                enlaceIndice.innerHTML = `
+                    <a href="indice.html?edicion=${numeroEdicion}">
+                        ESTO NO ES UNA REVISTA #${numero.numero} ${numero.titulo}
+                    </a>
+                `;
+    
+            }
+    
+        } catch (error) {
+    
+            console.error(
+                'Error al cargar numeros.json:',
+                error
+            );
+        }
+    }
+
 
     // ============================================================
     // SECCIÓN
