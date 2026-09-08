@@ -433,29 +433,67 @@ async function mostrarNota(
     
                 imagenes.forEach((archivo, indice) => {
 
-                const enlace = document.createElement('a');
-            
-                enlace.href =
-                    `${urlGaleria}${archivo}`;
-            
-                enlace.dataset.pswpWidth = '1600';
-                enlace.dataset.pswpHeight = '1200';
-            
-                const img = document.createElement('img');
-            
-                img.src =
-                    `${urlGaleria}${archivo}`;
-            
-                img.alt =
-                    `Imagen ${indice + 1}`;
-            
-                img.loading = 'lazy';
-            
-                enlace.appendChild(img);
-            
-                galeria.appendChild(enlace);
-            
-            });
+                    const enlace = document.createElement('a');
+                
+                    enlace.href =
+                        `${urlGaleria}${archivo}`;
+                
+                    enlace.dataset.pswpWidth = '1600';
+                    enlace.dataset.pswpHeight = '1200';
+                
+                    const img = document.createElement('img');
+                
+                    img.src =
+                        `${urlGaleria}${archivo}`;
+                
+                    img.alt =
+                        `Imagen ${indice + 1}`;
+                
+                    img.loading = 'lazy';
+                
+                    enlace.appendChild(img);
+                
+                    galeria.appendChild(enlace);
+                
+                });
+                
+                
+                const lightbox = new PhotoSwipeLightbox({
+                
+                    gallery: '#gallery',
+                
+                    children: 'a',
+                
+                    pswpModule: () =>
+                        import(
+                            'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js'
+                        )
+                
+                });
+                
+                lightbox.init();
+                
+                
+                console.log(
+                    `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
+                );
+
+
+const lightbox = new PhotoSwipeLightbox({
+    gallery: '#gallery',
+    children: 'a',
+    pswpModule: () =>
+        import(
+            'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js'
+        )
+});
+
+lightbox.init();
+
+
+console.log(
+    `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
+);
     
                 console.log(
                     `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
