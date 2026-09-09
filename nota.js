@@ -509,15 +509,10 @@ async function mostrarNota(
                 });
     
     
-                // ----------------------------------------------------
-                // ID único para PhotoSwipe
-                // ----------------------------------------------------
-    
-                const selectorGaleria =
-                    `#gallery-${nombreGaleria}`;
-    
-                galeria.id =
-                    `gallery-${nombreGaleria}`;
+                console.log(
+                    nombreGaleria,
+                    galeria.querySelectorAll('a').length
+                );
     
     
                 // ----------------------------------------------------
@@ -527,7 +522,7 @@ async function mostrarNota(
                 const lightbox =
                     new PhotoSwipeLightbox({
     
-                        gallery: selectorGaleria,
+                        gallery: galeria,
     
                         children: 'a',
     
@@ -559,6 +554,8 @@ async function mostrarNota(
         }
     
     });
+
+    
     // ============================================================
     // VALIDAR IMAGEN DESTACADA
     // ============================================================
