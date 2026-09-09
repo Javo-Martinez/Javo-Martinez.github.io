@@ -438,11 +438,6 @@ async function mostrarNota(
     
         const nombreGaleria = galeria.dataset.gallery;
     
-        console.log(
-            'Galería:',
-            nombreGaleria
-        );
-    
         // URL del galleries.json de esta edición
         const urlGalleriesJSON =
             `${urlEdicion}galleries.json`;
@@ -512,24 +507,36 @@ async function mostrarNota(
                     galeria.appendChild(enlace);
     
                 });
-                
-    console.log(
-    nombreGaleria,
-    galeria.querySelectorAll('a').length
-);
     
-                const lightbox = new PhotoSwipeLightbox({
     
-                    gallery: galeria,
+                // ----------------------------------------------------
+                // ID único para PhotoSwipe
+                // ----------------------------------------------------
     
-                    children: 'a',
+                const selectorGaleria =
+                    `#gallery-${nombreGaleria}`;
     
-                    pswpModule: () =>
-                        import(
-                            'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js'
-                        )
+                galeria.id =
+                    `gallery-${nombreGaleria}`;
     
-                });
+    
+                // ----------------------------------------------------
+                // PhotoSwipe
+                // ----------------------------------------------------
+    
+                const lightbox =
+                    new PhotoSwipeLightbox({
+    
+                        gallery: selectorGaleria,
+    
+                        children: 'a',
+    
+                        pswpModule: () =>
+                            import(
+                                'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js'
+                            )
+    
+                    });
     
                 lightbox.init();
     
@@ -537,6 +544,7 @@ async function mostrarNota(
                 console.log(
                     `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
                 );
+    
             }
     
         } catch (error) {
@@ -547,10 +555,10 @@ async function mostrarNota(
             );
     
             galeria.remove();
+    
         }
     
     });
-
     // ============================================================
     // VALIDAR IMAGEN DESTACADA
     // ============================================================
