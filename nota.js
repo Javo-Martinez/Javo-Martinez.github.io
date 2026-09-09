@@ -432,9 +432,9 @@ async function mostrarNota(
     // GALERÍA
     // ============================================================
     
-    const galeria = document.getElementById('gallery');
+    const galerias = document.querySelectorAll('#gallery');
     
-    if (galeria) {
+    galerias.forEach(async (galeria) => {
     
         const nombreGaleria = galeria.dataset.gallery;
     
@@ -481,58 +481,55 @@ async function mostrarNota(
                 galeria.innerHTML = '';
     
                 imagenes.forEach((archivo, indice) => {
-
+    
                     const enlace =
                         document.createElement('a');
-                
+    
                     enlace.href =
                         `${urlGaleria}${archivo}`;
-                
-                
+    
                     const img =
                         document.createElement('img');
-                
+    
                     img.src =
                         `${urlGaleria}${archivo}`;
-                
+    
                     img.alt =
                         `Imagen ${indice + 1}`;
-                
-                
+    
                     img.onload = () => {
-                
+    
                         enlace.dataset.pswpWidth =
                             img.naturalWidth;
-                
+    
                         enlace.dataset.pswpHeight =
                             img.naturalHeight;
-                
+    
                     };
-                
-                
+    
                     enlace.appendChild(img);
-                
+    
                     galeria.appendChild(enlace);
-                
+    
                 });
-                
-                
+    
+    
                 const lightbox = new PhotoSwipeLightbox({
-                
-                    gallery: '#gallery',
-                
+    
+                    gallery: galeria,
+    
                     children: 'a',
-                
+    
                     pswpModule: () =>
                         import(
                             'https://unpkg.com/photoswipe@5/dist/photoswipe.esm.js'
                         )
-                
+    
                 });
-                
+    
                 lightbox.init();
-                
-                
+    
+    
                 console.log(
                     `Galería "${nombreGaleria}": ${imagenes.length} imágenes`
                 );
@@ -541,13 +538,14 @@ async function mostrarNota(
         } catch (error) {
     
             console.error(
-                'Error al cargar la galería:',
+                `Error al cargar la galería "${nombreGaleria}":`,
                 error
             );
     
             galeria.remove();
         }
-    }
+    
+    });
 
     // ============================================================
     // VALIDAR IMAGEN DESTACADA
