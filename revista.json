@@ -1009,6 +1009,18 @@
         {
           "id": "567",
           "id_nota": 15,
+          "id_pagina": 15,
+          "tag": "Tirame el humo",
+          "titulo": "Fotografías: Luciano Antinori",
+          "entradilla": "Las fotografías de Luciano Antinori dan una vuelta de tuerca sobre la abstracción descubriendo en el humo formas cautivantes",
+          "autor": "",
+          "seccion": "miradas",
+          "contenido_html": "",
+          "imagen_destacada": 15
+        },
+        {
+          "id": "567",
+          "id_nota": 16,
           "id_pagina": 16,
           "tag": "Appassionato",
           "titulo": "Pasión de Pasolini",
@@ -1020,7 +1032,7 @@
         },
         {
           "id": "568",
-          "id_nota": 16,
+          "id_nota": 17,
           "id_pagina": 17,
           "tag": "Haciendo equilibrio",
           "titulo": "El loco del pelo rojo",
@@ -1032,7 +1044,7 @@
         },
         {
           "id": "569",
-          "id_nota": 17,
+          "id_nota": 18,
           "id_pagina": 18,
           "tag": "El alma inquieta",
           "titulo": "Plástica: Enrique Sobisch",
@@ -1044,7 +1056,7 @@
         },
         {
           "id": "570",
-          "id_nota": 18,
+          "id_nota": 19,
           "id_pagina": 19,
           "tag": "Hagamos esculturas, no la guerra",
           "titulo": "Esculturas: Gonçalo Mabunda",
@@ -1056,7 +1068,7 @@
         },
         {
           "id": "571",
-          "id_nota": 19,
+          "id_nota": 20,
           "id_pagina": 20,
           "tag": "Harinas blancas",
           "titulo": "Agenda 2016: Flores negras",
@@ -1068,7 +1080,7 @@
         },
         {
           "id": "572",
-          "id_nota": 20,
+          "id_nota": 21,
           "id_pagina": 21,
           "tag": "Flores que pinchan",
           "titulo": "Cactus orquídea",
