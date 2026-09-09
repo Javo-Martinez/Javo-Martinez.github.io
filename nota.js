@@ -512,7 +512,11 @@ async function mostrarNota(
                     galeria.appendChild(enlace);
     
                 });
-    
+                
+    console.log(
+    nombreGaleria,
+    galeria.querySelectorAll('a').length
+);
     
                 const lightbox = new PhotoSwipeLightbox({
     
